@@ -1,0 +1,14 @@
+---
+layout: default
+title: Moise Fokou "Celebrities at Your Service" Flyer
+modal-id: 4
+date: 2014-07-15
+img: CelebritiesAtYourService.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+tools: Photoshop
+description: Invite flyer with JSY Public Relations
+
+---

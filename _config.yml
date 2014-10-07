@@ -1,0 +1,31 @@
+# Site settings
+title: Rachel Lin
+email: linrac@gmail.com
+description: "User Experience Designer."
+
+# Color settings (hex-codes without the leading hash-tag)
+# color:
+#   primary: 515961 #80B3FF
+#   secondary: b181c5 #FD6E8A
+#   secondary-dark: 452050 #A2122F
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/linnychel
+  - title: facebook
+    url: http://facebook.com/lin.rachel
+  - title: linkedin
+    url: http://linkedin.com
+  - title: pinterest 
+    url: http://pinterest.modspray.com
+  - title: github
+    url: http://github.com/rachelelle
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Berkeley, CA 94704
+
+# Build settings
+markdown: kramdown
+permalink: pretty
