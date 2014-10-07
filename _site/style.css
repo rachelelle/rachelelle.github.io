@@ -458,10 +458,12 @@ footer .footer-below {
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
-    font-size: 13px; 
-    letter-spacing: 0.5pt; font-family: Noto serif; 
-    font-style: oblique; 
+    font-size: 12px; 
+    letter-spacing: 0.5pt; 
+    font-family: Lato; 
+    /* font-style: oblique; */ 
     font-weight: 300; line-height: 27px;
+    text-transform: uppercase;
 }
 
 .portfolio-modal .close-modal {
