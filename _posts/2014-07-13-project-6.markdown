@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Gary Forbes "Celebrities at Your Service" Flyer
+title: Gary Forbes TypeOneTwo Brochure
 modal-id: 6
 date: 2014-07-15
 img: typeonetwo.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development
+category: Graphic Design
 tools: Photoshop
-description: Gary Forbes flyerrr
+description: I created an informational brochure for professional basketball player Gary Forbes' nonprofit, <a href="http://typeonetwo.org">TypeOneTwo</a>. 
 
 ---
