@@ -6,9 +6,9 @@ date: 2014-07-15
 img: typeonetwo.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
+client: Gary Forbes
 category: Graphic Design
 tools: Photoshop
-description: I created an informational brochure for professional basketball player Gary Forbes' nonprofit, <a href="http://typeonetwo.org">TypeOneTwo</a>. 
+description: I created an informational brochure for professional basketball player Gary Forbes' nonprofit, <a href="http://typeonetwo.org">TypeOneTwo</a>. TypeOneTwo is an online community that engages youth with living a healthy lifestyle. 
 
 ---

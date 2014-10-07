@@ -5,10 +5,10 @@ modal-id: 5
 date: 2014-07-14
 img: GaryForbesSoftballEvent.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: August 2013
+client: Gary Forbes Foundation
 category: Graphic Design
 tools: Photoshop
-description: Celebrities yayy
+description: A flyer promoting pro basketball player Gary Forbes Foundation's annual "Strike Out Diabetes" Fundraiser event. 
 
 ---

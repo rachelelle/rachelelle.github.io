@@ -5,10 +5,10 @@ modal-id: 4
 date: 2014-07-15
 img: CelebritiesAtYourService.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: July 2013
+client: Moise Fokou
+category: Graphic Design
 tools: Photoshop
-description: Invite flyer with JSY Public Relations
+description: An invite flyer to NFL Player Moise Fokou and Root 53 Foundation's dinner event featuring celebrity waiters.
 
 ---

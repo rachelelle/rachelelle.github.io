@@ -16,18 +16,31 @@
                             <hr class="star-primary">
                             <a href="{{ post.external_url }}"><img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
                             <p>{{ post.description }}</p>
+                            <hr class="star-primary">
                             <ul class="list-inline item-details">
                                 <li> <!-- tools -->
-                                    <strong><i class="fa fa-wrench"></i></strong>  {{ post.tools }}
+                                    <strong><i class="fa fa-wrench"></i></strong> 
+                                    {{ post.tools }}
                                 
                                 </li>
-                                <li>Date:
-                                    <strong>{{ post.project-date }}</a>
+                                <li>
+                                    <strong>
+                                        <i class="fa fa-calendar-o"></i>
                                     </strong>
+                                     {{ post.project-date }}
                                 </li>
-                                <li>Service:
-                                    <strong>{{ post.category }}
+                                <li>
+                                    <strong>
+                                        <i class="fa fa-user"></i>
                                     </strong>
+                                     {{ post.client }}
+                                </li>
+                                <li>
+                                    <strong>
+                                        <i class="fa fa-tags"></i>
+                                    </strong>
+
+                                     {{ post.category }}     
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

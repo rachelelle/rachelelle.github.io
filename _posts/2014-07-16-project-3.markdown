@@ -7,8 +7,8 @@ external_url: http://rachellin.me/reddit/
 img: reddit.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+client: Web Design Decal
+category: Web Design
 tools: HTML, CSS
 description: For the Web Design Decal Group Project, we redesigned Reddit in a format inspired by Tumblr's clean interface and color contrasts.
 

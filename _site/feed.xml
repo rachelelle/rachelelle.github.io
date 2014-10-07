@@ -5,12 +5,12 @@
     <description>User Experience Designer &amp; Graphic Artist</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Oct 2014 13:59:50 -0700</pubDate>
-    <lastBuildDate>Tue, 07 Oct 2014 13:59:50 -0700</lastBuildDate>
+    <pubDate>Tue, 07 Oct 2014 15:46:22 -0700</pubDate>
+    <lastBuildDate>Tue, 07 Oct 2014 15:46:22 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Modern Citizen Blog Layout</title>
+        <title>Modern Citizen Blog</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 -0700</pubDate>
@@ -27,11 +27,11 @@
         <description>
 </description>
         <pubDate>Thu, 17 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">/web%20development/2014/07/17/project-2/</guid>
+        <link>/web%20design/2014/07/17/project-2/</link>
+        <guid isPermaLink="true">/web%20design/2014/07/17/project-2/</guid>
         
         
-        <category>web development</category>
+        <category>web design</category>
         
       </item>
     
@@ -40,11 +40,11 @@
         <description>
 </description>
         <pubDate>Wed, 16 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">/web%20development/2014/07/16/project-3/</guid>
+        <link>/web%20design/2014/07/16/project-3/</link>
+        <guid isPermaLink="true">/web%20design/2014/07/16/project-3/</guid>
         
         
-        <category>web development</category>
+        <category>web design</category>
         
       </item>
     
@@ -66,11 +66,11 @@
         <description>
 </description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">/web%20development/2014/07/15/project-4/</guid>
+        <link>/graphic%20design/2014/07/15/project-4/</link>
+        <guid isPermaLink="true">/graphic%20design/2014/07/15/project-4/</guid>
         
         
-        <category>web development</category>
+        <category>graphic design</category>
         
       </item>
     
