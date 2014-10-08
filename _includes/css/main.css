@@ -160,7 +160,7 @@ header .container .img-profile {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 20px 0;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -174,7 +174,7 @@ header .container .img-profile {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 4px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
