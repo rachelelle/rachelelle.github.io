@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reddit Redesign
-modal-id: 3
+modal-id: 6
 date: 2014-07-16
 external_url: http://rachellin.me/reddit/
 img: reddit.png
