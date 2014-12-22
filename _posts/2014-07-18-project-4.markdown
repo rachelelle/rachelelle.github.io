@@ -10,6 +10,6 @@ project-date: June 2014
 client: Modern Citizen
 category: Web Development
 tools: HTML, CSS
-description: I coded Modern Citizen's blog layout. Modern Citizen is the online style destination for the modern woman. 
+description: I coded Modern Citizen's blog layout and other website features. Modern Citizen is the online style destination for the modern woman. 
 
 ---
