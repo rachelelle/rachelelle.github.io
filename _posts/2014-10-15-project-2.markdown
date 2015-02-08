@@ -4,7 +4,7 @@ title: Cal Recycling
 modal-id: 2
 date: 2014-10-15
 img: CRRS.png
-external_url: http://www.rachellin/crrs/
+external_url: http://www.rachellin.me/crrs/
 alt: image-alt
 project-date: October 2014
 client: Cal Recycling
