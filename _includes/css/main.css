@@ -94,7 +94,8 @@ header {
 
     /* background: #FFFFFF; */
   
-    background-image: url('img/grid1.png');
+    background-image: url('img/bg-grey.svg');
+    background-size: cover;
 }
 
 header .container {
@@ -113,15 +114,17 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1em;
     font-weight: 300;
+    color: #FFFFFF;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #FFF;
 }
 
 header .intro-text {
-    background-color: rgba(255, 255, 255, 0.89);
+    /*background-color: rgba(255, 255, 255, 0.89);*/
     padding: 15px 0px;
 }
 
@@ -141,7 +144,7 @@ header .container .img-profile {
         font-size: 15pt;
     
         /* font-weight: 300; */
-        color: #5C5C5C;
+        color: #FFFFFF;
         letter-spacing: 6pt;
 }
 
