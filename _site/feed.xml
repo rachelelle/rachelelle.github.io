@@ -5,17 +5,56 @@
     <description>User Experience Designer &amp; Graphic Artist</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Apr 2015 21:57:30 -0700</pubDate>
-    <lastBuildDate>Wed, 01 Apr 2015 21:57:30 -0700</lastBuildDate>
+    <pubDate>Mon, 17 Aug 2015 15:00:50 -0700</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2015 15:00:50 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>ThredUP Personal Shops Remake</title>
+        <description>
+</description>
+        <pubDate>Mon, 03 Aug 2015 00:00:00 -0700</pubDate>
+        <link>/product%20management,%20prototyping,%20user%20research,%20user%20experience/2015/08/03/thredup-ps/</link>
+        <guid isPermaLink="true">/product%20management,%20prototyping,%20user%20research,%20user%20experience/2015/08/03/thredup-ps/</guid>
+        
+        
+        <category>product management, prototyping, user research, user experience</category>
+        
+      </item>
+    
+      <item>
+        <title>ThredUP Design Wiki</title>
+        <description>
+</description>
+        <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
+        <link>/web%20development/2015/08/01/thredup-design/</link>
+        <guid isPermaLink="true">/web%20development/2015/08/01/thredup-design/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Virtual Reality Museum</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 00:00:00 -0700</pubDate>
+        <link>/virtual%20reality/2015/05/03/immersio/</link>
+        <guid isPermaLink="true">/virtual%20reality/2015/05/03/immersio/</guid>
+        
+        
+        <category>virtual reality</category>
+        
+      </item>
     
       <item>
         <title>Pixel Plots</title>
         <description>
 </description>
         <pubDate>Thu, 18 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/web%20application/2014/12/18/project-1/</link>
-        <guid isPermaLink="true">/web%20application/2014/12/18/project-1/</guid>
+        <link>/web%20application/2014/12/18/pixelplots/</link>
+        <guid isPermaLink="true">/web%20application/2014/12/18/pixelplots/</guid>
         
         
         <category>web application</category>
@@ -27,8 +66,8 @@
         <description>
 </description>
         <pubDate>Wed, 15 Oct 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/10/15/project-2/</link>
-        <guid isPermaLink="true">/web%20development/2014/10/15/project-2/</guid>
+        <link>/web%20development/2014/10/15/calrecycling/</link>
+        <guid isPermaLink="true">/web%20development/2014/10/15/calrecycling/</guid>
         
         
         <category>web development</category>
@@ -40,8 +79,8 @@
         <description>
 </description>
         <pubDate>Thu, 18 Sep 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/09/18/project-3/</link>
-        <guid isPermaLink="true">/web%20development/2014/09/18/project-3/</guid>
+        <link>/web%20development/2014/09/18/fastcal/</link>
+        <guid isPermaLink="true">/web%20development/2014/09/18/fastcal/</guid>
         
         
         <category>web development</category>
@@ -53,8 +92,8 @@
         <description>
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/07/18/project-4/</link>
-        <guid isPermaLink="true">/web%20development/2014/07/18/project-4/</guid>
+        <link>/web%20development/2014/07/18/moderncitizen/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/18/moderncitizen/</guid>
         
         
         <category>web development</category>
@@ -66,8 +105,8 @@
         <description>
 </description>
         <pubDate>Thu, 17 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20design/2014/07/17/project-5/</link>
-        <guid isPermaLink="true">/web%20design/2014/07/17/project-5/</guid>
+        <link>/web%20design/2014/07/17/weddesign/</link>
+        <guid isPermaLink="true">/web%20design/2014/07/17/weddesign/</guid>
         
         
         <category>web design</category>
@@ -79,24 +118,11 @@
         <description>
 </description>
         <pubDate>Wed, 16 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20design/2014/07/16/project-6/</link>
-        <guid isPermaLink="true">/web%20design/2014/07/16/project-6/</guid>
+        <link>/web%20design/2014/07/16/reddit/</link>
+        <guid isPermaLink="true">/web%20design/2014/07/16/reddit/</guid>
         
         
         <category>web design</category>
-        
-      </item>
-    
-      <item>
-        <title>Gary Forbes TypeOneTwo Brochure</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/graphic%20design/2014/07/15/project-9/</link>
-        <guid isPermaLink="true">/graphic%20design/2014/07/15/project-9/</guid>
-        
-        
-        <category>graphic design</category>
         
       </item>
     
@@ -105,21 +131,8 @@
         <description>
 </description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/graphic%20design/2014/07/15/project-7/</link>
-        <guid isPermaLink="true">/graphic%20design/2014/07/15/project-7/</guid>
-        
-        
-        <category>graphic design</category>
-        
-      </item>
-    
-      <item>
-        <title>Gary Forbes &quot;Strike Out Diabetes&quot; Softball Fundraiser Flyer</title>
-        <description>
-</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/graphic%20design/2014/07/14/project-8/</link>
-        <guid isPermaLink="true">/graphic%20design/2014/07/14/project-8/</guid>
+        <link>/graphic%20design/2014/07/15/moisefokou/</link>
+        <guid isPermaLink="true">/graphic%20design/2014/07/15/moisefokou/</guid>
         
         
         <category>graphic design</category>

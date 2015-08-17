@@ -1,0 +1,15 @@
+---
+layout: default
+title: Fashion and Student Trends
+modal-id: fastcal
+date: 2014-09-18
+img: FAST.png
+external_url: http://www.fastcal.net
+alt: image-alt
+project-date: September 2014 - Present
+client: Fashion and Student Trends
+category: Web Development
+tools: HTML, CSS, Wordpress
+description: I coded and designed the Wordpress layout for Fashion and Student Trends, the premier fashion student organization at UC Berkeley. It is both a blog with the latest fashion stories and an informational website about the student organization. It also includes photoshoot lookbooks.
+
+---

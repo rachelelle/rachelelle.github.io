@@ -1,0 +1,15 @@
+---
+layout: default
+title: Modern Citizen Blog
+modal-id: moderncitizen
+date: 2014-07-18
+img: MC.png
+external_url: http://www.modern-citizen.com
+alt: image-alt
+project-date: June 2014
+client: Modern Citizen
+category: Web Development
+tools: HTML, CSS
+description: I coded Modern Citizen's blog layout and other website features. Modern Citizen is the online style destination for the modern woman. 
+
+---
