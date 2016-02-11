@@ -492,3 +492,11 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.navbar-brand{
+	float: left;
+    padding: 0px 15px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 60px;
+}
