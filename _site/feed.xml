@@ -5,9 +5,22 @@
     <description>User Experience Designer &amp; Graphic Artist</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Feb 2016 13:40:09 -0800</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2016 13:40:09 -0800</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2016 12:08:28 -0800</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2016 12:08:28 -0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Crunch Time</title>
+        <description>
+</description>
+        <pubDate>Fri, 05 Feb 2016 00:00:00 -0800</pubDate>
+        <link>/user%20interface%20design,%20android%20development/2016/02/05/crunchtime/</link>
+        <guid isPermaLink="true">/user%20interface%20design,%20android%20development/2016/02/05/crunchtime/</guid>
+        
+        
+        <category>user interface design, android development</category>
+        
+      </item>
     
       <item>
         <title>TrashScan</title>
