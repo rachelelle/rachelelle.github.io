@@ -500,3 +500,9 @@ footer .footer-below {
     line-height: 21px;
     height: 60px;
 }
+
+.instagram-widget {
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}

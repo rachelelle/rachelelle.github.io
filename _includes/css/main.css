@@ -499,15 +499,8 @@ footer .footer-below {
     height: 60px;
 }
 
-ul.lightwidget in-grid in-grid-2 square-image {
-	margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+.instagram-widget {
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
 }
