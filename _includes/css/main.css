@@ -499,7 +499,7 @@ footer .footer-below {
     height: 60px;
 }
 
-.lightwidget, .lightwidget * {
+ul.lightwidget in-grid in-grid-2 square-image {
 	margin: 0;
     padding: 0;
     border: 0;
