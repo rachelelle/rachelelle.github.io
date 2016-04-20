@@ -2,114 +2,349 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rachel Lin</title>
-    <description>User Experience Designer &amp; Graphic Artist</description>
+    <description>Rachel Lin | Designer + Developer at Cal
+</description>
     <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Apr 2016 14:25:23 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Apr 2016 14:25:23 -0700</lastBuildDate>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Apr 2016 14:04:53 -0700</pubDate>
+    <lastBuildDate>Wed, 20 Apr 2016 14:04:53 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>ThredUP Support</title>
-        <description>
+        <description>&lt;section&gt;
+  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+      &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+      Customers would directly email the Customer Support team to ask simple questions that had already been answered on Zendesk. This would add unnecessary inefficiencies to their workflow.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+    &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+      In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users. I mocked up a prototype, created additional iconography and implemented the frontend.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
+Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question under the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
+
+&lt;p&gt;
+&lt;img src=&quot;/img/portfolio/tusupport/sketch.jpg&quot; class=&quot;img-responsive center-block&quot; /&gt;
+ 
+
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Iconography&lt;/h1&gt;
+  I added icons to clearly signify the different section categories under “Shopping” and “Selling.” These were based on icons that can also be found on &lt;a href=&quot;http://thredup.com&quot;&gt;thredUP&lt;/a&gt;.
+  &lt;img src=&quot;/img/portfolio/tusupport/icons.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
+  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support to get their feedback. View the prototype for the website &lt;a href=&quot;https://marvelapp.com/8aijdh/&quot;&gt;here&lt;/a&gt;.
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
+  I coded the website in HTML, CSS, and JavaScript/jQuery. 
+  View the final Support Website &lt;a href=&quot;http://support.thredup.com&quot;&gt;here&lt;/a&gt;.
+&lt;/section&gt;
+&lt;/p&gt;&lt;/section&gt;
 </description>
-        <pubDate>Sun, 28 Feb 2016 00:00:00 -0800</pubDate>
-        <link>/user%20experience,%20web%20development/2016/02/28/thredupfaq/</link>
-        <guid isPermaLink="true">/user%20experience,%20web%20development/2016/02/28/thredupfaq/</guid>
+        <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
+        <link>/ux/tusupport/</link>
+        <guid isPermaLink="true">/ux/tusupport/</guid>
         
         
-        <category>User Experience, Web Development</category>
+        <category>ux</category>
         
       </item>
     
       <item>
         <title>TrashScan</title>
-        <description>
-</description>
-        <pubDate>Wed, 09 Dec 2015 00:00:00 -0800</pubDate>
-        <link>/raspberry%20pi,%20sustainability/2015/12/09/trashscan/</link>
-        <guid isPermaLink="true">/raspberry%20pi,%20sustainability/2015/12/09/trashscan/</guid>
+        <description>&lt;section&gt;
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020.
+A more detailed write-up can be found &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot;&gt;here&lt;/a&gt;. 
+&lt;br&gt;
+&lt;br&gt;
+TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot;&gt;Project Spotlight&lt;/a&gt; for the Jacobs Institute for Design Innovation. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+  		  Students do not know what bin their trash belongs in. People don&#39;t care about what bin their trash belongs in. Cross-contamination in bins prevents composting.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+  		In my team of 5, my role was conducting ethnographic interviews and creating the animations in Processing.
+  	&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Initial Research&lt;/h1&gt;
+
+We interviewed two student staff workers, Monica and Nicole, from Cal Recycling. 
+&lt;/section&gt;
+
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
+Our first design included a box with lights positioned at the top. A camera would look into the box, and once the item was sorted, a light would indicate the correct bin. However, this initial design was too constricting and bulky, so we simplified out design to a flat platform. The user would place their trash onto the platform and a light attached to the right side of the platform would light up, much like the initial design. In our third design, we wanted to be able to add more to the device and have some sort of imagery to be displayed on the platform. Thus, we added in a projector next to the camera and removed the lights. The device would have a flat platform on which an image would be displayed. We would customize the image per bin. 
+&lt;br&gt;
+&lt;br&gt;
+For our final design, we used a monitor, which conveniently served both as the platform, as well as where the visuals and sound played from. We place this monitor inside a box.  Users would see an initial start screen, with simple instructions guiding them on how to use TrashScan.
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-3&quot;&gt;&lt;img src=&quot;/img/portfolio/trashscan/iteration1.png&quot; class=&quot;img-responsive center-block&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;col-md-3&quot;&gt;
+		&lt;img src=&quot;/img/portfolio/trashscan/iteration2.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-3&quot;&gt;
+		&lt;img src=&quot;/img/portfolio/trashscan/iteration3.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+Because signage is often hidden and ineffective for telling people what belongs in each bin, we wanted to display animations and play sounds to engage the user and associate each bin with a sound and graphic. We included facts stated during the interviews as part of the messaging. For compost, we played a victorious sound to encourage composting, and an error “wah-wah” noise to discourage people from using the landfill.
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
+
+&lt;iframe width=&quot;655&quot; height=&quot;375&quot; src=&quot;https://www.youtube.com/embed/xkhOMdKdvc4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Final Thoughts&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;strong&gt;For Future Iterations&lt;/strong&gt;
+	&lt;li&gt;Companion application for mobile&lt;/li&gt;
+	&lt;li&gt;Detecting multiple objects&lt;/li&gt;
+	&lt;li&gt;Detecting edge cases (plastic vs. compostable spoon)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</description>
+        <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
+        <link>/ux/trashscan/</link>
+        <guid isPermaLink="true">/ux/trashscan/</guid>
         
         
-        <category>Raspberry Pi, Sustainability</category>
+        <category>ux</category>
         
       </item>
     
       <item>
-        <title>ThredUP Personal Shops Remake</title>
-        <description>
+        <title>ThredUP Personal Shops 2.0</title>
+        <description>&lt;section&gt;
+    Last summer, I had the honor of interning at &lt;a href=&quot;http://thredup.com&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop, with the Product team. My role combined Product Management and Product Design. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters.
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+  		  Only a very small percentage of users onboarded to the feature, yet its users have the highest average order values.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+  		My role was conducting user research, prototyping, and conducting user testing. I worked with multiple teams, such as Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback.
+  	&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Data Mining&lt;/h1&gt;
+
+I first pulled current data on users with Personal Shops to find the top trends uses of filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular.
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;User Research&lt;/h1&gt;
+I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
+&lt;br /&gt;
+&lt;br /&gt;
+Based on my conversations with the users, I created a mental model to understand the user&#39;s train of thought.
+&lt;ul&gt;
+  &lt;strong&gt;Mental Model:&lt;/strong&gt;
+    &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
+    &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
+    &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
+    &lt;li&gt;Will these items fit me?&lt;/li&gt;
+    &lt;li&gt;Will it save me search time?&lt;/li&gt;
+    &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands.
+&lt;/section&gt;
+
+&lt;section&gt;
+	&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
+	View the first iteration &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot;&gt;here&lt;/a&gt;.
+  &lt;br /&gt;
+  After my first user test, I gained a lot of helpful insights for improving the next iteration.
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;ul&gt;
+  &lt;strong&gt;Findings:&lt;/strong&gt;
+    &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
+    &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
+    &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Prototype v 2.0&lt;/h1&gt;
+  Since I had limited time to conduct another user test, I tested internally. See my second iteration &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot;&gt;here&lt;/a&gt;.
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;ul&gt;
+  &lt;strong&gt;Findings:&lt;/strong&gt;
+    &lt;li&gt;Web first, mobile will follow.&lt;/li&gt;
+    &lt;li&gt;There are mixed feelings about the heart iconography&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;Involve other stakeholders earlier in the process to learn about potential contraints.&lt;/li&gt;
+	&lt;li&gt;Simplicity and elegance rules. Think about information hierachy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
+	&lt;li&gt;Don&#39;t be afraid to go deeper into understanding users&#39; behaviors by constantly asking &quot;why&quot; questions during user testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
 </description>
-        <pubDate>Mon, 03 Aug 2015 00:00:00 -0700</pubDate>
-        <link>/product%20management,%20prototyping,%20user%20research,%20user%20experience/2015/08/03/thredup-ps/</link>
-        <guid isPermaLink="true">/product%20management,%20prototyping,%20user%20research,%20user%20experience/2015/08/03/thredup-ps/</guid>
+        <pubDate>Sun, 02 Aug 2015 14:22:04 -0700</pubDate>
+        <link>/ux/thredup-ps/</link>
+        <guid isPermaLink="true">/ux/thredup-ps/</guid>
         
         
-        <category>Product Management, Prototyping, User Research, User Experience</category>
+        <category>ux</category>
         
       </item>
     
       <item>
-        <title>ThredUP Design Wiki</title>
-        <description>
+        <title>Immersio</title>
+        <description>&lt;section&gt;
+    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot;&gt;Behance&lt;/a&gt;.
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+  		  Our client came to us with an open-ended proposal to redesign the experience of his existing virtual art gallery.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+  		As the Team Lead, I was responsible for facilitating brainstorming sessions, conducting interviews for user research, and mocking up the medium-fidelity prototype in Photoshop.
+  	&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;User Research&lt;/h1&gt;
+We visited art galleries in Downtown San Francisco and interviewed gallery owners and visitors to understand their motivations for purchasing art (if they happened to be buyers) and their thoughts of interacting with art virtually. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;strong&gt;Findings:&lt;/strong&gt;
+  &lt;li&gt;We faced concern and resistance from art gallery owners and art buyers.&lt;/li&gt;
+  &lt;li&gt;It didn’t make sense for them to experience art virtually; they must see art in person before they consider purchasing.&lt;/li&gt;
+&lt;/ul&gt; 
+&lt;br&gt;
+Based on our findings, we decided to pivot from the original prompt to designing an educational, virtual reality experience at museums.  We identified our target users as art historians, students, and museum attendees.
+&lt;/section&gt;
+
+&lt;section&gt;
+	&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
+    Primary tasks:
+    &lt;li&gt;Selecting exhibits based on chronological order of exhibition&lt;/li&gt;
+    &lt;li&gt;Archiving&lt;/li&gt;
+    &lt;li&gt;Viewing artworks&lt;/li&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
+    &lt;img src=&quot;/img/portfolio/immersio/exhibit.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;br&gt;
+    &lt;img src=&quot;/img/portfolio/immersio/closeup.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;Findings from user research can pivot the original design and inform clients about the feasibility of their ideas.&lt;/li&gt;
+	&lt;li&gt;Designing for an unfamiliar interface such as virtual reality can be challenging with lack of design documentation, but there is more freedom to think outside of the box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;!-- &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
 </description>
-        <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
-        <link>/web%20development/2015/08/01/thredup-design/</link>
-        <guid isPermaLink="true">/web%20development/2015/08/01/thredup-design/</guid>
+        <pubDate>Sun, 02 Aug 2015 14:22:04 -0700</pubDate>
+        <link>/ux/immersio/</link>
+        <guid isPermaLink="true">/ux/immersio/</guid>
         
         
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Virtual Reality Museum</title>
-        <description>
-</description>
-        <pubDate>Sun, 03 May 2015 00:00:00 -0700</pubDate>
-        <link>/virtual%20reality/2015/05/03/immersio/</link>
-        <guid isPermaLink="true">/virtual%20reality/2015/05/03/immersio/</guid>
-        
-        
-        <category>Virtual Reality</category>
+        <category>ux</category>
         
       </item>
     
       <item>
         <title>Pixel Plots</title>
-        <description>
-</description>
-        <pubDate>Thu, 18 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/web%20application/2014/12/18/pixelplots/</link>
-        <guid isPermaLink="true">/web%20application/2014/12/18/pixelplots/</guid>
+        <description>&lt;section&gt;
+	&lt;a href=&quot;https://pixelplots.herokuapp.com/&quot;&gt;Pixel Plots&lt;/a&gt; is a Ruby on Rails app in which users can create their own unique grid designs by clicking on the pixel to either fill in it or remove the color. Users can upvote or downvote other users&#39; plots. My main role was implementing the front-end.
+&lt;/section&gt;</description>
+        <pubDate>Thu, 18 Dec 2014 13:22:04 -0800</pubDate>
+        <link>/webdev/pixelplots/</link>
+        <guid isPermaLink="true">/webdev/pixelplots/</guid>
         
         
-        <category>Web Application</category>
-        
-      </item>
-    
-      <item>
-        <title>Fashion and Student Trends</title>
-        <description>
-</description>
-        <pubDate>Thu, 18 Sep 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/09/18/fastcal/</link>
-        <guid isPermaLink="true">/web%20development/2014/09/18/fastcal/</guid>
-        
-        
-        <category>Web Development</category>
+        <category>webdev</category>
         
       </item>
     
       <item>
-        <title>Modern Citizen Blog</title>
-        <description>
+        <title>Modern Citizen</title>
+        <description>&lt;section&gt;
+&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media. 
+&lt;/section&gt;
 </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 -0700</pubDate>
-        <link>/web%20development/2014/07/18/moderncitizen/</link>
-        <guid isPermaLink="true">/web%20development/2014/07/18/moderncitizen/</guid>
+        <pubDate>Wed, 02 Jul 2014 14:22:04 -0700</pubDate>
+        <link>/webdev/moderncitizen/</link>
+        <guid isPermaLink="true">/webdev/moderncitizen/</guid>
         
         
-        <category>Web Development</category>
+        <category>webdev</category>
         
       </item>
     

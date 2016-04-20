@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<article class="post post-container" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="img-container">
+  <div class="post-main-title" itemprop="name headline">{{ page.title }}</h1> </div>
+  <img src="{{ site.baseurl }}/img/portfolio/{{ page.main-img }}" class="img-responsive post-img" />
+</div>
+  <!-- <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  </header> -->
+
+  <div class="post-content portfolio-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+ <!--  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %} -->
+
+  <div class="nav-pagination">
+   <div class="clearfix row">
+  {% if page.next.url %}
+  <div class="col-md-3 pull-left">
+    <a class="next prev-next-block" href="{{ page.next.url | prepend: site.baseurl }}"> &laquo; {{page.next.title}} </a>
+    </div>
+  {% endif %}
+  {% if page.previous.url %}
+   <div class="col-md-3 col-md-offset-6 pull-right text-right">
+      <a class="prev prev-next-block" href="{{ page.previous.url | prepend: site.baseurl }}" | prepend: {{ site.baseurl }}"> {{page.previous.title}} &raquo;</a>
+  </div>
+    {% endif %}
+  </div>
+  </div>
+</article>

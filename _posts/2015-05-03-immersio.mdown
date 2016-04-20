@@ -1,0 +1,79 @@
+---
+layout: post
+title: Immersio
+date: 2015-08-02 14:22:04 -0700
+categories: ux
+label: UX Design, Virtual Reality
+thumbnail: immersio_thumb.png
+main-img: immersio.png
+external_url: https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum
+---
+<section>
+    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our <a href="https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum">Behance</a>.
+</section>
+
+<div class="row">
+  <div class="col-md-6 project-problem">
+  		<h2 class="block-title">Problem</h2>
+  		  Our client came to us with an open-ended proposal to redesign the experience of his existing virtual art gallery.
+  </div>
+  <div class="col-md-6 project-role">
+  	<h2 class="block-title">Role</h2>
+  		As the Team Lead, I was responsible for facilitating brainstorming sessions, conducting interviews for user research, and mocking up the medium-fidelity prototype in Photoshop.
+  	</div>
+
+</div>
+
+<section>
+<h1 class="section-title">User Research</h1>
+We visited art galleries in Downtown San Francisco and interviewed gallery owners and visitors to understand their motivations for purchasing art (if they happened to be buyers) and their thoughts of interacting with art virtually. 
+<br>
+<br>
+<ul>
+<strong>Findings:</strong>
+  <li>We faced concern and resistance from art gallery owners and art buyers.</li>
+  <li>It didn’t make sense for them to experience art virtually; they must see art in person before they consider purchasing.</li>
+</ul> 
+<br>
+Based on our findings, we decided to pivot from the original prompt to designing an educational, virtual reality experience at museums.  We identified our target users as art historians, students, and museum attendees.
+</section>
+
+<section>
+	<h1 class="section-title">Design Process</h1>
+    Primary tasks:
+    <li>Selecting exhibits based on chronological order of exhibition</li>
+    <li>Archiving</li>
+    <li>Viewing artworks</li>
+</section>
+
+<section>
+  <h1 class="section-title">Prototyping</h1>
+    <img src="{{ site.baseurl }}/img/portfolio/immersio/exhibit.png" class="img-responsive center-block">
+    <br>
+    <img src="{{ site.baseurl }}/img/portfolio/immersio/closeup.png" class="img-responsive center-block">
+</section>
+
+<section>
+<h1 class="section-title">Takeaways</h1>
+<ul>
+	<li>Findings from user research can pivot the original design and inform clients about the feasibility of their ideas.</li>
+	<li>Designing for an unfamiliar interface such as virtual reality can be challenging with lack of design documentation, but there is more freedom to think outside of the box.</li>
+</ul>
+</section>
+
+
+
+
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ -->

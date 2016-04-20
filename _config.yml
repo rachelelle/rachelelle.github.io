@@ -1,32 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: Rachel Lin
-email: linrac@gmail.com
-description: "User Experience Designer & Graphic Artist"
-avatar: profile.jpg
+email: rachellin@berkeley.edu
+logo: logo.svg
+description: > # this means to ignore newlines until "baseurl:"
+  Rachel Lin | Designer + Developer at Cal
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: rchlelle
+github_username:  rachelelle
 
-# Color settings (hex-codes without the leading hash-tag)
-# color:
-#   primary: 515961 #80B3FF
-#   secondary: b181c5 #FD6E8A
-#   secondary-dark: 452050 #A2122F
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/rchlelle
   - title: facebook
     url: http://facebook.com/lin.rachel
   - title: linkedin
-    url: http://linkedin.com/pub/rachel-lin/33/881/803/
+    url: http://linkedin.com/in/linrac
+  - title: pinterest
+    url: http://pinterest.com/rchlelle
   - title: behance
     url: http://behance.net/rachelelle
   - title: github
     url: http://github.com/rachelelle
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Berkeley, CA
-
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title/
