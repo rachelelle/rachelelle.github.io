@@ -372,3 +372,7 @@ h4.about{
   padding-right: 7px;
   padding-left: 7px;
 }
+
+img.thumb {
+    min-width: 100%;
+}
