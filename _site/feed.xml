@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Apr 2016 16:57:47 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Apr 2016 16:57:47 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2016 16:45:01 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2016 16:45:01 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -29,12 +29,13 @@
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
+&lt;p&gt;
 Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question under the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
-
+&lt;/p&gt;
 &lt;p&gt;
 &lt;img src=&quot;/img/portfolio/tusupport/sketch.jpg&quot; class=&quot;img-responsive center-block&quot; /&gt;
- 
-
+ &lt;/p&gt;
+&lt;/section&gt;
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Iconography&lt;/h1&gt;
@@ -52,7 +53,6 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
   I coded the website in HTML, CSS, and JavaScript/jQuery. 
   View the final Support Website &lt;a href=&quot;http://support.thredup.com&quot;&gt;here&lt;/a&gt;.
 &lt;/section&gt;
-&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
         <link>/ux/tusupport/</link>

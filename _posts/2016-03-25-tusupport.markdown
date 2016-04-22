@@ -26,11 +26,12 @@ external_url: http://support.thredup.com
 
 <section>
 <h1 class="section-title">Design Process</h1>
+<p>
 Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question under the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
-
+</p>
 <p>
 <img src="{{ site.baseurl }}/img/portfolio/tusupport/sketch.jpg" class="img-responsive center-block">
- 
+ </p>
 </section>
 
 <section>
