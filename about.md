@@ -35,7 +35,7 @@ permalink: /about/
 		<h1 class="about">Skills</h1>
 		<br>
 		<h3 class="skill-title">Visual Design</h3>
-		Photoshop, Illustrator, Sketch
+		Photoshop, Illustrator, Sketch, After Effects
 			
 		<h3 class="skill-title">Interaction Design</h3>
 		User Research, Prototyping, User Testing
