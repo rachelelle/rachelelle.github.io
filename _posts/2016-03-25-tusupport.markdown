@@ -42,11 +42,11 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 
 <section>
   <h1 class="section-title">Prototyping</h1>
-  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support to get their feedback. View the prototype for the website <a href="https://marvelapp.com/8aijdh/">here</a>.
+  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback. View the prototype for the website <a href="https://marvelapp.com/8aijdh/">here</a>.
 </section>
 
 <section>
   <h1 class="section-title">Final Product</h1>
-  I coded the website in HTML, CSS, and JavaScript/jQuery. 
+  I coded the website in HTML, CSS, and JavaScript/jQuery. A second iteration with the left sliding sidebar will be released soon. 
   View the final Support Website <a href="{{ page.external_url }}">here</a>.
 </section>
