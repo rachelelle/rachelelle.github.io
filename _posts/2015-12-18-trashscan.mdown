@@ -70,4 +70,13 @@ Because signage is often hidden and ineffective for telling people what belongs 
 	<li>Detecting multiple objects</li>
 	<li>Detecting edge cases (plastic vs. compostable spoon)</li>
 </ul>
+<p>
+<ul>
+<strong>Credit</strong>
+	<li>Machine Learning: Jessie Salas</li>
+	<li>Ehtnographic Interviews: Rachel Lin</li>
+	<li>Animations & Frontend: Rachel Lin, Chonyi Lama</li>
+	<li>Object Recognition: Lesley Chiang</li>
+	<li>Box Construction: Drake Myers</li>
+</ul>
 </section>
