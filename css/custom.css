@@ -113,22 +113,24 @@ img.logo {
 }
 
 .post-main-title {
-    position: absolute;
+    /* position: absolute; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-    bottom: 70px;
+    /* bottom: 70px; */
     text-align: center;
     /* width: 100%; */
     /* right: 0; */
-    font-size: 24px;
+    font-size: 32px;
     /* border-bottom: 2px solid #BA6FF5; */
-    background-color: rgba(131, 93, 160, 0.9);
+    /* background-color: rgba(131, 93, 160, 0.9); */
     padding-left: 36px;
     padding-right: 20px;
-    padding: 6px 46px;
+    padding: 9px 46px;
     line-height: 50px;
+    margin-bottom: 20px;
     /* font-weight: 500; */
-    color: #FFFFFF;
+    margin-top: 10px;
+    color: #404040;
     /* box-shadow: 0px 1px 3px #999; */
     /* border-left: 0px solid; */
     /* text-transform: uppercase; */
@@ -139,7 +141,7 @@ img.logo {
 
 .portfolio-content {
     margin-top: 50px;
-    color: #5E5D5F;
+    color: #404040;
     font-family: 'Oxygen', sans-serif;
     line-height: 30pt;
     font-size: 16px;
