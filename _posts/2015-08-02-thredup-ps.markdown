@@ -8,7 +8,7 @@ thumbnail: thredup-ps.png
 main-img: thredup-ps-main.png
 ---
 <section>
-    Last summer, I had the honor of interning at <a href="http://thredup.com">ThredUP</a>, the world's largest online fashion resale shop, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+    Last summer, I had the honor of interning at <a href="http://thredup.com">ThredUP</a>, the world's largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
 </section>
 
 <div class="row">
@@ -45,12 +45,12 @@ Based on my conversations with the users, I created a mental model to understand
     <li>How can we get coveted items first?</li>
 </ul>
 <br>
-We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands.
+We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
 </section>
 
 <section>
 	<h1 class="section-title">Prototype v 1.0</h1>
-	View the first iteration <a href="http://share.framerjs.com/y2r6k8czd5k7/">here</a>.
+	I prototyped the <a href="http://share.framerjs.com/y2r6k8czd5k7/">first iteration</a> in FramerJS.
   <br>
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
   <br>
