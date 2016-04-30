@@ -8,13 +8,13 @@ thumbnail: thredup-ps.png
 main-img: thredup-ps-main.png
 ---
 <section>
-    Last summer, I had the honor of interning at <a href="http://thredup.com">ThredUP</a>, the world's largest online fashion resale shop, with the Product team. My role combined Product Management and Product Design. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters.
+    Last summer, I had the honor of interning at <a href="http://thredup.com">ThredUP</a>, the world's largest online fashion resale shop, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
 </section>
 
 <div class="row">
   <div class="col-md-6 project-problem">
   		<h2 class="block-title">Problem</h2>
-  		  Only a very small percentage of users onboarded to the feature, yet its users have the highest average order values.
+  		  Only a very small percentage of users onboarded to the feature (not allowed to disclose figures), yet its users have the highest average order values.
   </div>
   <div class="col-md-6 project-role">
   	<h2 class="block-title">Role</h2>

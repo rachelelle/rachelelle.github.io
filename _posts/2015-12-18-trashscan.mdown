@@ -9,10 +9,10 @@ main-img: trashscan.jpg
 external_url: https://www.hackster.io/trashscan/trashscan-3ca9fe
 ---
 <section>
-TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles & cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I've only included the highlights of the project here, but a more comprehensive write-up can be found <a href="{{ page.external_url }}">here</a>. 
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles & cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I've only included the highlights of the project here, but a more comprehensive write-up can be found on<a href="{{ page.external_url }}">Hackster</a>. 
 <br>
 <br>
-TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/student-project/trashscan/">Project Spotlight</a> for the Jacobs Institute for Design Innovation. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
+TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/student-project/trashscan/">Project Spotlight</a> for the <a href="http://jacobsinstitute.berkeley.edu">Jacobs Institute for Design Innovation</a>. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
 </section>
 
 <div class="row">
@@ -30,7 +30,15 @@ TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/st
 <section>
 <h1 class="section-title">Initial Research</h1>
 
-We interviewed two student staff workers, Monica and Nicole, from Cal Recycling. 
+We interviewed Monica and Nicole, two students coordinators from Cal Recycling. From our first interview with Monica, we learned about the inefficiencies of sorting trash during waste audits. These issues originate from human errors of cross-contamination between bins. It is difficult to teach 40,000 students to correct their habits and take the time to learn about disposing in the correct bin. 
+<p>
+<ul>In a follow up interview, we learned that many of the common errors were:
+	<li>dry paper should go in mixed paper (no soiled/wet paper)</li>
+	<li>plastics were found in compost, but they don’t belong in the compost bin (should go to landfill or bottles & cans)</li>
+	<li>The non-compostable spoons from off campus were placed in compost</li>
+</ul>
+
+
 </section>
 
 
