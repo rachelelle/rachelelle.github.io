@@ -68,6 +68,8 @@ Because signage is often hidden and ineffective for telling people what belongs 
 
 <iframe width="655" height="375" src="https://www.youtube.com/embed/xkhOMdKdvc4" frameborder="0" allowfullscreen></iframe>
 </section>
+<p>
+We made animations with <a href="http://py.processing.org/">Processing.py</a>, then converted it to video so it could be played on Raspberry Pi.
 
 <section>
 <h1 class="section-title">Final Thoughts</h1>
@@ -82,7 +84,7 @@ Because signage is often hidden and ineffective for telling people what belongs 
 <ul>
 <strong>Credit</strong>
 	<li>Machine Learning: Jessie Salas</li>
-	<li>Ehtnographic Interviews: Rachel Lin</li>
+	<li>Ethnographic Interviews: Rachel Lin</li>
 	<li>Animations & Frontend: Rachel Lin, Chonyi Lama</li>
 	<li>Object Recognition: Lesley Chiang</li>
 	<li>Box Construction: Drake Myers</li>
