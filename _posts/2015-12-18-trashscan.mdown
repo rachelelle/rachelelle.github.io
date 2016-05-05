@@ -67,9 +67,9 @@ Because signage is often hidden and ineffective for telling people what belongs 
 <h1 class="section-title">Final Prototype</h1>
 
 <iframe width="655" height="375" src="https://www.youtube.com/embed/xkhOMdKdvc4" frameborder="0" allowfullscreen></iframe>
-</section>
 <p>
 We made animations with <a href="http://py.processing.org/">Processing.py</a>, then converted it to video so it could be played on Raspberry Pi.
+</section>
 
 <section>
 <h1 class="section-title">Final Thoughts</h1>
