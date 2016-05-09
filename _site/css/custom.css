@@ -311,6 +311,12 @@ h2.about {
 
 h2.block-title {font-family: 'Montserrat';margin: 0px;font-size: 22px;margin-bottom: 10px;}
 
+h3.subtitle{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #BA6FF5;
+}
 
 .page-content {
     position: relative;
@@ -388,3 +394,8 @@ img.thumb {
     min-width: 100%;
 }
 
+th {
+    background-color: #BA6FF5;
+    text-align: center;
+    color: #fff;
+}
