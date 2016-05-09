@@ -6,9 +6,74 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Apr 2016 01:20:36 -0700</pubDate>
-    <lastBuildDate>Sat, 30 Apr 2016 01:20:36 -0700</lastBuildDate>
+    <pubDate>Mon, 09 May 2016 02:48:38 -0700</pubDate>
+    <lastBuildDate>Mon, 09 May 2016 02:48:38 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>SmartBrush</title>
+        <description>&lt;section&gt;
+  Our team of four developed an Android mobile and smartwatch application for &lt;a href=&quot;http://http://teaching.paulos.net/cs160_SP2016/&quot;&gt;CS 160: User Interface Design&lt;/a&gt; with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot;&gt;here&lt;/a&gt;.
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+      &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+      Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavaties and gum diseases down the road, which can hurt self-confidence in one&#39;s appearance.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+    &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+      I designed visual assets, animations, and the overall UX Design. I also participated in interviewing users. I implemented GifViews in Android. 
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Brainstorming&lt;/h1&gt;
+We wanted most of the interactions during brushing to occur when using the watch.
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Initial Research&lt;/h1&gt;
+
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Wireframing&lt;/h1&gt;
+ 
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Branding&lt;/h1&gt;
+ 
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;p&gt;
+  &lt;strong&gt;Technical Challenges&lt;/strong&gt;
+
+
+
+&lt;section&gt;
+   &lt;h1 class=&quot;section-title&quot;&gt;Credit&lt;/h1&gt;
+    &lt;li&gt;Contextual Inquiries: Rachel Lin, Nithish Arunkumar, Mukund Chillikanti&lt;/li&gt;
+    &lt;li&gt;Visual Design, Animations, and UI Design: Rachel Lin&lt;/li&gt;
+    &lt;li&gt;Backend (Android): Mukund Chillikanti&lt;/li&gt;
+    &lt;li&gt;Rankings Screen (Android): Nithish Arunkumar&lt;/li&gt;
+    &lt;li&gt;My Activity Screen (Android): Tait Gu&lt;/li&gt;
+    &lt;li&gt;Gif Views (Android): Rachel Lin&lt;/li&gt;
+&lt;/section&gt;
+&lt;/p&gt;&lt;/section&gt;
+</description>
+        <pubDate>Fri, 06 May 2016 14:22:04 -0700</pubDate>
+        <link>/ux/smartbrush/</link>
+        <guid isPermaLink="true">/ux/smartbrush/</guid>
+        
+        
+        <category>ux</category>
+        
+      </item>
     
       <item>
         <title>ThredUP Support</title>
@@ -55,18 +120,18 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 &lt;/section&gt;
 </description>
         <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
-        <link>/ux/tusupport/</link>
-        <guid isPermaLink="true">/ux/tusupport/</guid>
+        <link>/webdev/tusupport/</link>
+        <guid isPermaLink="true">/webdev/tusupport/</guid>
         
         
-        <category>ux</category>
+        <category>webdev</category>
         
       </item>
     
       <item>
         <title>TrashScan</title>
         <description>&lt;section&gt;
-TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on&lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot;&gt;Hackster&lt;/a&gt;. 
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot;&gt;Hackster&lt;/a&gt;. 
 &lt;br&gt;
 &lt;br&gt;
 TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot;&gt;Project Spotlight&lt;/a&gt; for the &lt;a href=&quot;http://jacobsinstitute.berkeley.edu&quot;&gt;Jacobs Institute for Design Innovation&lt;/a&gt;. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
@@ -124,6 +189,8 @@ Because signage is often hidden and ineffective for telling people what belongs 
 &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
 
 &lt;iframe width=&quot;655&quot; height=&quot;375&quot; src=&quot;https://www.youtube.com/embed/xkhOMdKdvc4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Processing.py&lt;/a&gt;, then converted it to video so it could be played on Raspberry Pi.
 &lt;/section&gt;
 
 &lt;section&gt;
@@ -139,7 +206,7 @@ Because signage is often hidden and ineffective for telling people what belongs 
 &lt;ul&gt;
 &lt;strong&gt;Credit&lt;/strong&gt;
 	&lt;li&gt;Machine Learning: Jessie Salas&lt;/li&gt;
-	&lt;li&gt;Ehtnographic Interviews: Rachel Lin&lt;/li&gt;
+	&lt;li&gt;Ethnographic Interviews: Rachel Lin&lt;/li&gt;
 	&lt;li&gt;Animations &amp; Frontend: Rachel Lin, Chonyi Lama&lt;/li&gt;
 	&lt;li&gt;Object Recognition: Lesley Chiang&lt;/li&gt;
 	&lt;li&gt;Box Construction: Drake Myers&lt;/li&gt;
@@ -157,7 +224,7 @@ Because signage is often hidden and ineffective for telling people what belongs 
       <item>
         <title>ThredUP Personal Shops 2.0</title>
         <description>&lt;section&gt;
-    Last summer, I had the honor of interning at &lt;a href=&quot;http://thredup.com&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+    Last summer, I had the honor of interning at &lt;a href=&quot;http://thredup.com&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -173,13 +240,13 @@ Because signage is often hidden and ineffective for telling people what belongs 
 &lt;/div&gt;
 
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Data Mining&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Data Analysis&lt;/h1&gt;
 
 I first pulled current data on users with Personal Shops to find the top trends uses of filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular.
 &lt;/section&gt;
 
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;User Research&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Survey &amp;amp; Initial Research&lt;/h1&gt;
 I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
 &lt;br /&gt;
 &lt;br /&gt;
@@ -194,12 +261,12 @@ Based on my conversations with the users, I created a mental model to understand
     &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands.
+We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
 &lt;/section&gt;
 
 &lt;section&gt;
 	&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
-	View the first iteration &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot;&gt;here&lt;/a&gt;.
+	I prototyped the &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot;&gt;first iteration&lt;/a&gt; in FramerJS.
   &lt;br /&gt;
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
   &lt;br /&gt;
@@ -309,6 +376,13 @@ Based on our findings, we decided to pivot from the original prompt to designing
 	&lt;li&gt;Findings from user research can pivot the original design and inform clients about the feasibility of their ideas.&lt;/li&gt;
 	&lt;li&gt;Designing for an unfamiliar interface such as virtual reality can be challenging with lack of design documentation, but there is more freedom to think outside of the box.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Credit&lt;/h1&gt;
+    &lt;li&gt;Programming in Unity: Daniel Pok&lt;/li&gt;
+    &lt;li&gt;Ethnographic Interviews: Rachel Lin, Amanda Vu, Daniel Pok&lt;/li&gt;
+    &lt;li&gt;Medium-Fidelity Prototype: Rachel Lin, Amanda Vu&lt;/li&gt;
 &lt;/section&gt;
 
 

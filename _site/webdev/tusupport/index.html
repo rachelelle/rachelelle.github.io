@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rachel Lin | About</title>
+    <title>Rachel Lin | ThredUP Support</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Rachel Lin | Designer + Developer at Cal
 ">
@@ -35,7 +35,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="canonical" href="/about/">
+    <link rel="canonical" href="/webdev/tusupport/">
 </head>
 
   <body>
@@ -88,86 +88,81 @@
 
     <div class="page-content">
       <div class="container">
-        <article class="post">
-  <header class="post-header">
-    <h1 class="post-title category-title">About</h1>
-  </header>
+        <article class="post post-container" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="img-container">
+  <div class="post-main-title" itemprop="name headline">ThredUP Support</h1> </div>
+  <img src="/img/portfolio/tusupport.png" class="img-responsive post-img" />
+</div>
+  <!-- <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">ThredUP Support</h1>
+  </header> -->
 
-  <div class="post-content">
-    <div class="clearfix row">
-<div class="col-md-5 profile-image">
-	<div class="about-img-caption">Photo by Jeremy Hsu</div>
-	<img src="/img/about/rachel.jpg" class="img-responsive" />
+  <div class="post-content portfolio-content" itemprop="articleBody">
+    <section>
+  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the <a href="http://support.thredup.com">ThredUP Support Page</a>. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
+</section>
+
+<div class="row">
+  <div class="col-md-6 project-problem">
+      <h2 class="block-title">Problem</h2>
+      Customers would directly email the Customer Support team to ask simple questions that had already been answered on Zendesk. This would add unnecessary inefficiencies to their workflow.
+  </div>
+  <div class="col-md-6 project-role">
+    <h2 class="block-title">Role</h2>
+      In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users. I mocked up a prototype, created additional iconography and implemented the frontend.
+  </div>
 </div>
 
-<div class="col-md-4 about-grid" id="name-card">
-	<h1 class="about">Rachel Lin</h1>
-	<br />
-	<h2 class="about">Designer + Developer</h2>
-	<br />
-	<h2 class="about">SF Bay Area native</h2>
-	<br />
-	<h2 class="about">fashion + tech enthusiast</h2>
-	<br />
-	<h4 class="about"><i class="fa fa-heart fa-fw"></i>  art history, fashion, badminton, coffee, cooking, and baking</h4>
-</div>
-<div class="col-md-3 about-grid" id="contact">
-		<h1 class="about">Let's Talk!</h1>
-		<br />
-		<h2 class="about">rachellin@berkeley.edu</h2>
-		<br />
-		<h2 class="about"><a href="http://twitter.com/rchlelle">@rchlelle</a></h2>
-	</div>	
+<section>
+<h1 class="section-title">Design Process</h1>
+<p>
+Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question under the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
+</p>
+<p>
+<img src="/img/portfolio/tusupport/sketch.jpg" class="img-responsive center-block" />
+ </p>
+</section>
 
-</div>
+<section>
+  <h1 class="section-title">Iconography</h1>
+  I added icons to clearly signify the different section categories under “Shopping” and “Selling.” These were based on icons that can also be found on <a href="http://thredup.com">thredUP</a>.
+  <img src="/img/portfolio/tusupport/icons.png" class="img-responsive center-block" />
+</section>
 
-<div class="clearfix row">
-	<div class="col-md-4 about-grid" id="skills">
-		<h1 class="about">Skills</h1>
-		<br />
-		<h3 class="skill-title">Visual Design</h3>
-		Photoshop, Illustrator, Sketch, After Effects
-			
-		<h3 class="skill-title">Interaction Design</h3>
-		User Research, Prototyping, User Testing
+<section>
+  <h1 class="section-title">Prototyping</h1>
+  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback. View the prototype for the website <a href="https://marvelapp.com/8aijdh/">here</a>.
+</section>
 
-		<h3 class="skill-title">Web Development</h3>
-		HTML, CSS, JavaScript/jQuery, Ruby on Rails
+<section>
+  <h1 class="section-title">Final Product</h1>
+  I coded the website in HTML, CSS, and JavaScript/jQuery. A second iteration with the left sliding sidebar will be released soon. 
+  View the final Support Website <a href="http://support.thredup.com">here</a>.
+</section>
 
-		<h3 class="skill-title">Programming</h3>
-			Python, Java, Android
+  </div>
 
-		<h3 class="skill-title">Physical Design</h3>
-			Arduino/Raspberry Pi, 3D Printing
-	</div>	
+ <!--  
+    <span class="previous">Previous</span>
+  
 
-	<div class="col-md-8" id="about-grid-2">
-		<div class="row">
-			<div class="col-md-12 about-grid" id="experience">
-				<h1 class="about">Experience</h1>
-				<br />
-				<h2 class="about">
-					Product Intern at <a href="http://thredup.com">thredUP</a> • <i>June 2015-Present</i>
-					<br />
-					UI/UX Consultant at <a href="http://westfieldlabs.com">Westfield Labs</a> • <i>September 2015-May 2016</i>
-					<br />
-					Web Development Intern at <a href="http://modern-citizen.com">Modern Citizen</a> • <i>June 2014-August 2014</i>
-				</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 about-grid" id="education">
-				<h1 class="about">Education</h1>
-				<br />
-				<h2 class="about">UC Berkeley</h2>
-				<h2 class="about">Graduating May 2016</h2>
-				<h3 class="about">B.A. Media Studies</h3>
-				<h3 class="about">Computer Science Minor</h3>
-			</div>	
-		</div>
-	</div>		
-</div>
+  
+    <span class="next ">Next</span>
+   -->
 
+  <div class="nav-pagination">
+   <div class="clearfix row">
+  
+  <div class="col-md-3 pull-left">
+    <a class="next prev-next-block" href="/ux/smartbrush/"> &laquo; SmartBrush </a>
+    </div>
+  
+  
+   <div class="col-md-3 col-md-offset-6 pull-right text-right">
+      <a class="prev prev-next-block" href="/ux/trashscan/" | prepend: "> TrashScan &raquo;</a>
+  </div>
+    
+  </div>
   </div>
 </article>
 

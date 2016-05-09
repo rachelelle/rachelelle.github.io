@@ -24,13 +24,13 @@ main-img: thredup-ps-main.png
 </div>
 
 <section>
-<h1 class="section-title">Data Mining</h1>
+<h1 class="section-title">Data Analysis</h1>
 
 I first pulled current data on users with Personal Shops to find the top trends uses of filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular.
 </section>
 
 <section>
-<h1 class="section-title">User Research</h1>
+<h1 class="section-title">Survey & Initial Research</h1>
 I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
 <br>
 <br>

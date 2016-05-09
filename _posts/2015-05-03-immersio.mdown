@@ -61,6 +61,13 @@ Based on our findings, we decided to pivot from the original prompt to designing
 </ul>
 </section>
 
+<section>
+  <h1 class="section-title">Credit</h1>
+    <li>Programming in Unity: Daniel Pok</li>
+    <li>Ethnographic Interviews: Rachel Lin, Amanda Vu, Daniel Pok</li>
+    <li>Medium-Fidelity Prototype: Rachel Lin, Amanda Vu</li>
+</section>
+
 
 
 

@@ -191,17 +191,18 @@ h1.category-title {
     color: #FDF8F8;
     /* margin-right: 20px; */
     border-radius: 2px;
-    padding: 20px;
+    padding: 40px;
     /* margin-left: 20px; */
-    line-height: 32px;
+    line-height: 28px;
+    /* font-style: italic; */
 }
 
 .project-role {
     background-color: #d4d6d6;
     color: #424242;
     border-radius: 2px;
-    padding: 20px;
-    line-height: 32px;
+    padding: 40px;
+    line-height: 28px;
 }
 
 .project-summary {
@@ -308,7 +309,7 @@ h2.about {
     /* font-style: inherit; */
 }
 
-h2.block-title {font-family: 'Montserrat';margin: 0px;font-size: 20px;margin-bottom: 10px;}
+h2.block-title {font-family: 'Montserrat';margin: 0px;font-size: 22px;margin-bottom: 10px;}
 
 
 .page-content {
