@@ -35,15 +35,13 @@ I surveyed users with over 10 Personal Shops to understand their behaviors for s
 <br>
 <br>
 Based on my conversations with the users, I created a mental model to understand the user's train of thought.
-<ul>
-  <strong>Mental Model:</strong>
+  <h3 class="subtitle">Mental Model</h3>
     <li>Can I quickly find relevant items?</li>
     <li>How can I find great deals that caters to my family's lifestyle?</li>
     <li>How can I easily shop my favorite brands?</li>
     <li>Will these items fit me?</li>
     <li>Will it save me search time?</li>
     <li>How can we get coveted items first?</li>
-</ul>
 <br>
 We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
 </section>
@@ -55,12 +53,10 @@ We also further refined the idea of creating a Style Profile for every account i
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
   <br>
   <br>
-  <ul>
-  <strong>Findings:</strong>
+  <h3 class="subtitle">Findings</h3>
     <li>Simplify the view - remove color coding</li>
     <li>The concept of "Pocket" was too confusing.</li>
     <li>Users wanted to be able to click through a feed row to see the PLP.</li>
-  </ul>
 </section>
 
 <section>
@@ -68,11 +64,9 @@ We also further refined the idea of creating a Style Profile for every account i
   Since I had limited time to conduct another user test, I tested internally. See my second iteration <a href="http://share.framerjs.com/daab0qd1fmzh/">here</a>.
   <br>
   <br>
-  <ul>
-  <strong>Findings:</strong>
+  <h3 class="subtitle">Findings</h3>
     <li>Web first, mobile will follow.</li>
     <li>There are mixed feelings about the heart iconography</li>
-  </ul>
 </section>
 
 <section>

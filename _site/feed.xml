@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 May 2016 15:27:55 -0700</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 15:27:55 -0700</lastBuildDate>
+    <pubDate>Mon, 09 May 2016 21:39:57 -0700</pubDate>
+    <lastBuildDate>Mon, 09 May 2016 21:39:57 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -36,11 +36,14 @@ We wanted most of the interactions during brushing to occur when using the watch
 &lt;h1 class=&quot;section-title&quot;&gt;Ideation &amp;amp; Sketches&lt;/h1&gt;
 After discovering the saturation of dental hygiene apps for children in the Play Store and recognizing there is still a need for teens and young adults to correct their poor brushing and flossing habits, we decided to pivot to target 10-20 year olds. 
 &lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;User Journey Map&lt;/h3&gt;
+&lt;h3 class=&quot;subtitle&quot; style=&quot;text-align: center&quot;&gt;User Journey Map&lt;/h3&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.figma.com/file/Laa1xLrzw4I487dMAVAU743E/Smart-Brush-User-Journey-Map&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/UserJourneyMap.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
 &lt;p&gt;
-We based our sketches on the User Journey Map. View the sketches &lt;a href=&quot;https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public&quot;&gt;here&lt;/a&gt;.
+&lt;h3 class=&quot;subtitle&quot; style=&quot;text-align: center&quot;&gt;Sketches&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/sketch.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
+We based our sketches on the User Journey Map.
 
 
 &lt;section&gt;
@@ -55,11 +58,23 @@ We based our sketches on the User Journey Map. View the sketches &lt;a href=&quo
   &lt;li&gt;Dental Assistant&lt;/li&gt;
   &lt;li&gt;Mother of Two&lt;/li&gt;
   &lt;li&gt;Teenage Student&lt;/li&gt;
+  &lt;p&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Top 5 User Needs&lt;/h3&gt;
+  &lt;li&gt;Have a fun and entertaining experience so brushing teeth won’t feel like a hassle.&lt;/li&gt;
+  &lt;li&gt;Receiving feedback and tracking progress for techniques.&lt;/li&gt;
+  &lt;li&gt;Learn proper brushing habits and techniques.&lt;/li&gt;
+  &lt;li&gt;Not slowing down the brushing/flossing process.&lt;/li&gt;
+  &lt;li&gt;Motivation to maintain good oral health and prevent dental disorders.&lt;/li&gt;
 
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Wireframing&lt;/h1&gt;
-  Our team used &lt;a href=&quot;http://figma.com&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration).
+  Our team used &lt;a href=&quot;http://figma.com&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
+  &lt;p&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;3 Primary Tasks&lt;/h3&gt;
+  &lt;li&gt;Brushing&lt;/li&gt;
+  &lt;li&gt;Flossing&lt;/li&gt;
+  &lt;li&gt;Checking Progress and Rankings&lt;/li&gt;
   &lt;p&gt;
   &lt;h3 class=&quot;subtitle&quot;&gt;Version 1.0&lt;/h3&gt;
   View the first wireframe in greater detail &lt;a href=&quot;https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public&quot;&gt;here&lt;/a&gt;.
@@ -76,28 +91,34 @@ We based our sketches on the User Journey Map. View the sketches &lt;a href=&quo
     &lt;td&gt;Simplify the view of the Home Screen: remove logo text and recreate circular buttons in order to avoid the fat finger problem.&lt;/td&gt;
     &lt;td&gt;Remove the Home Screen as a summary, but instead have the users toggle between two tabs to view My Activity and Rankings.&lt;/td&gt;
   &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Changed from 6 brush screens (15 seconds each) to 4 brush screens (30 seconds each) - as recommended by the dental assistant.&lt;/td&gt;
+    &lt;td&gt;Only keeps track of current streak and longest streak. The overall health score was unclear to the users.&lt;/td&gt;
+  &lt;/tr&gt;
+    &lt;td&gt;Results Screen includes the latest streak count.&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  
 &lt;/table&gt;	
   View the second version wireframe in greater detail &lt;a href=&quot;https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public&quot;&gt;here&lt;/a&gt;.
+&lt;p&gt;
+&lt;img src=&quot;/img/portfolio/smartbrush/branding.png&quot; class=&quot;img-responsive&quot; /&gt;
 
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Branding&lt;/h1&gt;
- 
-&lt;/section&gt;
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
-  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate a transition to the next screen.
   &lt;p&gt;
-  Put final design image here
+  &lt;a href=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
+  &lt;p&gt;
+   &lt;h3 class=&quot;subtitle&quot;&gt;Watch SmartBrush in action&lt;/h3&gt;
   &lt;br /&gt;
-  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush.
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Technical Challenges&lt;/h1&gt;
     &lt;li&gt;Running the Gif Views: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.&lt;/li&gt;
-    &lt;li&gt;Storing and updating the streak count on the phone and watch after brushing: &lt;/li&gt;
+    &lt;li&gt;Storing and updating the streak count on the phone and watch after brushing. We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.&lt;/li&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
@@ -119,7 +140,7 @@ We based our sketches on the User Journey Map. View the sketches &lt;a href=&quo
     &lt;li&gt;My Activity Screen (Android): Tait Gu&lt;/li&gt;
     &lt;li&gt;Gif Views (Android): Rachel Lin&lt;/li&gt;
 &lt;/section&gt;
-&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Fri, 06 May 2016 14:22:04 -0700</pubDate>
         <link>/ux/smartbrush/</link>
@@ -306,15 +327,13 @@ I surveyed users with over 10 Personal Shops to understand their behaviors for s
 &lt;br /&gt;
 &lt;br /&gt;
 Based on my conversations with the users, I created a mental model to understand the user&#39;s train of thought.
-&lt;ul&gt;
-  &lt;strong&gt;Mental Model:&lt;/strong&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Mental Model&lt;/h3&gt;
     &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
     &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
     &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
     &lt;li&gt;Will these items fit me?&lt;/li&gt;
     &lt;li&gt;Will it save me search time?&lt;/li&gt;
     &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
-&lt;/ul&gt;
 &lt;br /&gt;
 We also further refined the idea of creating a Style Profile for every account in order to set Sizes and top 10 brands, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
 &lt;/section&gt;
@@ -326,12 +345,10 @@ We also further refined the idea of creating a Style Profile for every account i
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
   &lt;br /&gt;
   &lt;br /&gt;
-  &lt;ul&gt;
-  &lt;strong&gt;Findings:&lt;/strong&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
     &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
     &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
     &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
-  &lt;/ul&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
@@ -339,11 +356,9 @@ We also further refined the idea of creating a Style Profile for every account i
   Since I had limited time to conduct another user test, I tested internally. See my second iteration &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot;&gt;here&lt;/a&gt;.
   &lt;br /&gt;
   &lt;br /&gt;
-  &lt;ul&gt;
-  &lt;strong&gt;Findings:&lt;/strong&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
     &lt;li&gt;Web first, mobile will follow.&lt;/li&gt;
     &lt;li&gt;There are mixed feelings about the heart iconography&lt;/li&gt;
-  &lt;/ul&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
