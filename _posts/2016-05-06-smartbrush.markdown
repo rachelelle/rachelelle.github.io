@@ -9,7 +9,7 @@ main-img: smartbrush-main.png
 ---
 
 <section>
-  Our team of four developed an Android mobile and smartwatch application for <a href="http://teaching.paulos.net/cs160_SP2016/">CS 160: User Interface Design</a> with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf">here</a>.
+  Our team of four developed an Android mobile and smartwatch application for <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank">CS 160: User Interface Design</a> with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
 </section>
 
 <div class="row">
@@ -34,11 +34,11 @@ After discovering the saturation of dental hygiene apps for children in the Play
 <p>
 <h3 class="subtitle" style="text-align: center">User Journey Map</h3>
 <p>
-<a href="https://www.figma.com/file/Laa1xLrzw4I487dMAVAU743E/Smart-Brush-User-Journey-Map"><img src="/img/portfolio/smartbrush/UserJourneyMap.png" class="img-responsive"></a>
+<a href="https://www.figma.com/file/Laa1xLrzw4I487dMAVAU743E/Smart-Brush-User-Journey-Map" target="_blank"><img src="/img/portfolio/smartbrush/UserJourneyMap.png" class="img-responsive"></a>
 <p>
 <h3 class="subtitle" style="text-align: center">Sketches</h3>
 <p>
-<a href="https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public"><img src="/img/portfolio/smartbrush/sketch.png" class="img-responsive"></a>
+<a href="https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public" target="_blank"><img src="/img/portfolio/smartbrush/sketch.png" class="img-responsive"></a>
 We based our sketches on the User Journey Map.
 </section>
 
@@ -65,7 +65,7 @@ We based our sketches on the User Journey Map.
 
 <section>
   <h1 class="section-title">Wireframing</h1>
-  Our team used <a href="http://figma.com">Figma</a> as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
+  Our team used <a href="http://figma.com" target="_blank">Figma</a> as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
   <p>
   <h3 class="subtitle">3 Primary Tasks</h3>
   <li>Brushing</li>
@@ -73,7 +73,7 @@ We based our sketches on the User Journey Map.
   <li>Checking Progress and Rankings</li>
   <p>
   <h3 class="subtitle">Version 1.0</h3>
-  View the first wireframe in greater detail <a href="https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public">here</a>.
+  View the first wireframe in greater detail <a href="https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public" target="_blank">here</a>.
   <p>
  <h3 class="subtitle">Version 2.0</h3>
   After receiving feedback from TAs, usability testing participants, and fellow students, here are the key changes made for the second version:
@@ -95,26 +95,25 @@ We based our sketches on the User Journey Map.
     <td></td>
   </tr>
 </table>	
-  View the second version wireframe in greater detail <a href="https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public">here</a>.
+  View the second version wireframe in greater detail <a href="https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public" target="_blank">here</a>.
 <p>
 <img src="/img/portfolio/smartbrush/branding.png" class="img-responsive">
 </section>
 
 <section>
   <h1 class="section-title">Final Prototype</h1>
-  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate a transition to the next screen.
+  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate an automatic transition to the next screen.
   <p>
-  <a href="/img/portfolio/smartbrush/finaldesignflow.png"><img src="/img/portfolio/smartbrush/finaldesignflow.png" class="img-responsive"></a>
+  <a href="/img/portfolio/smartbrush/finaldesignflow.png" target="_blank"><img src="/img/portfolio/smartbrush/finaldesignflow.png" class="img-responsive"></a>
   <p>
    <h3 class="subtitle">Watch SmartBrush in action</h3>
-  <br>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7vfUYkNVRzE" frameborder="0" allowfullscreen></iframe>
 </section>
 
 <section>
 <h1 class="section-title">Technical Challenges</h1>
-    <li>Running the Gif Views: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.</li>
-    <li>Storing and updating the streak count on the phone and watch after brushing. We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.</li>
+    <li><strong>Running the Gif Views</strong>: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.</li>
+    <li><strong>Storing and updating the streak count on the phone and watch after brushing</strong>: We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.</li>
 </section>
 
 <section>
@@ -122,7 +121,7 @@ We based our sketches on the User Journey Map.
   Overall, I had a wonderful experience of learning how to develop an app in Android with a team and learning about the UI guidelines for Android and Android Wear. This is also the first project where I designed an experience and programmed for wearables.
   <p>
   <ul>Here are the valuable lessons I learned along the way:
-  <li>Know the <a href="http://developer.android.com/design/wear/patterns.html">Android Wear UI Patterns</a> front and back before diving into sketching, wireframing, and creating visual design elements.</li>
+  <li>Know the <a href="http://developer.android.com/design/wear/patterns.html" target="_blank">Android Wear UI Patterns</a> front and back before diving into sketching, wireframing, and creating visual design elements.</li>
   <li>Technical constraints, such as the physical handware running out of memory for playing animations, can influence the final design implementation and may require an alternative solution.</li>
   </ul>
 </section>

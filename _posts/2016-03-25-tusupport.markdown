@@ -10,7 +10,7 @@ external_url: http://support.thredup.com
 ---
 
 <section>
-  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the <a href="{{ page.external_url }}">ThredUP Support Page</a>. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
+  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the <a href="{{ page.external_url }}" target="_blank">ThredUP Support Page</a>. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
 </section>
 
 <div class="row">
@@ -42,11 +42,11 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 
 <section>
   <h1 class="section-title">Prototyping</h1>
-  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback. View the prototype for the website <a href="https://marvelapp.com/8aijdh/">here</a>.
+  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback. View the prototype for the website <a href="https://marvelapp.com/8aijdh/" target="_blank">here</a>.
 </section>
 
 <section>
   <h1 class="section-title">Final Product</h1>
   I coded the website in HTML, CSS, and JavaScript/jQuery. A second iteration with the left sliding sidebar will be released soon. 
-  View the final Support Website <a href="{{ page.external_url }}">here</a>.
+  View the final Support Website <a href="{{ page.external_url }}" target="_blank">here</a>.
 </section>

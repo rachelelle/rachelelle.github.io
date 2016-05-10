@@ -6,14 +6,14 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 May 2016 21:39:57 -0700</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 21:39:57 -0700</lastBuildDate>
+    <pubDate>Tue, 10 May 2016 01:22:29 -0700</pubDate>
+    <lastBuildDate>Tue, 10 May 2016 01:22:29 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>SmartBrush</title>
         <description>&lt;section&gt;
-  Our team of four developed an Android mobile and smartwatch application for &lt;a href=&quot;http://teaching.paulos.net/cs160_SP2016/&quot;&gt;CS 160: User Interface Design&lt;/a&gt; with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot;&gt;here&lt;/a&gt;.
+  Our team of four developed an Android mobile and smartwatch application for &lt;a href=&quot;http://teaching.paulos.net/cs160_SP2016/&quot; target=&quot;_blank&quot;&gt;CS 160: User Interface Design&lt;/a&gt; with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -38,11 +38,11 @@ After discovering the saturation of dental hygiene apps for children in the Play
 &lt;p&gt;
 &lt;h3 class=&quot;subtitle&quot; style=&quot;text-align: center&quot;&gt;User Journey Map&lt;/h3&gt;
 &lt;p&gt;
-&lt;a href=&quot;https://www.figma.com/file/Laa1xLrzw4I487dMAVAU743E/Smart-Brush-User-Journey-Map&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/UserJourneyMap.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.figma.com/file/Laa1xLrzw4I487dMAVAU743E/Smart-Brush-User-Journey-Map&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/UserJourneyMap.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
 &lt;p&gt;
 &lt;h3 class=&quot;subtitle&quot; style=&quot;text-align: center&quot;&gt;Sketches&lt;/h3&gt;
 &lt;p&gt;
-&lt;a href=&quot;https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/sketch.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/sketch.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
 We based our sketches on the User Journey Map.
 
 
@@ -69,7 +69,7 @@ We based our sketches on the User Journey Map.
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Wireframing&lt;/h1&gt;
-  Our team used &lt;a href=&quot;http://figma.com&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
+  Our team used &lt;a href=&quot;http://figma.com&quot; target=&quot;_blank&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
   &lt;p&gt;
   &lt;h3 class=&quot;subtitle&quot;&gt;3 Primary Tasks&lt;/h3&gt;
   &lt;li&gt;Brushing&lt;/li&gt;
@@ -77,7 +77,7 @@ We based our sketches on the User Journey Map.
   &lt;li&gt;Checking Progress and Rankings&lt;/li&gt;
   &lt;p&gt;
   &lt;h3 class=&quot;subtitle&quot;&gt;Version 1.0&lt;/h3&gt;
-  View the first wireframe in greater detail &lt;a href=&quot;https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public&quot;&gt;here&lt;/a&gt;.
+  View the first wireframe in greater detail &lt;a href=&quot;https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
   &lt;p&gt;
  &lt;h3 class=&quot;subtitle&quot;&gt;Version 2.0&lt;/h3&gt;
   After receiving feedback from TAs, usability testing participants, and fellow students, here are the key changes made for the second version:
@@ -99,26 +99,25 @@ We based our sketches on the User Journey Map.
     &lt;td&gt;&lt;/td&gt;
   
 &lt;/table&gt;	
-  View the second version wireframe in greater detail &lt;a href=&quot;https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public&quot;&gt;here&lt;/a&gt;.
+  View the second version wireframe in greater detail &lt;a href=&quot;https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
 &lt;p&gt;
 &lt;img src=&quot;/img/portfolio/smartbrush/branding.png&quot; class=&quot;img-responsive&quot; /&gt;
 
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
-  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate a transition to the next screen.
+  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate an automatic transition to the next screen.
   &lt;p&gt;
-  &lt;a href=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
   &lt;p&gt;
    &lt;h3 class=&quot;subtitle&quot;&gt;Watch SmartBrush in action&lt;/h3&gt;
-  &lt;br /&gt;
   &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Technical Challenges&lt;/h1&gt;
-    &lt;li&gt;Running the Gif Views: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.&lt;/li&gt;
-    &lt;li&gt;Storing and updating the streak count on the phone and watch after brushing. We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Running the Gif Views&lt;/strong&gt;: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Storing and updating the streak count on the phone and watch after brushing&lt;/strong&gt;: We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.&lt;/li&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
@@ -126,7 +125,7 @@ We based our sketches on the User Journey Map.
   Overall, I had a wonderful experience of learning how to develop an app in Android with a team and learning about the UI guidelines for Android and Android Wear. This is also the first project where I designed an experience and programmed for wearables.
   &lt;p&gt;
   &lt;ul&gt;Here are the valuable lessons I learned along the way:
-  &lt;li&gt;Know the &lt;a href=&quot;http://developer.android.com/design/wear/patterns.html&quot;&gt;Android Wear UI Patterns&lt;/a&gt; front and back before diving into sketching, wireframing, and creating visual design elements.&lt;/li&gt;
+  &lt;li&gt;Know the &lt;a href=&quot;http://developer.android.com/design/wear/patterns.html&quot; target=&quot;_blank&quot;&gt;Android Wear UI Patterns&lt;/a&gt; front and back before diving into sketching, wireframing, and creating visual design elements.&lt;/li&gt;
   &lt;li&gt;Technical constraints, such as the physical handware running out of memory for playing animations, can influence the final design implementation and may require an alternative solution.&lt;/li&gt;
   &lt;/ul&gt;
 
@@ -154,7 +153,7 @@ We based our sketches on the User Journey Map.
       <item>
         <title>ThredUP Support</title>
         <description>&lt;section&gt;
-  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
+  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -186,13 +185,13 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
-  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback. View the prototype for the website &lt;a href=&quot;https://marvelapp.com/8aijdh/&quot;&gt;here&lt;/a&gt;.
+  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback. View the prototype for the website &lt;a href=&quot;https://marvelapp.com/8aijdh/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
 &lt;/section&gt;
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
   I coded the website in HTML, CSS, and JavaScript/jQuery. A second iteration with the left sliding sidebar will be released soon. 
-  View the final Support Website &lt;a href=&quot;http://support.thredup.com&quot;&gt;here&lt;/a&gt;.
+  View the final Support Website &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
 &lt;/section&gt;
 </description>
         <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
@@ -300,7 +299,7 @@ We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Proc
       <item>
         <title>ThredUP Personal Shops 2.0</title>
         <description>&lt;section&gt;
-    Last summer, I had the honor of interning at &lt;a href=&quot;http://thredup.com&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+    Last summer, I had the honor of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -340,7 +339,7 @@ We also further refined the idea of creating a Style Profile for every account i
 
 &lt;section&gt;
 	&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
-	I prototyped the &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot;&gt;first iteration&lt;/a&gt; in FramerJS.
+	I prototyped the &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;first iteration&lt;/a&gt; in FramerJS.
   &lt;br /&gt;
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
   &lt;br /&gt;
@@ -353,7 +352,7 @@ We also further refined the idea of creating a Style Profile for every account i
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototype v 2.0&lt;/h1&gt;
-  Since I had limited time to conduct another user test, I tested internally. See my second iteration &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot;&gt;here&lt;/a&gt;.
+  Since I had limited time to conduct another user test, I tested internally. See my second iteration &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
   &lt;br /&gt;
   &lt;br /&gt;
   &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
@@ -396,7 +395,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
       <item>
         <title>Immersio</title>
         <description>&lt;section&gt;
-    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot;&gt;Behance&lt;/a&gt;.
+    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot; target=&quot;_blank&quot;&gt;Behance&lt;/a&gt;.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;

@@ -9,7 +9,7 @@ main-img: immersio.png
 external_url: https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum
 ---
 <section>
-    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our <a href="https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum">Behance</a>.
+    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our <a href="https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum" target="_blank">Behance</a>.
 </section>
 
 <div class="row">
