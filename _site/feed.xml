@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 May 2016 02:47:00 -0700</pubDate>
-    <lastBuildDate>Thu, 12 May 2016 02:47:00 -0700</lastBuildDate>
+    <pubDate>Thu, 12 May 2016 12:34:52 -0700</pubDate>
+    <lastBuildDate>Thu, 12 May 2016 12:34:52 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -224,7 +224,7 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot;&gt;Hackster&lt;/a&gt;. 
 &lt;br&gt;
 &lt;br&gt;
-TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot;&gt;Project Spotlight&lt;/a&gt; for the &lt;a href=&quot;http://jacobsinstitute.berkeley.edu&quot;&gt;Jacobs Institute for Design Innovation&lt;/a&gt;. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
+TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot; target=&quot;_blank&quot;&gt;Project Spotlight&lt;/a&gt; for the &lt;a href=&quot;http://jacobsinstitute.berkeley.edu&quot; target=&quot;_blank&quot;&gt;Jacobs Institute for Design Innovation&lt;/a&gt;. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -282,6 +282,11 @@ Because signage is often hidden and ineffective for telling people what belongs 
 &lt;/div&gt;
 &lt;p&gt;
 We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Processing.py&lt;/a&gt;, then converted it to video so it could be played on Raspberry Pi.
+&lt;p&gt;
+&lt;!-- &lt;div class=&quot;video-module responsive-video&quot;&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/166338989&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/166338989&quot;&gt;TrashScan - Home&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/rachelelle&quot;&gt;rachel&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt; --&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
@@ -465,7 +470,7 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Credit&lt;/h1&gt;
-    &lt;li&gt;Programming in Unity: Daniel Pok&lt;/li&gt;
+    &lt;li&gt;Programming (Unity): Daniel Pok&lt;/li&gt;
     &lt;li&gt;Ethnographic Interviews: Rachel Lin, Amanda Vu, Daniel Pok&lt;/li&gt;
     &lt;li&gt;Medium-Fidelity Prototype: Rachel Lin, Amanda Vu&lt;/li&gt;
 &lt;/section&gt;

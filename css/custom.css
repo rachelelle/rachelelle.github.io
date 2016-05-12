@@ -360,8 +360,9 @@ div#education {
 }
 
 h3.about{
-    font-size: 20px;
+    font-size: 17px;
     margin: 0;
+    /* margin-top: 5px; */
 }
 
 h3.skill-title{
