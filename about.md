@@ -23,7 +23,7 @@ permalink: /about/
 <div class="col-md-3 about-grid" id="contact">
 		<h1 class="about">Let's Talk!</h1>
 		<br>
-		<h2 class="about">rachellin@berkeley.edu</h2>
+		<h2 class="about">linrac@gmail.com</h2>
 		<br>
 		<h2 class="about"><a href="http://twitter.com/rchlelle">@rchlelle</a></h2>
 	</div>	
