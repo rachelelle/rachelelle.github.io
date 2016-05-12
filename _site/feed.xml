@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 May 2016 01:22:29 -0700</pubDate>
-    <lastBuildDate>Tue, 10 May 2016 01:22:29 -0700</lastBuildDate>
+    <pubDate>Thu, 12 May 2016 02:36:42 -0700</pubDate>
+    <lastBuildDate>Thu, 12 May 2016 02:36:42 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -16,10 +16,17 @@
   Our team of four developed an Android mobile and smartwatch application for &lt;a href=&quot;http://teaching.paulos.net/cs160_SP2016/&quot; target=&quot;_blank&quot;&gt;CS 160: User Interface Design&lt;/a&gt; with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
 &lt;/section&gt;
 
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;SmartBrush in Action&lt;/h1&gt;
+&lt;div class=&quot;video-module&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
       &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
-      Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavaties and gum diseases down the road, which can hurt self-confidence in one&#39;s appearance.
+      Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavities and gum diseases down the road, which can hurt self-confidence in one&#39;s appearance.
   &lt;/div&gt;
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
     &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
@@ -108,10 +115,18 @@ We based our sketches on the User Journey Map.
   &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
   We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate an automatic transition to the next screen.
   &lt;p&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Final Flow&lt;/h3&gt;
   &lt;a href=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
   &lt;p&gt;
-   &lt;h3 class=&quot;subtitle&quot;&gt;Watch SmartBrush in action&lt;/h3&gt;
-  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Animations&lt;/h3&gt;
+  &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-5 center-block&quot;&gt;
+  &lt;img src=&quot;/img/portfolio/smartbrush/bottomrightdiagram.gif&quot; class=&quot;img-responsive&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-xs-5 center-block&quot;&gt;
+  &lt;img src=&quot;/img/portfolio/smartbrush/flossing.gif&quot; class=&quot;img-responsive&quot; /&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
 
 
 &lt;section&gt;
@@ -262,8 +277,9 @@ Because signage is often hidden and ineffective for telling people what belongs 
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
-
+&lt;div class=&quot;video-module&quot;&gt;
 &lt;iframe width=&quot;655&quot; height=&quot;375&quot; src=&quot;https://www.youtube.com/embed/xkhOMdKdvc4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;p&gt;
 We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Processing.py&lt;/a&gt;, then converted it to video so it could be played on Raspberry Pi.
 &lt;/section&gt;

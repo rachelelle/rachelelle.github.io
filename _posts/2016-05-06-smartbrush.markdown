@@ -12,10 +12,17 @@ main-img: smartbrush-main.png
   Our team of four developed an Android mobile and smartwatch application for <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank">CS 160: User Interface Design</a> with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
 </section>
 
+<section>
+<h1 class="section-title">SmartBrush in Action</h1>
+<div class="video-module">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7vfUYkNVRzE" frameborder="0" allowfullscreen></iframe>
+</div>
+</section>
+
 <div class="row">
   <div class="col-md-6 project-problem">
       <h2 class="block-title">Problem</h2>
-      Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavaties and gum diseases down the road, which can hurt self-confidence in one's appearance.
+      Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavities and gum diseases down the road, which can hurt self-confidence in one's appearance.
   </div>
   <div class="col-md-6 project-role">
     <h2 class="block-title">Role</h2>
@@ -104,10 +111,18 @@ We based our sketches on the User Journey Map.
   <h1 class="section-title">Final Prototype</h1>
   We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate an automatic transition to the next screen.
   <p>
+  <h3 class="subtitle">Final Flow</h3>
   <a href="/img/portfolio/smartbrush/finaldesignflow.png" target="_blank"><img src="/img/portfolio/smartbrush/finaldesignflow.png" class="img-responsive"></a>
   <p>
-   <h3 class="subtitle">Watch SmartBrush in action</h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7vfUYkNVRzE" frameborder="0" allowfullscreen></iframe>
+  <h3 class="subtitle">Animations</h3>
+  <div class="row">
+  <div class="col-xs-5 center-block">
+  <img src="/img/portfolio/smartbrush/bottomrightdiagram.gif" class="img-responsive">
+  </div>
+  <div class="col-xs-5 center-block">
+  <img src="/img/portfolio/smartbrush/flossing.gif" class="img-responsive">
+  </div>
+  </div>
 </section>
 
 <section>
