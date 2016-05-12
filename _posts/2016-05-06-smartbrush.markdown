@@ -14,7 +14,7 @@ main-img: smartbrush-main.png
 
 <section>
 <h1 class="section-title">SmartBrush in Action</h1>
-<div class="video-module">
+<div class="video-module responsive-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7vfUYkNVRzE" frameborder="0" allowfullscreen></iframe>
 </div>
 </section>
