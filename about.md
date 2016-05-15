@@ -25,7 +25,7 @@ permalink: /about/
 		<br>
 		<h2 class="about">linrac@gmail.com</h2>
 		<br>
-		<h2 class="about"><a href="http://twitter.com/rchlelle">@rchlelle</a></h2>
+		<h2 class="about"><a href="http://twitter.com/rchlelle" target="_blank">@rchlelle</a></h2>
 	</div>	
 
 </div>
@@ -56,11 +56,11 @@ permalink: /about/
 				<h1 class="about">Experience</h1>
 				<br>
 				<h2 class="about">
-					Product Intern at <a href="http://thredup.com">thredUP</a> • <i>June 2015-Present</i>
+					Product Intern at <a href="http://thredup.com" target="_blank">thredUP</a> • <i>June 2015-Present</i>
 					<br>
-					UI/UX Consultant at <a href="http://westfieldlabs.com">Westfield Labs</a> • <i>September 2015-May 2016</i>
+					UI/UX Consultant at <a href="http://westfieldlabs.com" target="_blank">Westfield Labs</a> • <i>September 2015-May 2016</i>
 					<br>
-					Web Development Intern at <a href="http://modern-citizen.com">Modern Citizen</a> • <i>June 2014-August 2014</i>
+					Web Development Intern at <a href="http://modern-citizen.com" target="_blank">Modern Citizen</a> • <i>June 2014-August 2014</i>
 				</h2>
 			</div>
 		</div>

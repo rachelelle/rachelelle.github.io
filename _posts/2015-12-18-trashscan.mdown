@@ -3,7 +3,7 @@ layout: post
 title:  TrashScan
 date:   2016-04-02 14:22:04 -0700
 categories: ux
-label: UX Design, Raspberry Pi
+label: Physical Design, Sustainability
 thumbnail: trashscan_thumb.png
 main-img: trashscan.jpg
 external_url: https://www.hackster.io/trashscan/trashscan-3ca9fe
