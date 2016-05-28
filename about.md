@@ -39,7 +39,7 @@ permalink: /about/
 				<h1 class="about">Education</h1>
 				<br>
 				<h2 class="about">UC Berkeley</h2>
-				<h2 class="about">Graduating May 2016</h2>
+				<h2 class="about">Graduated May 2016</h2>
 				<h3 class="about"><i class="fa fa-book fa-fw"></i> Media, Computer Science, and Design</h3>
 		</div>	
 	</div>
@@ -52,7 +52,7 @@ permalink: /about/
 			Photoshop, Illustrator, Sketch, After Effects
 				
 			<h3 class="skill-title">Interaction Design</h3>
-			User Research, Prototyping, User Testing
+			User Research, Prototyping, Usability Testing
 
 			<h3 class="skill-title">Web Development</h3>
 			HTML, CSS, JavaScript/jQuery, Ruby on Rails
