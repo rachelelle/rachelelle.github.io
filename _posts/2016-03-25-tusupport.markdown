@@ -20,7 +20,12 @@ external_url: http://support.thredup.com
   </div>
   <div class="col-md-6 project-role">
     <h2 class="block-title">Role</h2>
-      In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users. I mocked up a prototype, created additional iconography and implemented the frontend.
+      <ul>
+        <li>In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users</li>
+        <li>Ensured team of engineers met deadlines and contributed to design process</li>
+        <li>Created additional iconography</li>
+        <li>Mocked up a prototype and implemented the frontend</li>
+    </ul>
   </div>
 </div>
 

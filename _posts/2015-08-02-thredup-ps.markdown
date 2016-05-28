@@ -18,7 +18,12 @@ main-img: thredup-ps-main.png
   </div>
   <div class="col-md-6 project-role">
   	<h2 class="block-title">Role</h2>
-  		My role was conducting user research, prototyping, and conducting user testing. I worked with multiple teams, such as Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback.
+      <ul>
+        <li>Worked with multiple teams, such as Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback</li>
+        <li>Conducted user research</li>
+        <li>Iterated on prototypes</li>
+        <li>Facilitated user testing sessions</li>
+      </ul>
   	</div>
 
 </div>

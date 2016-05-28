@@ -6,21 +6,14 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 May 2016 17:23:20 -0700</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 17:23:20 -0700</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 18:20:26 -0700</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 18:20:26 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>SmartBrush</title>
         <description>&lt;section&gt;
   Our team of four developed an Android mobile and smartwatch application for &lt;a href=&quot;http://teaching.paulos.net/cs160_SP2016/&quot; target=&quot;_blank&quot;&gt;CS 160: User Interface Design&lt;/a&gt; with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;SmartBrush in Action&lt;/h1&gt;
-&lt;div class=&quot;video-module responsive-video&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -39,6 +32,13 @@
     &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;SmartBrush in Action&lt;/h1&gt;
+&lt;div class=&quot;video-module responsive-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Brainstorming&lt;/h1&gt;
@@ -198,7 +198,12 @@ Stay tuned for the updated details on this project, as we recently just wrapped 
   &lt;/div&gt;
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
     &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-      In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users. I mocked up a prototype, created additional iconography and implemented the frontend.
+      &lt;ul&gt;
+        &lt;li&gt;In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users&lt;/li&gt;
+        &lt;li&gt;Ensured team of engineers met deadlines and contributed to design process&lt;/li&gt;
+        &lt;li&gt;Created additional iconography&lt;/li&gt;
+        &lt;li&gt;Mocked up a prototype and implemented the frontend&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -354,7 +359,12 @@ We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Proc
   &lt;/div&gt;
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
   	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-  		My role was conducting user research, prototyping, and conducting user testing. I worked with multiple teams, such as Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback.
+      &lt;ul&gt;
+        &lt;li&gt;Worked with multiple teams, such as Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback&lt;/li&gt;
+        &lt;li&gt;Conducted user research&lt;/li&gt;
+        &lt;li&gt;Iterated on prototypes&lt;/li&gt;
+        &lt;li&gt;Facilitated user testing sessions&lt;/li&gt;
+      &lt;/ul&gt;
   	&lt;/div&gt;
 
 &lt;/div&gt;

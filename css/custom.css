@@ -280,11 +280,12 @@ section a:hover {
 }
 
 .about-grid {
-    /* background-color: #DEDEDE; */
+    background-color: #ffffff;
     /* margin: 0 20px; */
-    padding: 23px;
+    padding: 34px;
     line-height: 14px;
     border-radius: 2px;
+    color: #343638;
 }
 
 .about-grid a {
@@ -324,8 +325,8 @@ h3.subtitle{
 }
 
 #name-card {
-    background-color: #e2e2e2;
-    color: #835da0;
+    background-color: #343638;
+    color: #ffffff;
     line-height: 5px;
 }
 
@@ -351,6 +352,16 @@ div#education {
 }
 
 #about-grid-2{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.col-1{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.col-2{
     padding-left:0px;
     padding-right:0px;
 }
