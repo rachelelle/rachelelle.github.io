@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rachel Lin</title>
-    <description>Rachel Lin | Designer + Developer at Cal
+    <description>Rachel Lin | Designer + Developer
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 May 2016 19:05:50 -0700</pubDate>
-    <lastBuildDate>Sun, 15 May 2016 19:05:50 -0700</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 17:23:20 -0700</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 17:23:20 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -30,7 +30,13 @@
   &lt;/div&gt;
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
     &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-      I designed visual assets, animations, and the overall UX Design. I also participated in sketching concepts, developing the user journey map, and interviewing users. I implemented GifViews in Android. As the project manager, I ensured our team of engineers met deadlines and contributed to design process. 
+    &lt;ul&gt;
+      &lt;li&gt;Project Manager&lt;/li&gt;
+      &lt;li&gt;Ensured team of engineers met deadlines and contributed to design process&lt;/li&gt;
+      &lt;li&gt;Designed visual assets, animations and overall UX Design&lt;/li&gt;
+      &lt;li&gt;Sketched concepts, developed user journey map and intereviewed users&lt;/li&gt;
+      &lt;li&gt;Implemented GifViews in Android&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -166,6 +172,20 @@ We based our sketches on the User Journey Map.
       </item>
     
       <item>
+        <title>Westfield Showroom</title>
+        <description>&lt;section&gt;
+Stay tuned for the updated details on this project, as we recently just wrapped it up! If you would like to learn more in the meantime, please feel free to reach out to linrac@gmail.com.
+&lt;/section&gt;</description>
+        <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
+        <link>/ux/westfieldshowroom/</link>
+        <guid isPermaLink="true">/ux/westfieldshowroom/</guid>
+        
+        
+        <category>ux</category>
+        
+      </item>
+    
+      <item>
         <title>ThredUP Support</title>
         <description>&lt;section&gt;
   As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
@@ -234,7 +254,11 @@ TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkele
   &lt;/div&gt;
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
   	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-  		In my team of 5, my role was conducting ethnographic interviews and creating the animations in Processing.
+  		&lt;ul&gt;
+	      &lt;li&gt;Conducted ethnographic interviews and regularly met with interviewees&lt;/li&gt;
+	      &lt;li&gt;Created the animations in Processing&lt;/li&gt;
+	      &lt;li&gt;Sketched concepts and developed user&#39;s interaction with the platform&lt;/li&gt;
+    	&lt;/ul&gt;
   	&lt;/div&gt;
 
 &lt;/div&gt;
@@ -426,7 +450,12 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
   &lt;/div&gt;
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
   	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-  		As the Team Lead, I was responsible for facilitating brainstorming sessions, conducting interviews for user research, and mocking up the medium-fidelity prototype in Photoshop.
+    &lt;ul&gt;
+        &lt;li&gt;Team Lead&lt;/li&gt;
+        &lt;li&gt;Facilitated brainstorming sessions&lt;/li&gt;
+        &lt;li&gt;Conducted interviews for user research&lt;/li&gt;
+        &lt;li&gt;Mocked up the medium-fidelity prototype in Photoshop&lt;/li&gt;
+    &lt;/ul&gt;
   	&lt;/div&gt;
 
 &lt;/div&gt;
@@ -455,15 +484,17 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
+    Our attempt to show z-axis
     &lt;img src=&quot;/img/portfolio/immersio/exhibit.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;br&gt;
     &lt;img src=&quot;/img/portfolio/immersio/closeup.png&quot; class=&quot;img-responsive center-block&quot;&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;Findings from user research can pivot the original design and inform clients about the feasibility of their ideas.&lt;/li&gt;
+  &lt;li&gt;It was difficult to prototype for a 3D interface on tools that are used to design 2D interfaces.&lt;/li&gt;
 	&lt;li&gt;Designing for an unfamiliar interface such as virtual reality can be challenging with lack of design documentation, but there is more freedom to think outside of the box.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
@@ -500,10 +531,31 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
       </item>
     
       <item>
+        <title>Pixel Plots</title>
+        <description>&lt;section&gt;
+	&lt;a href=&quot;https://pixelplots.herokuapp.com/&quot;&gt;Pixel Plots&lt;/a&gt; is a Ruby on Rails app in which users can create their own unique grid designs by clicking on the pixel to either fill in it or remove the color. Users can upvote or downvote other users&#39; plots. My main role was implementing the front-end.
+&lt;/section&gt;</description>
+        <pubDate>Thu, 18 Dec 2014 13:22:04 -0800</pubDate>
+        <link>/webdev/pixelplots/</link>
+        <guid isPermaLink="true">/webdev/pixelplots/</guid>
+        
+        
+        <category>webdev</category>
+        
+      </item>
+    
+      <item>
         <title>Modern Citizen</title>
         <description>&lt;section&gt;
-&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media. 
-&lt;/section&gt;
+&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.
+&lt;h1 class=&quot;section-title&quot;&gt;Blog&lt;/h1&gt;
+We wanted to further engage our customers with content related to the brand identity of forward thinking women going places in their careers and in travel. Currently, the blog is unavailable on the website.
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Mockup&lt;/h3&gt;
+&lt;p&gt;
+&lt;img src=&quot;/img/portfolio/moderncitizen/blogmockup.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
+
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Wed, 02 Jul 2014 14:22:04 -0700</pubDate>
         <link>/webdev/moderncitizen/</link>

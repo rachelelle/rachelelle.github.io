@@ -22,7 +22,11 @@ TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/st
   </div>
   <div class="col-md-6 project-role">
   	<h2 class="block-title">Role</h2>
-  		In my team of 5, my role was conducting ethnographic interviews and creating the animations in Processing.
+  		<ul>
+	      <li>Conducted ethnographic interviews and regularly met with interviewees</li>
+	      <li>Created the animations in Processing</li>
+	      <li>Sketched concepts and developed user's interaction with the platform</li>
+    	</ul>
   	</div>
 
 </div>

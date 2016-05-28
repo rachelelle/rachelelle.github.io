@@ -26,7 +26,13 @@ main-img: smartbrush-main.png
   </div>
   <div class="col-md-6 project-role">
     <h2 class="block-title">Role</h2>
-      I designed visual assets, animations, and the overall UX Design. I also participated in sketching concepts, developing the user journey map, and interviewing users. I implemented GifViews in Android. As the project manager, I ensured our team of engineers met deadlines and contributed to design process. 
+    <ul>
+      <li>Project Manager</li>
+      <li>Ensured team of engineers met deadlines and contributed to design process</li>
+      <li>Designed visual assets, animations and overall UX Design</li>
+      <li>Sketched concepts, developed user journey map and intereviewed users</li>
+      <li>Implemented GifViews in Android</li>
+    </ul>
   </div>
 </div>
 

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Westfield Showroom
+date:   2016-04-02 14:22:04 -0700
+categories: ux
+label: Service Design, Mobile Design
+thumbnail: westfieldlabs.png
+main-img: westfieldlabs_main.png
+---
+<section>
+Stay tuned for the updated details on this project, as we recently just wrapped it up! If you would like to learn more in the meantime, please feel free to reach out to linrac@gmail.com.
+</section>

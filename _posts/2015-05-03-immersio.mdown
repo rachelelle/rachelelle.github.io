@@ -19,7 +19,12 @@ external_url: https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Mus
   </div>
   <div class="col-md-6 project-role">
   	<h2 class="block-title">Role</h2>
-  		As the Team Lead, I was responsible for facilitating brainstorming sessions, conducting interviews for user research, and mocking up the medium-fidelity prototype in Photoshop.
+    <ul>
+        <li>Team Lead</li>
+        <li>Facilitated brainstorming sessions</li>
+        <li>Conducted interviews for user research</li>
+        <li>Mocked up the medium-fidelity prototype in Photoshop</li>
+    </ul>
   	</div>
 
 </div>
@@ -48,15 +53,17 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 <section>
   <h1 class="section-title">Prototyping</h1>
+    Our attempt to show z-axis
     <img src="{{ site.baseurl }}/img/portfolio/immersio/exhibit.png" class="img-responsive center-block">
     <br>
     <img src="{{ site.baseurl }}/img/portfolio/immersio/closeup.png" class="img-responsive center-block">
 </section>
 
 <section>
-<h1 class="section-title">Takeaways</h1>
+<h1 class="section-title">Challenges</h1>
 <ul>
 	<li>Findings from user research can pivot the original design and inform clients about the feasibility of their ideas.</li>
+  <li>It was difficult to prototype for a 3D interface on tools that are used to design 2D interfaces.</li>
 	<li>Designing for an unfamiliar interface such as virtual reality can be challenging with lack of design documentation, but there is more freedom to think outside of the box.</li>
 </ul>
 </section>
