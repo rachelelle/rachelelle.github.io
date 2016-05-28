@@ -274,7 +274,7 @@ section a:hover {
 .profile-image {
     border: 8px solid #fff;
     border-radius: 2px;
-    height: 350px;
+    max-height: 350px;
     overflow: hidden;
     padding: 0px;
 }

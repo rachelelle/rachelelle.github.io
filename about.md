@@ -5,7 +5,6 @@ permalink: /about/
 ---
 <div class="clearfix row">
 	<div class="col-md-12 profile-image">
-		<div class="about-img-caption">Photo by Jeremy Hsu</div>
 		<img src="{{ site.baseurl }}/img/about/rachel.jpg" class="img-responsive">
 	</div>
 </div>
