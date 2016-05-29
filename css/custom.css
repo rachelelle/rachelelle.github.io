@@ -338,6 +338,7 @@ div#skills {
     font-family: 'Oxygen';
     letter-spacing: 0.5px;
     line-height: 18px;
+    font-weight: 300;
 }
 
 div#experience {
