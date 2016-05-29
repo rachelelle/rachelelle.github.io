@@ -49,7 +49,7 @@ permalink: /about/
 			<h1 class="about">Skills</h1>
 			<br>
 			<h3 class="skill-title">Visual Design</h3>
-			Photoshop, Illustrator, Sketch, After Effects
+			Photoshop, Illustrator, Sketch, Keynote, After Effects, Processing
 				
 			<h3 class="skill-title">Interaction Design</h3>
 			User Research, Prototyping, Usability Testing
@@ -62,6 +62,8 @@ permalink: /about/
 
 			<h3 class="skill-title">Physical Design</h3>
 				Arduino/Raspberry Pi, 3D Printing
+			<h3 class="skill-title">Foreign Languages</h3>
+				Mandarin Chinese
 		</div>
 
 		<div class="about-grid" id="contact">
