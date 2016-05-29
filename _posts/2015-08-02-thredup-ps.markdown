@@ -56,6 +56,10 @@ We also further refined the idea of creating a Style Profile for every account i
 	I prototyped the <a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank">first iteration</a> in FramerJS.
   <br>
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
+  <p>
+  <div class="cta">
+    <a href="{{ page.external_url }}" target="_blank">View Prototype</a>
+  </div>
   <br>
   <br>
   <h3 class="subtitle">Findings</h3>
@@ -66,7 +70,11 @@ We also further refined the idea of creating a Style Profile for every account i
 
 <section>
   <h1 class="section-title">Prototype v 2.0</h1>
-  Since I had limited time to conduct another user test, I tested internally. See my second iteration <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank">here</a>.
+  Since I had limited time to conduct another user test, I tested this prototype internally. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
+  <p>
+  <div class="cta">
+    <a href="{{ page.external_url }}" target="_blank">View Prototype</a>
+  </div>
   <br>
   <br>
   <h3 class="subtitle">Findings</h3>

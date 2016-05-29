@@ -140,7 +140,7 @@ img.logo {
 }
 
 .portfolio-content {
-    margin-top: 50px;
+    margin-top: 40px;
     color: #404040;
     font-family: 'Oxygen', sans-serif;
     line-height: 30pt;
@@ -435,3 +435,28 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+.cta {
+    text-align: center;
+    /* text-decoration: none; */
+}
+
+.cta a{
+    border: 1px solid #835DA0;
+    padding: 15px 60px;
+    color: #835DA0;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.cta a:hover {
+    background-color: #835DA0;
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
