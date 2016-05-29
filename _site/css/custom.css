@@ -144,7 +144,7 @@ img.logo {
     color: #404040;
     font-family: 'Oxygen', sans-serif;
     line-height: 30pt;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.5pt;
 }
@@ -315,10 +315,18 @@ h2.about {
 h2.block-title {font-family: 'Montserrat';margin: 0px;font-size: 22px;margin-bottom: 10px;}
 
 h3.subtitle{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     font-family: Montserrat;
-    color: #BA6FF5;
+    color: #791dc1;
+    /* width: 20%; */
+    padding: 12px 5px;
+    /* padding-right: 10px; */
+    /* text-decoration: underline; */
+    border-bottom: 2px solid #791dc1;
+    /* line-height: 23px; */
+    /* padding-bottom: 10px; */
+    display: table;
 }
 
 .page-content {
