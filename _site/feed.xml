@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 May 2016 22:04:00 -0700</pubDate>
-    <lastBuildDate>Sat, 28 May 2016 22:04:00 -0700</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 17:28:30 -0700</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 17:28:30 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -258,7 +258,7 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
       <item>
         <title>TrashScan</title>
         <description>&lt;section&gt;
-TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot;&gt;Hackster&lt;/a&gt;. 
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot; target=&quot;_blank&quot;&gt;Hackster&lt;/a&gt;. 
 &lt;br&gt;
 &lt;br&gt;
 TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot; target=&quot;_blank&quot;&gt;Project Spotlight&lt;/a&gt; for the &lt;a href=&quot;http://jacobsinstitute.berkeley.edu&quot; target=&quot;_blank&quot;&gt;Jacobs Institute for Design Innovation&lt;/a&gt;. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
@@ -272,6 +272,7 @@ TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkele
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
   	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
   		&lt;ul&gt;
+  		  &lt;li&gt;Project manager&lt;/li&gt;	
 	      &lt;li&gt;Conducted ethnographic interviews and regularly met with interviewees&lt;/li&gt;
 	      &lt;li&gt;Created the animations in Processing&lt;/li&gt;
 	      &lt;li&gt;Sketched concepts and developed user&#39;s interaction with the platform&lt;/li&gt;
@@ -322,26 +323,41 @@ Because signage is often hidden and ineffective for telling people what belongs 
 &lt;iframe width=&quot;655&quot; height=&quot;375&quot; src=&quot;https://www.youtube.com/embed/xkhOMdKdvc4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;
-We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Processing.py&lt;/a&gt;, then converted it to video so it could be played on Raspberry Pi.
+We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Processing.py&lt;/a&gt;, then converted it to video so it could be played on Raspberry Pi. After an object is identified and sorted into its corresponding bin, the monitor will play the animation for its bin. We included sound to help the user remember which bin the object belongs to. For the &lt;strong&gt;Compost&lt;/strong&gt; bin, we play a victorious sound to encourage composting; for &lt;strong&gt;Landfill&lt;/strong&gt; we play a sad sound to discourage putting waste in the landfill. Fun facts on the screen encourages education as part of the user&#39;s interaction with the platform.
 &lt;p&gt;
-&lt;!-- &lt;div class=&quot;video-module responsive-video&quot;&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Greeting Screen&lt;/h3&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/166338989&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https://vimeo.com/166338989&quot;&gt;TrashScan - Home&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/rachelelle&quot;&gt;rachel&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt; --&gt;
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Compost Sort&lt;/h3&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/168866419&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Bottles &amp; Cans Sort&lt;/h3&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/168866418&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Mixed Paper Sort&lt;/h3&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/168866582&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Landfill Sort&lt;/h3&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/168866581&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Final Thoughts&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;strong&gt;For Future Iterations&lt;/strong&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Challenges&lt;/h3&gt;
+	&lt;li&gt;The object detection was sensitive to the lighting of the room so it had to be readjusted whenever we presented it in a different setting.&lt;/li&gt;
+	&lt;li&gt;We faced technical limitations from the Raspberry Pi in playing the Processing graphics directly using our Python code, but we were able to overcome this problem by rendering the motion animation as a video.&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;ul&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;For Future Iterations&lt;/h3&gt;
 	&lt;li&gt;Companion application for mobile&lt;/li&gt;
-	&lt;li&gt;Detecting multiple objects&lt;/li&gt;
-	&lt;li&gt;Detecting edge cases (plastic vs. compostable spoon)&lt;/li&gt;
+	&lt;li&gt;The ability to detect multiple objects (e.g. a tray of plate and food)&lt;/li&gt;
+	&lt;li&gt;Accounting for edge cases (plastic vs. compostable spoon)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;ul&gt;
-&lt;strong&gt;Credit&lt;/strong&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Credit&lt;/h3&gt;
 	&lt;li&gt;Machine Learning: Jessie Salas&lt;/li&gt;
 	&lt;li&gt;Ethnographic Interviews: Rachel Lin&lt;/li&gt;
 	&lt;li&gt;Animations &amp; Frontend: Rachel Lin, Chonyi Lama&lt;/li&gt;
@@ -518,10 +534,24 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
-    Our attempt to show z-axis
+    We attempted to show the z-axis space. images were designed in Photoshop.
+    &lt;h3 class=&quot;subtitle&quot;&gt;Exhibition Selection&lt;/h3&gt;
+    3D panels of museum exhibits shown in chronological order of exhibition.
     &lt;img src=&quot;/img/portfolio/immersio/exhibit.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;br&gt;
+    &lt;h3 class=&quot;subtitle&quot;&gt;Gallery View&lt;/h3&gt;
+    The user experiences the gallery as though they are in the center of the space. The user uses the game controller to select which exhibits he would like to take a closer look at. 
+    &lt;img src=&quot;/img/portfolio/immersio/galleryview.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;br&gt;
+    &lt;h3 class=&quot;subtitle&quot;&gt;Artwork Close-up&lt;/h3&gt;
+    The viewer has the option to either zoom-in on the artwork or view more information, such as commentary about the work.
     &lt;img src=&quot;/img/portfolio/immersio/closeup.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
+  The final product was created in Unity. It was built at &lt;a href=&quot;http://devpost.com/software/techne-virtual-reality-art-gallery&quot; target=&quot;_blank&quot;&gt;GigHacks SF&lt;/a&gt;.
+  &lt;img src=&quot;/img/portfolio/immersio.png&quot; class=&quot;img-responsive center-block&quot;&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
@@ -591,7 +621,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Blog&lt;/h1&gt;
-We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. Currently, the blog is unavailable on the website.
+We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. It is structured by 3 square images for feature stories and 3 columns for each blog post. Currently, the blog is unavailable on the website.
 &lt;p&gt;
 &lt;h3 class=&quot;subtitle&quot;&gt;Mockup&lt;/h3&gt;
 &lt;p&gt;

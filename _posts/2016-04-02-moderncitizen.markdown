@@ -16,7 +16,7 @@ external_url: http://modern-citizen.com
 </section>
 <section>
 <h1 class="section-title">Blog</h1>
-We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. Currently, the blog is unavailable on the website.
+We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. It is structured by 3 square images for feature stories and 3 columns for each blog post. Currently, the blog is unavailable on the website.
 <p>
 <h3 class="subtitle">Mockup</h3>
 <p>

@@ -98,7 +98,7 @@
 
   <div class="post-content portfolio-content" itemprop="articleBody">
     <section>
-TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles & cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I've only included the highlights of the project here, but a more comprehensive write-up can be found on <a href="https://www.hackster.io/trashscan/trashscan-3ca9fe">Hackster</a>. 
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles & cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I've only included the highlights of the project here, but a more comprehensive write-up can be found on <a href="https://www.hackster.io/trashscan/trashscan-3ca9fe" target="_blank">Hackster</a>. 
 <br>
 <br>
 TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/student-project/trashscan/" target="_blank">Project Spotlight</a> for the <a href="http://jacobsinstitute.berkeley.edu" target="_blank">Jacobs Institute for Design Innovation</a>. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
@@ -112,6 +112,7 @@ TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/st
   <div class="col-md-6 project-role">
   	<h2 class="block-title">Role</h2>
   		<ul>
+  		  <li>Project manager</li>	
 	      <li>Conducted ethnographic interviews and regularly met with interviewees</li>
 	      <li>Created the animations in Processing</li>
 	      <li>Sketched concepts and developed user's interaction with the platform</li>
@@ -162,26 +163,41 @@ Because signage is often hidden and ineffective for telling people what belongs 
 <iframe width="655" height="375" src="https://www.youtube.com/embed/xkhOMdKdvc4" frameborder="0" allowfullscreen></iframe>
 </div>
 <p>
-We made animations with <a href="http://py.processing.org/">Processing.py</a>, then converted it to video so it could be played on Raspberry Pi.
+We made animations with <a href="http://py.processing.org/">Processing.py</a>, then converted it to video so it could be played on Raspberry Pi. After an object is identified and sorted into its corresponding bin, the monitor will play the animation for its bin. We included sound to help the user remember which bin the object belongs to. For the <strong>Compost</strong> bin, we play a victorious sound to encourage composting; for <strong>Landfill</strong> we play a sad sound to discourage putting waste in the landfill. Fun facts on the screen encourages education as part of the user's interaction with the platform.
 <p>
-<!-- <div class="video-module responsive-video">
+<h3 class="subtitle">Greeting Screen</h3>
 <iframe src="https://player.vimeo.com/video/166338989" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/166338989">TrashScan - Home</a> from <a href="https://vimeo.com/rachelelle">rachel</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-</div> -->
+<p>
+<h3 class="subtitle">Compost Sort</h3>
+<iframe src="https://player.vimeo.com/video/168866419" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>
+<h3 class="subtitle">Bottles & Cans Sort</h3>
+<iframe src="https://player.vimeo.com/video/168866418" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>
+<h3 class="subtitle">Mixed Paper Sort</h3>
+<iframe src="https://player.vimeo.com/video/168866582" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>
+<h3 class="subtitle">Landfill Sort</h3>
+<iframe src="https://player.vimeo.com/video/168866581" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </section>
 
 <section>
 <h1 class="section-title">Final Thoughts</h1>
 
 <ul>
-<strong>For Future Iterations</strong>
+<h3 class="subtitle">Challenges</h3>
+	<li>The object detection was sensitive to the lighting of the room so it had to be readjusted whenever we presented it in a different setting.</li>
+	<li>We faced technical limitations from the Raspberry Pi in playing the Processing graphics directly using our Python code, but we were able to overcome this problem by rendering the motion animation as a video.</li>
+	</ul>
+<ul>
+<h3 class="subtitle">For Future Iterations</h3>
 	<li>Companion application for mobile</li>
-	<li>Detecting multiple objects</li>
-	<li>Detecting edge cases (plastic vs. compostable spoon)</li>
+	<li>The ability to detect multiple objects (e.g. a tray of plate and food)</li>
+	<li>Accounting for edge cases (plastic vs. compostable spoon)</li>
 </ul>
 <p>
 <ul>
-<strong>Credit</strong>
+<h3 class="subtitle">Credit</h3>
 	<li>Machine Learning: Jessie Salas</li>
 	<li>Ethnographic Interviews: Rachel Lin</li>
 	<li>Animations & Frontend: Rachel Lin, Chonyi Lama</li>
