@@ -8,7 +8,7 @@ thumbnail: thredup-ps.png
 main-img: thredup-ps-main.png
 ---
 <section>
-    Last summer, I had the honor of interning at <a href="http://thredup.com" target="_blank">ThredUP</a>, the world's largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+    Last summer, I had the privilege of interning at <a href="http://thredup.com" target="_blank">ThredUP</a>, the world's largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
 </section>
 
 <div class="row">
@@ -176,8 +176,8 @@ We also further refined the idea of creating a Style Profile for every account i
   <br>
   <br>
   <h3 class="subtitle">Findings</h3>
-    <li>Web first, mobile will follow.</li>
-    <li>There are mixed feelings about the heart iconography</li>
+    <li>We should rolllout to web, instead of mobile first.</li>
+    <li>There were mixed reactions to the heart iconography</li>
 </section>
 
 <section>
