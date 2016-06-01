@@ -21,6 +21,7 @@ external_url: https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Mus
   	<h2 class="block-title">Role</h2>
     <ul>
         <li>Team Lead</li>
+        <li>Advised our client to pursue a more feasible virtual reality experience for museums rather than art galleries</li>
         <li>Facilitated brainstorming sessions</li>
         <li>Conducted interviews for user research</li>
         <li>Mocked up the medium-fidelity prototype in Photoshop</li>

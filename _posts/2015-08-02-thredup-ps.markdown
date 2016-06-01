@@ -53,12 +53,12 @@ We also further refined the idea of creating a Style Profile for every account i
 
 <section>
 	<h1 class="section-title">Prototype v 1.0</h1>
-	I prototyped the <a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank">first iteration</a> in FramerJS.
+	I prototyped the first iteration in FramerJS.
   <br>
   After my first user test, I gained a lot of helpful insights for improving the next iteration.
   <p>
   <div class="cta">
-    <a href="{{ page.external_url }}" target="_blank">View Prototype</a>
+    <a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank">View Prototype</a>
   </div>
   <br>
   <br>
@@ -73,13 +73,22 @@ We also further refined the idea of creating a Style Profile for every account i
   Since I had limited time to conduct another user test, I tested this prototype internally. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   <p>
   <div class="cta">
-    <a href="{{ page.external_url }}" target="_blank">View Prototype</a>
+    <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank">View Prototype</a>
   </div>
   <br>
   <br>
   <h3 class="subtitle">Findings</h3>
     <li>Web first, mobile will follow.</li>
     <li>There are mixed feelings about the heart iconography</li>
+</section>
+
+<section>
+<h1 class="section-title">Challenges</h1>
+<ul>
+  <li>Involve other stakeholders earlier in the process to learn about potential contraints.</li>
+  <li>Simplicity and elegance rules. Think about information hierachy when considering the visual. Only emphasize what needs to be emphasized. </li>
+  <li>Don't be afraid to go deeper into understanding users' behaviors by constantly asking "why" questions during user testing.</li>
+</ul>
 </section>
 
 <section>
