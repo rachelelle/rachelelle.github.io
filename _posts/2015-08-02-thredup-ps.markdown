@@ -139,7 +139,7 @@ We also further refined the idea of creating a Style Profile for every account i
         <div class="item">
             <img src="/img/portfolio/thredup-ps/v2-edit.png" alt="Second Slide">
             <div class="carousel-caption active">
-            Notify the user about saving a search to Pocket, where all of the saved searches are stored
+            The user can easily edit, delete, and modify notification settings for the saved search.
             </div>
         </div>
         <div class="item">
@@ -183,7 +183,7 @@ We also further refined the idea of creating a Style Profile for every account i
 <section>
 <h1 class="section-title">Challenges</h1>
 <ul>
-  <li>It was tempting to include many new features for the redesign of Personal Shops, but I learned to prioritize features and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.</li>
+  <li>It was tempting to include many new features for the redesign of Personal Shops, but I learned to <strong>prioritize features</strong> and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.</li>
   <li>I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solutions for web.</li>
 </ul>
 </section>
