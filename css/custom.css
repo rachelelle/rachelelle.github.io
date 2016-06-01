@@ -250,7 +250,7 @@ h1.category-title {
 
 h1.section-title {
     font-family: 'Montserrat',sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin: 21px 0px;
 }
@@ -315,7 +315,7 @@ h2.about {
 h2.block-title {font-family: 'Montserrat';margin: 0px;font-size: 22px;margin-bottom: 10px;}
 
 h3.subtitle{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     font-family: Montserrat;
     color: #791dc1;
