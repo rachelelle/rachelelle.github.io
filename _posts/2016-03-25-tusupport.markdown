@@ -36,7 +36,7 @@ external_url: http://support.thredup.com
 <section>
 <h1 class="section-title">Design Process</h1>
 <p>
-Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question under the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
+Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question among the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
 </p>
 <p>
 <img src="{{ site.baseurl }}/img/portfolio/tusupport/sketch.jpg" class="img-responsive center-block">
@@ -51,7 +51,7 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 
 <section>
   <h1 class="section-title">Prototyping</h1>
-  Based on the sketch I drew during the design process, I made a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to get their feedback.
+  Based on the sketch I drew during the design process, I created a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to receive feedback before I proceeded to code the changes in Zendesk.
   <p>
   <div class="cta">
     <a href="https://marvelapp.com/8aijdh" target="_blank">View Prototype</a>
@@ -60,9 +60,18 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 
 <section>
   <h1 class="section-title">Final Product</h1>
-  I coded the website in HTML, CSS, and JavaScript/jQuery. A second iteration with the left sliding sidebar will be released soon. 
+  I coded the website in HTML, CSS, and JavaScript/jQuery. The new website format of <strong>toggling between categories</strong> based on the two different user roles (Selling and Shopping) has proven to be a easier way for users to find answers to their questions. The addition of <strong>iconography</strong> to sections titles allows users to easily identify which section their question belongs to. As a result, Customer Support team has been experiencing <strong>less direct emails since launch</strong>. A second iteration with the left sliding sidebar will be released soon. 
  <p>
- <div class="cta">
+  <div class="cta">
   <a href="{{ page.external_url }}" target="_blank">Visit Site</a>
 </div>
+<p>
+ <h3 class="subtitle">Home Page</h3>
+ <img src="{{ site.baseurl }}/img/portfolio/tusupport/homepage.png" class="img-responsive center-block">
+ <p>
+ <h3 class="subtitle">Category Page</h3>
+ <img src="{{ site.baseurl }}/img/portfolio/tusupport/sectionpage.png" class="img-responsive center-block">
+ <p>
+ <h3 class="subtitle">Article Page</h3>
+ <img src="{{ site.baseurl }}/img/portfolio/tusupport/article.png" class="img-responsive center-block">
 </section>

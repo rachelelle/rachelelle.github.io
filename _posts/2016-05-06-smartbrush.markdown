@@ -9,7 +9,7 @@ main-img: smartbrush-main.png
 ---
 
 <section>
-  Our team of four developed an Android mobile and smartwatch application for <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank">CS 160: User Interface Design</a> with a focus on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
+  Our team of four developed an Android mobile and smartwatch application for <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank">CS 160: User Interface Design</a>, its final project focusing on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
 </section>
 
 <div class="row">
@@ -20,7 +20,7 @@ main-img: smartbrush-main.png
   <div class="col-md-6 project-role">
     <h2 class="block-title">Role</h2>
     <ul>
-      <li>Project Manager</li>
+      <li>Project Manager and Lead Designer</li>
       <li>Ensured team of engineers met deadlines and contributed to design process</li>
       <li>Designed visual assets, animations and overall UX Design</li>
       <li>Sketched concepts, developed user journey map and intereviewed users</li>
@@ -63,10 +63,10 @@ We based our sketches on the User Journey Map.
   <li>Quickbrush</li>
   <li>Aquafresh Brush Time</li>
   <p>
+  With the plethora of dental hygiene apps for children, we wanted to differentiate and focus on designing an app for a slightly older user base of young teens to young adults.
+  <p>
   <h3 class="subtitle">User Interviews</h3>
-  <li>Dental Assistant</li>
-  <li>Mother of Two</li>
-  <li>Teenage Student</li>
+  Our initial interviews with a <strong>dental assistant, mother of two children, and a teenage student</strong> allowed us to dive deeper into identifying the user's top needs and primary tasks for our app. The dental assistant emphasized the importance of <strong>flossing</strong> and finding ways to <strong>entertain children</strong> so that they would be motivated to brush their teeth. The mother shared with us how influential parents are for teaching their children about dental hygiene. The teenage student revealed his dental hygiene habits and how it is tied with his <strong>self-esteem in regards to physical appearance</strong>. He also suggested an aspect of <strong>gamification</strong> to make the experience of brushing teeth and flossing more enjoyable. We took all of these findings into account in our process of building features.
   <p>
   <h3 class="subtitle">Top 5 User Needs</h3>
   <li>Have a fun and entertaining experience so brushing teeth won’t feel like a hassle.</li>
@@ -86,9 +86,20 @@ We based our sketches on the User Journey Map.
   <li>Checking Progress and Rankings</li>
   <p>
   <h3 class="subtitle">Version 1.0</h3>
-  View the first wireframe in greater detail <a href="https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public" target="_blank">here</a>.
+  <img src="/img/portfolio/smartbrush/wireframev1.png" class="img-responsive">
+  <p>
+  <div class="cta">
+  <a href="https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public" target="_blank">View Wireframe</a>
+ </div>
   <p>
  <h3 class="subtitle">Version 2.0</h3>
+ <img src="/img/portfolio/smartbrush/wireframev2.png" class="img-responsive">
+  <p>
+  <div class="cta">
+  <a href="https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public" target="_blank">View Wireframe</a>
+  </div>
+  <p>
+ </div>
   After receiving feedback from TAs, usability testing participants, and fellow students, here are the key changes made for the second version:
   <p>
   <table class="table table-bordered">
@@ -108,14 +119,13 @@ We based our sketches on the User Journey Map.
     <td></td>
   </tr>
 </table>	
-  View the second version wireframe in greater detail <a href="https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public" target="_blank">here</a>.
 <p>
 <img src="/img/portfolio/smartbrush/branding.png" class="img-responsive">
 </section>
 
 <section>
   <h1 class="section-title">Final Prototype</h1>
-  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the timer countdown for the Brushing Screens reach 0, the watch will vibrate to indicate an automatic transition to the next screen.
+  We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the 15-second timer for the Brushing Screens reaches 0, the watch will vibrate to indicate an automatic transition to the next screen.
   <p>
   <h3 class="subtitle">Final Flow</h3>
   <a href="/img/portfolio/smartbrush/finaldesignflow.png" target="_blank"><img src="/img/portfolio/smartbrush/finaldesignflow.png" class="img-responsive"></a>
