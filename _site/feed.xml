@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 18:59:42 -0700</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 18:59:42 -0700</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 19:17:51 -0700</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 19:17:51 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -535,7 +535,7 @@ We visited art galleries in Downtown San Francisco and interviewed gallery owner
 &lt;br&gt;
 &lt;br&gt;
 &lt;ul&gt;
-&lt;strong&gt;Findings:&lt;/strong&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
   &lt;li&gt;We faced concern and resistance from art gallery owners and art buyers.&lt;/li&gt;
   &lt;li&gt;It didn’t make sense for them to experience art virtually; they must see art in person before they consider purchasing.&lt;/li&gt;
 &lt;/ul&gt; 
@@ -545,7 +545,7 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 &lt;section&gt;
 	&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
-    Primary tasks:
+   &lt;h3 class=&quot;subtitle&quot;&gt;Primary Tasks&lt;/h3&gt;
     &lt;li&gt;Selecting exhibits based on chronological order of exhibition&lt;/li&gt;
     &lt;li&gt;Archiving&lt;/li&gt;
     &lt;li&gt;Viewing artworks&lt;/li&gt;

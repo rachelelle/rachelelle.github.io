@@ -35,7 +35,7 @@ We visited art galleries in Downtown San Francisco and interviewed gallery owner
 <br>
 <br>
 <ul>
-<strong>Findings:</strong>
+<h3 class="subtitle">Findings</h3>
   <li>We faced concern and resistance from art gallery owners and art buyers.</li>
   <li>It didn’t make sense for them to experience art virtually; they must see art in person before they consider purchasing.</li>
 </ul> 
@@ -45,7 +45,7 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 <section>
 	<h1 class="section-title">Design Process</h1>
-    Primary tasks:
+   <h3 class="subtitle">Primary Tasks</h3>
     <li>Selecting exhibits based on chronological order of exhibition</li>
     <li>Archiving</li>
     <li>Viewing artworks</li>
