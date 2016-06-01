@@ -25,7 +25,6 @@ external_url: http://support.thredup.com
     <h2 class="block-title">Role</h2>
       <ul>
         <li>In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users</li>
-        <li>Ensured team of engineers met deadlines and contributed to design process</li>
         <li>Created additional iconography</li>
         <li>Mocked up a prototype in Marvel</li>
         <li>Implemented the frontend in HTML, CSS, JavaScript/jQuery</li>

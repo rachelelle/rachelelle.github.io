@@ -20,6 +20,15 @@ $(document).ready(function(){
 			height: 0
 		}, 400);
 	});
+
+	 $("#myCarousel").carousel({
+         interval : false
+     });
+
+
+	 $("#v2Carousel").carousel({
+         interval : false
+     });
 });
 
 
