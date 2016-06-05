@@ -250,9 +250,10 @@ h1.category-title {
 
 h1.section-title {
     font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     margin: 21px 0px;
+    /* text-transform: uppercase; */
 }
 
 section {

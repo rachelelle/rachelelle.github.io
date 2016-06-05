@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jun 2016 14:48:15 -0700</pubDate>
-    <lastBuildDate>Wed, 01 Jun 2016 14:48:15 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Jun 2016 21:16:25 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Jun 2016 21:16:25 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -395,7 +395,7 @@ We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Proc
       <item>
         <title>ThredUP Personal Shops 2.0</title>
         <description>&lt;section&gt;
-    Last summer, I had the honor of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+    Last summer, I had the privilege of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -526,7 +526,7 @@ We also further refined the idea of creating a Style Profile for every account i
         &lt;div class=&quot;item&quot;&gt;
             &lt;img src=&quot;/img/portfolio/thredup-ps/v2-edit.png&quot; alt=&quot;Second Slide&quot; /&gt;
             &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Notify the user about saving a search to Pocket, where all of the saved searches are stored
+            The user can easily edit, delete, and modify notification settings for the saved search.
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;item&quot;&gt;
@@ -563,16 +563,15 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;br /&gt;
   &lt;br /&gt;
   &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
-    &lt;li&gt;Web first, mobile will follow.&lt;/li&gt;
-    &lt;li&gt;There are mixed feelings about the heart iconography&lt;/li&gt;
+    &lt;li&gt;We should rolllout to web, instead of mobile first.&lt;/li&gt;
+    &lt;li&gt;There were mixed reactions to the heart iconography&lt;/li&gt;
 
 
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
 &lt;ul&gt;
-  &lt;li&gt;Involve other stakeholders earlier in the process to learn about potential contraints.&lt;/li&gt;
-  &lt;li&gt;Simplicity and elegance rules. Think about information hierachy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
-  &lt;li&gt;Don&#39;t be afraid to go deeper into understanding users&#39; behaviors by constantly asking &quot;why&quot; questions during user testing.&lt;/li&gt;
+  &lt;li&gt;It was tempting to include many new features for the redesign of Personal Shops, but I learned to &lt;strong&gt;prioritize features&lt;/strong&gt; and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.&lt;/li&gt;
+  &lt;li&gt;I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solutions for web.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
 
@@ -660,9 +659,9 @@ Based on our findings, we decided to pivot from the original prompt to designing
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
-    We attempted to show the z-axis space. images were designed in Photoshop.
+    We aimed to prototype in a way that appeared as though it were in a 3D space. 
     &lt;h3 class=&quot;subtitle&quot;&gt;Exhibition Selection&lt;/h3&gt;
-    3D panels of museum exhibits shown in chronological order of exhibition.
+    3D curved panels of museum exhibits shown in chronological order of exhibition. The user would be able to turn his head or use the game controller to rotate between panels that hung in a circle formation. The highlight effect would show the state that the current panel is being selected. Upon selection, the panel will gradually fade into the chosen exhibit environment, as though the user has transported to a different location. This is how we wanted to achieve as much of an immersive experience as possible.
     &lt;img src=&quot;/img/portfolio/immersio/exhibit.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;br&gt;
     &lt;h3 class=&quot;subtitle&quot;&gt;Gallery View&lt;/h3&gt;
@@ -678,6 +677,9 @@ Based on our findings, we decided to pivot from the original prompt to designing
   &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
   The final product was created in Unity. It was built at &lt;a href=&quot;http://devpost.com/software/techne-virtual-reality-art-gallery&quot; target=&quot;_blank&quot;&gt;GigHacks SF&lt;/a&gt;.
   &lt;img src=&quot;/img/portfolio/immersio.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+  &lt;p&gt;
+  We used an Oculus Rift to demo our product.
+  &lt;img src=&quot;/img/portfolio/immersio/showcase.jpg&quot; class=&quot;img-responsive center-block&quot;&gt;
 &lt;/section&gt;
 
 &lt;section&gt;
