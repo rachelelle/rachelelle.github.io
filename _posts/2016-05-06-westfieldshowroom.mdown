@@ -8,5 +8,5 @@ thumbnail: westfieldlabs.png
 main-img: westfieldlabs_main.png
 ---
 <section>
-Stay tuned for the updated details on this project, as we recently just wrapped it up! If you would like to learn more in the meantime, please feel free to reach out to linrac@gmail.com.
+Stay tuned for the updated details on this project, as we recently just wrapped it up! If you would like to learn more in the meantime, please feel free to reach out to rachellin@berkeley.edu.
 </section>

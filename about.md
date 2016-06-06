@@ -22,6 +22,11 @@ permalink: /about/
 			<br>
 			<h4 class="about"><i class="fa fa-heart fa-fw"></i>  art history, fashion, badminton, coffee, cooking, and baking</h4>
 			<br>
+			<div class="view-resume">
+			<a href="https://dl.dropboxusercontent.com/u/43037053/RachelLinResume.pdf" target="_blank">
+				Resume
+			</a>
+			</div>
 		</div>
 
 		<div class="about-grid" id="experience">
