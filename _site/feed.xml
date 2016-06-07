@@ -6,9 +6,228 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jun 2016 11:34:31 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Jun 2016 11:34:31 -0700</lastBuildDate>
+    <pubDate>Mon, 06 Jun 2016 21:44:57 -0700</pubDate>
+    <lastBuildDate>Mon, 06 Jun 2016 21:44:57 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>ThredUP Personal Shops 2.0</title>
+        <description>&lt;section&gt;
+    Last summer, I had the privilege of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+  		  Only a very small percentage of users onboarded to the feature (not allowed to disclose figures), yet its users have the highest average order values.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+      &lt;ul&gt;
+      &lt;li&gt;Led strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.&lt;/li&gt;
+        &lt;li&gt;Worked closely with Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback&lt;/li&gt;
+        &lt;li&gt;Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.&lt;/li&gt;
+      &lt;/ul&gt;
+  	&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Data Analysis&lt;/h1&gt;
+
+I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Survey &amp;amp; Initial Research&lt;/h1&gt;
+I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
+&lt;br /&gt;
+&lt;br /&gt;
+Based on my phone interviews with the users, I created a mental model to understand the user&#39;s train of thought.
+  &lt;h3 class=&quot;subtitle&quot;&gt;Mental Model&lt;/h3&gt;
+    &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
+    &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
+    &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
+    &lt;li&gt;Will these items fit me?&lt;/li&gt;
+    &lt;li&gt;Will it save me search time?&lt;/li&gt;
+    &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
+&lt;br /&gt;
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Style Profile&lt;/h3&gt;
+We also further refined the idea of creating a Style Profile for every account in order to &lt;strong&gt;set Sizes and top 10 brands&lt;/strong&gt;, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
+
+
+&lt;section&gt;
+	&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
+	The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
+  &lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
+  &lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
+  &lt;p&gt;
+  &lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+    &lt;!-- Carousel indicators --&gt;
+    &lt;!-- Wrapper for carousel items --&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+        &lt;div class=&quot;item active&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-home.png&quot; alt=&quot;First Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-popup.png&quot; alt=&quot;Second Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            Notify the user about saving a search to Pocket, where all of the saved searches are stored
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocket.png&quot; alt=&quot;Third Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocketedit.png&quot; alt=&quot;Third Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-PLP.png&quot; alt=&quot;Third Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;ol class=&quot;carousel-indicators&quot;&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;4&quot;&gt;&lt;/li&gt;
+    &lt;/ol&gt;   
+    &lt;!-- Carousel controls --&gt;
+    &lt;a class=&quot;carousel-control left&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;
+        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class=&quot;carousel-control right&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;
+        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+  &lt;p&gt;
+  &lt;div class=&quot;cta&quot;&gt;
+    &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
+  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
+    &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
+    &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
+    &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
+    &lt;li&gt;Users are not interested in seeing popular saved searches&lt;/li&gt;
+
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Prototype v 2.0&lt;/h1&gt;
+  Since I had limited time to conduct another user test, I tested this prototype internally with select employees Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
+  &lt;p&gt;
+    &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+    &lt;!-- Carousel indicators --&gt;
+    &lt;!-- Wrapper for carousel items --&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+        &lt;div class=&quot;item active&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-home.png&quot; class=&quot;img-responsive&quot; alt=&quot;First Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            &quot;My Shop&quot; only displays rows of recently searches. Users can save shops by tapping the heart.
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-edit.png&quot; alt=&quot;Second Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            The user can easily edit, delete, and modify notification settings for the saved search.
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-PLPsave.png&quot; alt=&quot;Third Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+           Save Search bottom bar button is a clear call-to-action.
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-promo.png&quot; alt=&quot;Fourth Slide&quot; /&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            Reward users for saving 3 shops by offering a promo.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;ol class=&quot;carousel-indicators&quot;&gt;
+        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+    &lt;/ol&gt;   
+    &lt;!-- Carousel controls --&gt;
+    &lt;a class=&quot;carousel-control left&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;prev&quot;&gt;
+        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class=&quot;carousel-control right&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;next&quot;&gt;
+        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  &lt;div class=&quot;cta&quot;&gt;
+    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
+    &lt;li&gt;We should rolllout to web, instead of mobile first.&lt;/li&gt;
+    &lt;li&gt;There were mixed reactions to the heart iconography&lt;/li&gt;
+
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;It was tempting to include many new features for the redesign of Personal Shops, but I learned to &lt;strong&gt;prioritize features&lt;/strong&gt; and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.&lt;/li&gt;
+  &lt;li&gt;I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solutions for web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;Involve other stakeholders earlier in the process to learn about potential contraints.&lt;/li&gt;
+	&lt;li&gt;Simplicity and elegance rules. Think about information hierachy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
+	&lt;li&gt;Don&#39;t be afraid to go deeper into understanding users&#39; behaviors by constantly asking &quot;why&quot; questions during user testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
+</description>
+        <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
+        <link>/ux/thredup-ps/</link>
+        <guid isPermaLink="true">/ux/thredup-ps/</guid>
+        
+        
+        <category>ux</category>
+        
+      </item>
     
       <item>
         <title>SmartBrush</title>
@@ -393,225 +612,6 @@ We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Proc
       </item>
     
       <item>
-        <title>ThredUP Personal Shops 2.0</title>
-        <description>&lt;section&gt;
-    Last summer, I had the privilege of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
-&lt;/section&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
-  		  Only a very small percentage of users onboarded to the feature (not allowed to disclose figures), yet its users have the highest average order values.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-      &lt;ul&gt;
-      &lt;li&gt;Led strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.&lt;/li&gt;
-        &lt;li&gt;Worked closely with Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback&lt;/li&gt;
-        &lt;li&gt;Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.&lt;/li&gt;
-      &lt;/ul&gt;
-  	&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Data Analysis&lt;/h1&gt;
-
-I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Survey &amp;amp; Initial Research&lt;/h1&gt;
-I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
-&lt;br /&gt;
-&lt;br /&gt;
-Based on my phone interviews with the users, I created a mental model to understand the user&#39;s train of thought.
-  &lt;h3 class=&quot;subtitle&quot;&gt;Mental Model&lt;/h3&gt;
-    &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
-    &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
-    &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
-    &lt;li&gt;Will these items fit me?&lt;/li&gt;
-    &lt;li&gt;Will it save me search time?&lt;/li&gt;
-    &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
-&lt;br /&gt;
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Style Profile&lt;/h3&gt;
-We also further refined the idea of creating a Style Profile for every account in order to &lt;strong&gt;set Sizes and top 10 brands&lt;/strong&gt;, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
-
-
-&lt;section&gt;
-	&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
-	The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
-  &lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
-  &lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
-  &lt;p&gt;
-  &lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
-    &lt;!-- Carousel indicators --&gt;
-    &lt;!-- Wrapper for carousel items --&gt;
-    &lt;div class=&quot;carousel-inner&quot;&gt;
-        &lt;div class=&quot;item active&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-home.png&quot; alt=&quot;First Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-popup.png&quot; alt=&quot;Second Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Notify the user about saving a search to Pocket, where all of the saved searches are stored
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocket.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocketedit.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-PLP.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;ol class=&quot;carousel-indicators&quot;&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;4&quot;&gt;&lt;/li&gt;
-    &lt;/ol&gt;   
-    &lt;!-- Carousel controls --&gt;
-    &lt;a class=&quot;carousel-control left&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;carousel-control right&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-  &lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;br /&gt;
-  &lt;br /&gt;
-  After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
-  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
-    &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
-    &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
-    &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
-    &lt;li&gt;Users are not interested in seeing popular saved searches&lt;/li&gt;
-
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Prototype v 2.0&lt;/h1&gt;
-  Since I had limited time to conduct another user test, I tested this prototype internally with select employees Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
-  &lt;p&gt;
-    &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
-    &lt;!-- Carousel indicators --&gt;
-    &lt;!-- Wrapper for carousel items --&gt;
-    &lt;div class=&quot;carousel-inner&quot;&gt;
-        &lt;div class=&quot;item active&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-home.png&quot; class=&quot;img-responsive&quot; alt=&quot;First Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            &quot;My Shop&quot; only displays rows of recently searches. Users can save shops by tapping the heart.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-edit.png&quot; alt=&quot;Second Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            The user can easily edit, delete, and modify notification settings for the saved search.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-PLPsave.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-           Save Search bottom bar button is a clear call-to-action.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-promo.png&quot; alt=&quot;Fourth Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Reward users for saving 3 shops by offering a promo.
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;ol class=&quot;carousel-indicators&quot;&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
-    &lt;/ol&gt;   
-    &lt;!-- Carousel controls --&gt;
-    &lt;a class=&quot;carousel-control left&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;prev&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;carousel-control right&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;next&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;br /&gt;
-  &lt;br /&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
-    &lt;li&gt;We should rolllout to web, instead of mobile first.&lt;/li&gt;
-    &lt;li&gt;There were mixed reactions to the heart iconography&lt;/li&gt;
-
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;It was tempting to include many new features for the redesign of Personal Shops, but I learned to &lt;strong&gt;prioritize features&lt;/strong&gt; and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.&lt;/li&gt;
-  &lt;li&gt;I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solutions for web.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
-&lt;ul&gt;
-	&lt;li&gt;Involve other stakeholders earlier in the process to learn about potential contraints.&lt;/li&gt;
-	&lt;li&gt;Simplicity and elegance rules. Think about information hierachy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
-	&lt;li&gt;Don&#39;t be afraid to go deeper into understanding users&#39; behaviors by constantly asking &quot;why&quot; questions during user testing.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-
-
-
-
-&lt;!-- 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
-</description>
-        <pubDate>Sun, 02 Aug 2015 14:22:04 -0700</pubDate>
-        <link>/ux/thredup-ps/</link>
-        <guid isPermaLink="true">/ux/thredup-ps/</guid>
-        
-        
-        <category>ux</category>
-        
-      </item>
-    
-      <item>
         <title>Immersio</title>
         <description>&lt;section&gt;
     Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot; target=&quot;_blank&quot;&gt;Behance&lt;/a&gt;.
@@ -719,23 +719,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
         
         
         <category>ux</category>
-        
-      </item>
-    
-      <item>
-        <title>Pixel Plots</title>
-        <description>&lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;https://pixelplots.herokuapp.com/&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
-&lt;/div&gt;
-&lt;section&gt;
-	&lt;a href=&quot;https://pixelplots.herokuapp.com/&quot;&gt;Pixel Plots&lt;/a&gt; is a Ruby on Rails app in which users can create their own unique grid designs by clicking on the pixel to either fill in it or remove the color. Users can upvote or downvote other users&#39; plots. My main role was implementing the front-end.
-&lt;/section&gt;</description>
-        <pubDate>Thu, 18 Dec 2014 13:22:04 -0800</pubDate>
-        <link>/webdev/pixelplots/</link>
-        <guid isPermaLink="true">/webdev/pixelplots/</guid>
-        
-        
-        <category>webdev</category>
         
       </item>
     
