@@ -48,7 +48,6 @@ Based on my phone interviews with the users, I created a mental model to underst
     <li>Will it save me search time?</li>
     <li>How can we get coveted items first?</li>
 <br>
-<p>
 <h3 class="subtitle">Style Profile</h3>
 We also further refined the idea of creating a Style Profile for every account in order to <strong>set Sizes and top 10 brands</strong>, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
 </section>

@@ -29,6 +29,17 @@ $(document).ready(function(){
 	 $("#v2Carousel").carousel({
          interval : false
      });
+
+ //     $(window).on('scroll', function () {
+	//     // var scrollTop = $(window).scrollTop();
+	//     currOffset = window.pageYOffset;
+	//     if (currOffset > 50) {
+	//         $('.navbar').stop().animate({height: "0px"},200);
+	//     }
+	//     else {
+	//          $('.navbar').stop().animate({height: "63px"},200);   
+	//     }
+	// });
 });
 
 

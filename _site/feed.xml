@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jun 2016 01:43:33 -0700</pubDate>
-    <lastBuildDate>Wed, 08 Jun 2016 01:43:33 -0700</lastBuildDate>
+    <pubDate>Wed, 08 Jun 2016 15:35:32 -0700</pubDate>
+    <lastBuildDate>Wed, 08 Jun 2016 15:35:32 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -24,7 +24,7 @@
   &lt;div class=&quot;col-md-6 project-role&quot;&gt;
   	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
       &lt;ul&gt;
-      &lt;li&gt;Led strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.&lt;/li&gt;
+      &lt;li&gt;Led a strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.&lt;/li&gt;
         &lt;li&gt;Worked closely with Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback&lt;/li&gt;
         &lt;li&gt;Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.&lt;/li&gt;
       &lt;/ul&gt;
@@ -52,10 +52,9 @@ Based on my phone interviews with the users, I created a mental model to underst
     &lt;li&gt;Will it save me search time?&lt;/li&gt;
     &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
 &lt;br /&gt;
-&lt;p&gt;
 &lt;h3 class=&quot;subtitle&quot;&gt;Style Profile&lt;/h3&gt;
 We also further refined the idea of creating a Style Profile for every account in order to &lt;strong&gt;set Sizes and top 10 brands&lt;/strong&gt;, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
-
+&lt;/section&gt;
 
 &lt;section&gt;
 &lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
@@ -133,7 +132,7 @@ After conducting the first user testing session on-site with 6 users who had at 
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Refining the Design&lt;/h1&gt;
-  Since I had limited time to conduct another user test, I tested this prototype internally with select employees Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
+  Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   &lt;p&gt;
     &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
     &lt;!-- Carousel indicators --&gt;
@@ -223,7 +222,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
         <link>/ux/thredup-ps/</link>
@@ -448,6 +447,7 @@ Stay tuned for the updated details on this project, as we recently just wrapped 
 &lt;/div&gt;
 
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;The Approach&lt;/h1&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
 &lt;p&gt;
 Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question among the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
@@ -457,11 +457,13 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
  &lt;/p&gt;
 &lt;/section&gt;
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Visual Assets&lt;/h1&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Iconography&lt;/h1&gt;
   I added icons to clearly signify the different section categories under “Shopping” and “Selling.” These were based on icons that can also be found on &lt;a href=&quot;http://thredup.com&quot;&gt;thredUP&lt;/a&gt;.
   &lt;img src=&quot;/img/portfolio/tusupport/icons.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
 &lt;/section&gt;
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
   Based on the sketch I drew during the design process, I created a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to receive feedback before I proceeded to code the changes in Zendesk.
   &lt;p&gt;
@@ -504,14 +506,20 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 &lt;p class=&quot;intro&quot;&gt;&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.&lt;/p&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Blog&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;The Blog&lt;/h1&gt;
 We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. It is structured by 3 square images for feature stories and 3 columns for each blog post. Currently, the &lt;a href=&quot;http://www.modern-citizen.com/blogs/thecompass&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; is unavailable on the website.
 &lt;p&gt;
 &lt;h3 class=&quot;subtitle&quot;&gt;Mockup&lt;/h3&gt;
 &lt;p&gt;
 &lt;img src=&quot;/img/portfolio/moderncitizen/blogmockup.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
 
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;VIP Program&lt;/h1&gt;
+I designed and coded a call to action on the website for customers to join Modern Citizen&#39;s VIP Program to receive exclusive access to upcoming collections and receive samples curated by stylists. This program is currently unavailable online.
+&lt;p&gt;
+&lt;img src=&quot;/img/portfolio/moderncitizen/vip_program.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
+
+&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Fri, 25 Dec 2015 13:22:04 -0800</pubDate>
         <link>/webdev/moderncitizen/</link>
