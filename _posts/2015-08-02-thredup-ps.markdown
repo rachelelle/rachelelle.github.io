@@ -29,12 +29,13 @@ main-img: thredup-ps-main.png
 </div>
 
 <section>
-<h1 class="section-title">Data Analysis</h1>
+<h1 class="group-title">Strategy</h1>
+<h1 class="section-title">Identifying Existing Successful Trends</h1>
 I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
 </section>
 
 <section>
-<h1 class="section-title">Survey & Initial Research</h1>
+<h1 class="section-title">An In-Depth Understanding of Users</h1>
 I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
 <br>
 <br>
@@ -53,7 +54,8 @@ We also further refined the idea of creating a Style Profile for every account i
 </section>
 
 <section>
-<h1 class="section-title">Prototype v 1.0</h1>
+<h1 class="group-title">Iteration</h1>
+  <h1 class="section-title">Validating Ideas</h1>
 The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
 <li>Would customers be interested in seeing recent searches, suggested searches, and popular searches?</li>
 <li>Does saving the search into a separate tab ("Pocket") increase engagement?</li>
@@ -120,10 +122,13 @@ After conducting the first user testing session on-site with 6 users who had at 
   <li>The concept of "Pocket" was too confusing.</li>
   <li>Users wanted to be able to click through a feed row to see the PLP.</li>
   <li>Users are not interested in seeing popular saved searches</li>
+  <p>
+  <p>
+
 </section>
 
 <section>
-  <h1 class="section-title">Prototype v 2.0</h1>
+  <h1 class="section-title">Refining the Design</h1>
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   <p>
     <div id="v2Carousel" class="carousel slide" data-ride="carousel">
@@ -181,6 +186,7 @@ After conducting the first user testing session on-site with 6 users who had at 
 </section>
 
 <section>
+<h1 class="group-title">Execution</h1>
 <h1 class="section-title">Challenges</h1>
 <ul>
   <li>It was tempting to include many new features for the redesign of Personal Shops, but I learned to <strong>prioritize features</strong> and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.</li>

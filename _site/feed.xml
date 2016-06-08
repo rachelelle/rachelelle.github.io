@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2016 17:29:45 -0700</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2016 17:29:45 -0700</lastBuildDate>
+    <pubDate>Wed, 08 Jun 2016 01:08:55 -0700</pubDate>
+    <lastBuildDate>Wed, 08 Jun 2016 01:08:55 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -33,12 +33,13 @@
 &lt;/div&gt;
 
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Data Analysis&lt;/h1&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Strategy&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Identifying Existing Successful Trends&lt;/h1&gt;
 I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
 &lt;/section&gt;
 
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Survey &amp;amp; Initial Research&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;An In-Depth Understanding of Users&lt;/h1&gt;
 I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
 &lt;br /&gt;
 &lt;br /&gt;
@@ -57,7 +58,8 @@ We also further refined the idea of creating a Style Profile for every account i
 
 
 &lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Validating Ideas&lt;/h1&gt;
 The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
 &lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
 &lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
@@ -124,10 +126,13 @@ After conducting the first user testing session on-site with 6 users who had at 
   &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
   &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
   &lt;li&gt;Users are not interested in seeing popular saved searches&lt;/li&gt;
+  &lt;p&gt;
+  &lt;p&gt;
+
 
 
 &lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Prototype v 2.0&lt;/h1&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Refining the Design&lt;/h1&gt;
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   &lt;p&gt;
     &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
@@ -185,6 +190,7 @@ After conducting the first user testing session on-site with 6 users who had at 
 
 
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Execution&lt;/h1&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;It was tempting to include many new features for the redesign of Personal Shops, but I learned to &lt;strong&gt;prioritize features&lt;/strong&gt; and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.&lt;/li&gt;
@@ -217,7 +223,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
         <link>/ux/thredup-ps/</link>
@@ -259,6 +265,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 &lt;/section&gt;
 
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Strategy&lt;/h1&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Brainstorming&lt;/h1&gt;
 We wanted most of the interactions during brushing to occur when using the watch. After weighing the constraints, pros, and cons of our top three ideas, we selected a dental hygiene app. We thought it held the most potential for designing unique interactions for the watch interface in particular. There were many more ideas that we could implement for solving the problem of poor dental hygiene through gamification, providing facts, and keeping track of progress through a numerical system.
 &lt;/section&gt;
@@ -299,6 +306,7 @@ We based our sketches on the User Journey Map.
 
 
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Wireframing&lt;/h1&gt;
   Our team used &lt;a href=&quot;http://figma.com&quot; target=&quot;_blank&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
   &lt;p&gt;
@@ -364,6 +372,7 @@ We based our sketches on the User Journey Map.
 
 
 &lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Execution&lt;/h1&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Technical Challenges&lt;/h1&gt;
     &lt;li&gt;&lt;strong&gt;Running the Gif Views&lt;/strong&gt;: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.&lt;/li&gt;
     &lt;li&gt;&lt;strong&gt;Storing and updating the streak count on the phone and watch after brushing&lt;/strong&gt;: We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.&lt;/li&gt;
@@ -447,44 +456,66 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
 &lt;img src=&quot;/img/portfolio/tusupport/sketch.jpg&quot; class=&quot;img-responsive center-block&quot; /&gt;
  &lt;/p&gt;
 &lt;/section&gt;
-
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Iconography&lt;/h1&gt;
   I added icons to clearly signify the different section categories under “Shopping” and “Selling.” These were based on icons that can also be found on &lt;a href=&quot;http://thredup.com&quot;&gt;thredUP&lt;/a&gt;.
   &lt;img src=&quot;/img/portfolio/tusupport/icons.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
 &lt;/section&gt;
-
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
   Based on the sketch I drew during the design process, I created a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to receive feedback before I proceeded to code the changes in Zendesk.
   &lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;https://marvelapp.com/8aijdh&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
-  &lt;/div&gt;
-
+  &lt;div class=&quot;cta&quot;&gt;&lt;a href=&quot;https://marvelapp.com/8aijdh&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;&lt;/div&gt;
 
 &lt;section&gt;
   &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
   I coded the website in HTML, CSS, and JavaScript/jQuery. The new website format of &lt;strong&gt;toggling between categories&lt;/strong&gt; based on the two different user roles (Selling and Shopping) has proven to be a easier way for users to find answers to their questions. The addition of &lt;strong&gt;iconography&lt;/strong&gt; to sections titles allows users to easily identify which section their question belongs to. As a result, Customer Support team has been experiencing &lt;strong&gt;less direct emails since launch&lt;/strong&gt;. A second iteration with the left sliding sidebar will be released soon. 
- &lt;p&gt;
+  &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
   &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;
- &lt;h3 class=&quot;subtitle&quot;&gt;Home Page&lt;/h3&gt;
- &lt;img src=&quot;/img/portfolio/tusupport/homepage.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
- &lt;p&gt;
- &lt;h3 class=&quot;subtitle&quot;&gt;Category Page&lt;/h3&gt;
- &lt;img src=&quot;/img/portfolio/tusupport/sectionpage.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
- &lt;p&gt;
- &lt;h3 class=&quot;subtitle&quot;&gt;Article Page&lt;/h3&gt;
- &lt;img src=&quot;/img/portfolio/tusupport/article.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Home Page&lt;/h3&gt;
+  &lt;img src=&quot;/img/portfolio/tusupport/homepage.png&quot; class=&quot;img-responsive center-block img-border&quot; /&gt;
+  &lt;p&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Category Page&lt;/h3&gt;
+  &lt;img src=&quot;/img/portfolio/tusupport/sectionpage.png&quot; class=&quot;img-responsive center-block img-border&quot; /&gt;
+  &lt;p&gt;
+  &lt;h3 class=&quot;subtitle&quot;&gt;Article Page&lt;/h3&gt;
+  &lt;img src=&quot;/img/portfolio/tusupport/article.png&quot; class=&quot;img-responsive center-block img-border&quot; /&gt;
 
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
         <link>/webdev/tusupport/</link>
         <guid isPermaLink="true">/webdev/tusupport/</guid>
+        
+        
+        <category>webdev</category>
+        
+      </item>
+    
+      <item>
+        <title>Modern Citizen</title>
+        <description>&lt;div class=&quot;cta&quot;&gt;
+  &lt;a href=&quot;http://modern-citizen.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
+&lt;/div&gt;
+&lt;section&gt;
+&lt;p class=&quot;intro&quot;&gt;&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Blog&lt;/h1&gt;
+We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. It is structured by 3 square images for feature stories and 3 columns for each blog post. Currently, the &lt;a href=&quot;http://www.modern-citizen.com/blogs/thecompass&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; is unavailable on the website.
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Mockup&lt;/h3&gt;
+&lt;p&gt;
+&lt;img src=&quot;/img/portfolio/moderncitizen/blogmockup.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
+
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+</description>
+        <pubDate>Fri, 25 Dec 2015 13:22:04 -0800</pubDate>
+        <link>/webdev/moderncitizen/</link>
+        <guid isPermaLink="true">/webdev/moderncitizen/</guid>
         
         
         <category>webdev</category>
@@ -602,7 +633,7 @@ We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Proc
 	&lt;li&gt;Box Construction: Drake Myers&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;</description>
-        <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
+        <pubDate>Sun, 06 Dec 2015 13:22:04 -0800</pubDate>
         <link>/ux/trashscan/</link>
         <guid isPermaLink="true">/ux/trashscan/</guid>
         
@@ -719,33 +750,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
         
         
         <category>ux</category>
-        
-      </item>
-    
-      <item>
-        <title>Modern Citizen</title>
-        <description>&lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;http://modern-citizen.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;p class=&quot;intro&quot;&gt;&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.&lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Blog&lt;/h1&gt;
-We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. It is structured by 3 square images for feature stories and 3 columns for each blog post. Currently, the blog is unavailable on the website.
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Mockup&lt;/h3&gt;
-&lt;p&gt;
-&lt;img src=&quot;/img/portfolio/moderncitizen/blogmockup.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
-
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
-</description>
-        <pubDate>Wed, 02 Jul 2014 14:22:04 -0700</pubDate>
-        <link>/webdev/moderncitizen/</link>
-        <guid isPermaLink="true">/webdev/moderncitizen/</guid>
-        
-        
-        <category>webdev</category>
         
       </item>
     

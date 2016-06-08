@@ -38,6 +38,7 @@ main-img: smartbrush-main.png
 </section>
 
 <section>
+<h1 class="group-title">Strategy</h1>
 <h1 class="section-title">Brainstorming</h1>
 We wanted most of the interactions during brushing to occur when using the watch. After weighing the constraints, pros, and cons of our top three ideas, we selected a dental hygiene app. We thought it held the most potential for designing unique interactions for the watch interface in particular. There were many more ideas that we could implement for solving the problem of poor dental hygiene through gamification, providing facts, and keeping track of progress through a numerical system.
 </section>
@@ -78,6 +79,7 @@ We based our sketches on the User Journey Map.
 </section>
 
 <section>
+<h1 class="group-title">Iteration</h1>
   <h1 class="section-title">Wireframing</h1>
   Our team used <a href="http://figma.com" target="_blank">Figma</a> as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
   <p>
@@ -143,6 +145,7 @@ We based our sketches on the User Journey Map.
 </section>
 
 <section>
+<h1 class="group-title">Execution</h1>
 <h1 class="section-title">Technical Challenges</h1>
     <li><strong>Running the Gif Views</strong>: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.</li>
     <li><strong>Storing and updating the streak count on the phone and watch after brushing</strong>: We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.</li>
