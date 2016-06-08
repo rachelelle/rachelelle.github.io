@@ -4,6 +4,7 @@ title:  ThredUP Support
 date:   2016-04-02 14:22:04 -0700
 categories: webdev
 label: Web Design, Iconography
+tagline: Reorganizing the search for questions + answers
 thumbnail: tusupport_thumb.png
 main-img: tusupport.png
 external_url: http://support.thredup.com
@@ -13,7 +14,7 @@ external_url: http://support.thredup.com
   <a href="{{ page.external_url }}" target="_blank">Visit Site</a>
 </div>
 <section>
-  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the <a href="{{ page.external_url }}" target="_blank">ThredUP Support Page</a>. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
+  <p class="intro">As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the <a href="{{ page.external_url }}" target="_blank">ThredUP Support Page</a>. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.</p>
 </section>
 
 <div class="row">

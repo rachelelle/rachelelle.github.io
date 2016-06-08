@@ -4,12 +4,13 @@ title:  SmartBrush
 date:   2016-05-06 14:22:04 -0700
 categories: ux
 label: UX Design, Android, Smartwatch
+tagline: Brightening your dental hygiene routine
 thumbnail: smartbrush-thumb.png
 main-img: smartbrush-main.png
 ---
 
 <section>
-  Our team of four developed an Android mobile and smartwatch application for <a href="http://teaching.paulos.net/cs160_SP2016/" target="_blank">CS 160: User Interface Design</a>, its final project focusing on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
+  <p class="intro">Our team of four developed SmartBrush, a dental hygiene app for Android mobile and smartwatch that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.</p>
 </section>
 
 <div class="row">

@@ -4,6 +4,7 @@ title:  Westfield Showroom
 date:   2016-04-02 14:22:04 -0700
 categories: ux
 label: Service Design, Mobile Design
+tagline: Providing Personalization and Convenience for Busy Shoppers
 thumbnail: westfieldlabs.png
 main-img: westfieldlabs_main.png
 ---

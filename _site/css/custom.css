@@ -105,7 +105,7 @@ img.logo {
 }*/
 
 .post-container {
-    padding: 0px 15%;
+    padding: 0px 5%;
     background-color: #fff;
     padding-bottom: 50px;
     border-radius: 2px;
@@ -127,7 +127,7 @@ img.logo {
     padding-right: 20px;
     padding: 9px 46px;
     line-height: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* font-weight: 500; */
     margin-top: 10px;
     color: #404040;
@@ -147,6 +147,7 @@ img.logo {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.5pt;
+    padding: 0px 10%;
 }
 
 /*.post-content a:link {
@@ -229,10 +230,15 @@ h1.category-title {
 }
 
 .prev-next-block {
-    background-color: #835DA0;
-    color: #fff;
+    /* background-color: #835DA0; */
+    color: #835DA0;
     padding: 15px;
     border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    border: 1px solid #835DA0;
+    font-weight: 600;
 }
 
 .nav-pagination a:link {
@@ -241,6 +247,9 @@ h1.category-title {
 
 .nav-pagination a:hover {
     color: #fff;
+    text-decoration: none;
+    background-color: #835DA0;
+    transition: 0.4s;
 }
 
 .nav-pagination {
@@ -258,7 +267,7 @@ h1.section-title {
 
 section {
     margin: 75px 0px;
-    /* padding: 20px 0px; */
+    /* padding: 0px 15%; */
 }
 
 section a {
@@ -609,4 +618,18 @@ h1#homepage{
 
 .view-resume a:hover {
     text-decoration: none;
+}
+
+.intro {
+        font-size: 15px;
+        font-weight: 400;
+}
+
+.post-tagline {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ba6ff5;
+    letter-spacing: 1px;
 }

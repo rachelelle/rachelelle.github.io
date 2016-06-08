@@ -6,14 +6,14 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jun 2016 21:44:57 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Jun 2016 21:44:57 -0700</lastBuildDate>
+    <pubDate>Tue, 07 Jun 2016 17:17:01 -0700</pubDate>
+    <lastBuildDate>Tue, 07 Jun 2016 17:17:01 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>ThredUP Personal Shops 2.0</title>
         <description>&lt;section&gt;
-    Last summer, I had the privilege of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+    &lt;p class=&quot;intro&quot;&gt;Last summer, I had the privilege of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.&lt;/p&gt;
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -58,73 +58,73 @@ We also further refined the idea of creating a Style Profile for every account i
 
 
 &lt;section&gt;
-	&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
-	The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
-  &lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
-  &lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
-  &lt;p&gt;
-  &lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
-    &lt;!-- Carousel indicators --&gt;
-    &lt;!-- Wrapper for carousel items --&gt;
-    &lt;div class=&quot;carousel-inner&quot;&gt;
-        &lt;div class=&quot;item active&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-home.png&quot; alt=&quot;First Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-popup.png&quot; alt=&quot;Second Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Notify the user about saving a search to Pocket, where all of the saved searches are stored
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocket.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocketedit.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v1-PLP.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;ol class=&quot;carousel-indicators&quot;&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;4&quot;&gt;&lt;/li&gt;
-    &lt;/ol&gt;   
-    &lt;!-- Carousel controls --&gt;
-    &lt;a class=&quot;carousel-control left&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;carousel-control right&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-&lt;/div&gt;
-  &lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Prototype v 1.0&lt;/h1&gt;
+The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
+&lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
+&lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
+&lt;p&gt;
+&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+  &lt;!-- Carousel indicators --&gt;
+  &lt;!-- Wrapper for carousel items --&gt;
+  &lt;div class=&quot;carousel-inner&quot;&gt;
+      &lt;div class=&quot;item active&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v1-home.png&quot; alt=&quot;First Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v1-popup.png&quot; alt=&quot;Second Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          Notify the user about saving a search to Pocket, where all of the saved searches are stored
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocket.png&quot; alt=&quot;Third Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v1-pocketedit.png&quot; alt=&quot;Third Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v1-PLP.png&quot; alt=&quot;Third Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
+          &lt;/div&gt;
+      &lt;/div&gt;
   &lt;/div&gt;
-  &lt;br /&gt;
-  &lt;br /&gt;
-  After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
-  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
-    &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
-    &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
-    &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
-    &lt;li&gt;Users are not interested in seeing popular saved searches&lt;/li&gt;
+  &lt;ol class=&quot;carousel-indicators&quot;&gt;
+      &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;4&quot;&gt;&lt;/li&gt;
+  &lt;/ol&gt;   
+  &lt;!-- Carousel controls --&gt;
+  &lt;a class=&quot;carousel-control left&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;
+      &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;carousel-control right&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;
+      &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;div class=&quot;cta&quot;&gt;
+  &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
+&lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
+  &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
+  &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
+  &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
+  &lt;li&gt;Users are not interested in seeing popular saved searches&lt;/li&gt;
 
 
 &lt;section&gt;
@@ -232,7 +232,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
       <item>
         <title>SmartBrush</title>
         <description>&lt;section&gt;
-  Our team of four developed an Android mobile and smartwatch application for &lt;a href=&quot;http://teaching.paulos.net/cs160_SP2016/&quot; target=&quot;_blank&quot;&gt;CS 160: User Interface Design&lt;/a&gt;, its final project focusing on building healthcare apps. We created SmartBrush, a dental hygiene app that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
+  &lt;p class=&quot;intro&quot;&gt;Our team of four developed SmartBrush, a dental hygiene app for Android mobile and smartwatch that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -420,7 +420,7 @@ Stay tuned for the updated details on this project, as we recently just wrapped 
   &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
 &lt;/div&gt;
 &lt;section&gt;
-  As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.
+  &lt;p class=&quot;intro&quot;&gt;As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.&lt;/p&gt;
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -495,10 +495,11 @@ Depending on the user’s role (whether they were a Shopper or a Seller), I want
       <item>
         <title>TrashScan</title>
         <description>&lt;section&gt;
-TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot; target=&quot;_blank&quot;&gt;Hackster&lt;/a&gt;. 
+&lt;p class=&quot;intro&quot;&gt;TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot; target=&quot;_blank&quot;&gt;Hackster&lt;/a&gt;. 
 &lt;br&gt;
 &lt;br&gt;
 TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot; target=&quot;_blank&quot;&gt;Project Spotlight&lt;/a&gt; for the &lt;a href=&quot;http://jacobsinstitute.berkeley.edu&quot; target=&quot;_blank&quot;&gt;Jacobs Institute for Design Innovation&lt;/a&gt;. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
+&lt;/p&gt;
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -612,9 +613,9 @@ We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Proc
       </item>
     
       <item>
-        <title>Immersio</title>
+        <title>Immersio Virtual Museum</title>
         <description>&lt;section&gt;
-    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot; target=&quot;_blank&quot;&gt;Behance&lt;/a&gt;.
+    &lt;p class=&quot;intro&quot;&gt;Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot; target=&quot;_blank&quot;&gt;Behance&lt;/a&gt;.&lt;/p&gt;
 &lt;/section&gt;
 
 &lt;div class=&quot;row&quot;&gt;
@@ -728,7 +729,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
   &lt;a href=&quot;http://modern-citizen.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
 &lt;/div&gt;
 &lt;section&gt;
-&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.
+&lt;p class=&quot;intro&quot;&gt;&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.&lt;/p&gt;
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h1 class=&quot;section-title&quot;&gt;Blog&lt;/h1&gt;

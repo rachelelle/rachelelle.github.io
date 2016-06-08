@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Immersio
+title: Immersio Virtual Museum
 date: 2015-08-02 14:22:04 -0700
 categories: ux
 label: UX Design, Virtual Reality
+tagline: Experience Art Exhibitions Virtually
 thumbnail: immersio_thumb.png
 main-img: immersio.png
 external_url: https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum
 ---
 <section>
-    Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our <a href="https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum" target="_blank">Behance</a>.
+    <p class="intro">Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our <a href="https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum" target="_blank">Behance</a>.</p>
 </section>
 
 <div class="row">
