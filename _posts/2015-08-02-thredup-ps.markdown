@@ -20,7 +20,7 @@ main-img: thredup-ps-main.png
   <div class="col-md-6 project-role">
   	<h2 class="block-title">Role</h2>
       <ul>
-      <li>Led strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.</li>
+      <li>Led a strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.</li>
         <li>Worked closely with Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback</li>
         <li>Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.</li>
       </ul>
@@ -129,7 +129,7 @@ After conducting the first user testing session on-site with 6 users who had at 
 
 <section>
   <h1 class="section-title">Refining the Design</h1>
-  Since I had limited time to conduct another user test, I tested this prototype internally with select employees Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
+  Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   <p>
     <div id="v2Carousel" class="carousel slide" data-ride="carousel">
     <!-- Carousel indicators -->
