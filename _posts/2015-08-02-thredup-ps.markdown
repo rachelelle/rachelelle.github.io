@@ -21,7 +21,7 @@ main-img: thredup-ps-main.png
   	<h2 class="block-title">Role</h2>
       <ul>
       <li>Led a strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.</li>
-        <li>Worked closely with Product, Engineering, Design, and Marketing, in the process of developing specs and receiving feedback</li>
+        <li>Worked closely with Product, Engineering, Design, and Marketing in the process of developing specs and receiving feedback</li>
         <li>Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.</li>
       </ul>
   	</div>
