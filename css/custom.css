@@ -145,7 +145,7 @@ img.logo {
     font-family: 'Oxygen', sans-serif;
     line-height: 28pt;
     font-size: 14px;
-    font-weight: 300;
+    /* font-weight: 300; */
     letter-spacing: 0.5pt;
     padding: 0px 15%;
 }
