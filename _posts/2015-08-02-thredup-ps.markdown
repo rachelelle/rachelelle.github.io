@@ -189,7 +189,7 @@ After conducting the first user testing session on-site with 6 users who had at 
 <h1 class="section-title">Challenges</h1>
 <ul>
   <li>It was tempting to include many new features for the redesign of Personal Shops, but I learned to <strong>prioritize features</strong> and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.</li>
-  <li>I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solutions for web.</li>
+  <li>I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solution for web.</li>
 </ul>
 </section>
 
@@ -197,8 +197,7 @@ After conducting the first user testing session on-site with 6 users who had at 
 <h1 class="section-title">Takeaways</h1>
 <ul>
 	<li>Involve other stakeholders earlier in the process to learn about potential contraints.</li>
-	<li>Simplicity and elegance rules. Think about information hierachy when considering the visual. Only emphasize what needs to be emphasized. </li>
-	<li>Don't be afraid to go deeper into understanding users' behaviors by constantly asking "why" questions during user testing.</li>
+	<li>Simplicity and elegance rules. Think about information hierarchy when considering the visual. Only emphasize what needs to be emphasized. </li>
 </ul>
 </section>
 
