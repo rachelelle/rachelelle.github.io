@@ -44,6 +44,8 @@ p {
     /* height: 200px; */
 }
 
+
+
 .navbar-default {
     background-color: #FFFFFF;
     border-bottom: 3px solid #BA6FF5;
@@ -145,7 +147,7 @@ img.logo {
     font-family: 'Oxygen', sans-serif;
     line-height: 28pt;
     font-size: 14px;
-    font-weight: 300;
+    /* font-weight: 300; */
     letter-spacing: 0.5pt;
     padding: 0px 15%;
 }
@@ -249,7 +251,7 @@ h1.category-title {
 }
 
 .nav-pagination a:link {
-    color: #fff;
+    color: #835DA0;
 }
 
 .nav-pagination a:hover {

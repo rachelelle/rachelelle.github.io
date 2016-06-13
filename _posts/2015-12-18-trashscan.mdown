@@ -6,7 +6,7 @@ categories: ux
 label: Physical Design, Sustainability
 tagline: Revolutionizing Waste Management & Sorting
 thumbnail: trashscan_thumb.png
-main-img: trashscan.jpg
+main-img: trashscan.png
 external_url: https://www.hackster.io/trashscan/trashscan-3ca9fe
 ---
 <section>
