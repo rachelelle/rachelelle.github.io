@@ -18,9 +18,7 @@ permalink: /about/
 			<br>
 			<h2 class="about">SF Bay Area native</h2>
 			<br>
-			<h2 class="about">fashion + tech enthusiast</h2>
-			<br>
-			<h4 class="about"><i class="fa fa-heart fa-fw"></i>  art history, fashion, badminton, coffee, cooking, and baking</h4>
+			<h4 class="about"><i class="fa fa-heart fa-fw"></i>  art history, fashion, badminton, cooking, and a good book</h4>
 			<br>
 			<div class="view-resume">
 			<a href="https://dl.dropboxusercontent.com/u/43037053/RachelLinResume.pdf" target="_blank">
@@ -33,11 +31,11 @@ permalink: /about/
 				<h1 class="about">Experience</h1>
 				<br>
 				<h2 class="about">
-					Product Intern at <a href="http://thredup.com" target="_blank">thredUP</a> • <i>June 2015-May 2016</i>
+					UX Designer at <a href="http://sap.com" target="_blank">SAP</a> | <a href="https://www.sap.com/about/careers/university-programs/graduates/silicon-valley-next-talent-program.html" target="_blank"	>Silicon Valley Next Talent</a> • <i>July 2016 - Present</i>
 					<br>
-					UI/UX Designer at <a href="http://westfieldlabs.com" target="_blank">Westfield Labs</a> • <i>September 2015-May 2016</i>
+					Product Intern at <a href="http://thredup.com" target="_blank">thredUP</a> • <i>June 2015 - May 2016</i>
 					<br>
-					Web Development Intern at <a href="http://modern-citizen.com" target="_blank">Modern Citizen</a> • <i>June 2014-August 2014</i>
+					Web Development Intern at <a href="http://modern-citizen.com" target="_blank">Modern Citizen</a> • <i>June 2014 - August 2014</i>
 				</h2>
 		</div>
 		<div class="about-grid" id="education">
@@ -74,7 +72,7 @@ permalink: /about/
 		<div class="about-grid" id="contact">
 			<h1 class="about">Let's Talk!</h1>
 			<br />
-			<h2 class="about">rachellin@berkeley.edu</h2>
+			<h2 class="about">linrac@gmail.com</h2>
 			<br />
 			<h2 class="about"><a href="http://twitter.com/rchlelle" target="_blank">@rchlelle</a></h2>
 		</div>	

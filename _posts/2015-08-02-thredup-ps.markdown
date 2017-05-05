@@ -117,10 +117,10 @@ The aim of the first iteration (prototyped in FramerJS) was to validate and answ
 <br>
 After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
 <h3 class="subtitle">Findings</h3>
-  <li>Simplify the view - remove color coding</li>
+  <li>Simplify the view - remove color coding.</li>
   <li>The concept of "Pocket" was too confusing.</li>
   <li>Users wanted to be able to click through a feed row to see the PLP.</li>
-  <li>Users are not interested in seeing popular saved searches</li>
+  <li>Users are not interested in seeing popular saved searches.</li>
   <p>
   <p>
 

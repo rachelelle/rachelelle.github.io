@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jun 2016 15:10:36 -0700</pubDate>
-    <lastBuildDate>Mon, 13 Jun 2016 15:10:36 -0700</lastBuildDate>
+    <pubDate>Thu, 04 May 2017 20:44:06 -0700</pubDate>
+    <lastBuildDate>Thu, 04 May 2017 20:44:06 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -121,10 +121,10 @@ The aim of the first iteration (prototyped in FramerJS) was to validate and answ
 &lt;br /&gt;
 After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
 &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
-  &lt;li&gt;Simplify the view - remove color coding&lt;/li&gt;
+  &lt;li&gt;Simplify the view - remove color coding.&lt;/li&gt;
   &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
   &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
-  &lt;li&gt;Users are not interested in seeing popular saved searches&lt;/li&gt;
+  &lt;li&gt;Users are not interested in seeing popular saved searches.&lt;/li&gt;
   &lt;p&gt;
   &lt;p&gt;
 
@@ -409,7 +409,68 @@ We based our sketches on the User Journey Map.
       <item>
         <title>Westfield Showroom</title>
         <description>&lt;section&gt;
-Stay tuned for the updated details on this project, as we recently just wrapped it up! If you would like to learn more in the meantime, please feel free to reach out to rachellin@berkeley.edu.
+With a team of designers, I created a service design concept to bridge the convenience of online shopping with the personal attention and customer service characteristic of physical shopping experiences. 
+&lt;/section&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
+      &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+      Build a service concept based on issues we identified from user research on 18-25 year olds.
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
+    &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Designer leading user research and usability testing&lt;/li&gt;
+      &lt;li&gt;Validated Showroom concept by facilitating a simulation of the service design concept&lt;/li&gt;
+      &lt;li&gt;Worked closely with the VP of Creative Services and Product Manager&lt;/li&gt;	
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Ideation&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Concept Development&lt;/h1&gt;
+Our service concept ideas touched upon a variety of services offered by Westfield Malls across the world: shopping, parking and transportation, food courts, and movie theaters. Our team of designers conducted interviews by segmenting the target demographic of 18-25 year olds into these groups:
+&lt;li&gt;grad students (1 male, 1 female)&lt;/li&gt;
+&lt;li&gt;undergrad students (1 male, 1 female)&lt;/li&gt;
+&lt;li&gt;a couple who graduated (1 male, 1 female)&lt;/li&gt;
+&lt;li&gt;recent grads (1 male, 1 female)&lt;/li&gt;
+&lt;p&gt;
+ &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
+ &lt;li&gt;Distinct behaviors between the women and men in the mall&lt;/li&gt;
+ &lt;li&gt;Men value efficiency and often shop with a female who provides input (mom, sister, girlfriend, wife)&lt;/li&gt;
+ &lt;li&gt;Common pain points: crowdedness, transportation to the mall (espeically for distant students)&lt;/li&gt;
+&lt;p&gt;
+&lt;h3 class=&quot;subtitle&quot;&gt;Goals&lt;/h3&gt;
+&lt;li&gt;Avoid crowds&lt;/li&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Validation&lt;/h1&gt;
+We selected the &lt;strong&gt;Marketplace + Kiosk&lt;/strong&gt; concept as the most feasible for directly addressing the problems of crowdedness in a mall and improved personal attention and care to the customer.
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Validating the Flow&lt;/h1&gt;
+Put first iteration here.
+  &lt;div class=&quot;cta&quot;&gt;
+    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;section-title&quot;&gt;Validating the Flow&lt;/h1&gt;
+Version B. Testing
+&lt;p&gt;
+ &lt;div class=&quot;cta&quot;&gt;
+    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
+  The fitting rooms of our service design has the potential to evolve into an interactive fitting experience.
 &lt;/section&gt;</description>
         <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
         <link>/ux/westfieldshowroom/</link>
