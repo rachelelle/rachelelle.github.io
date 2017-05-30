@@ -1,0 +1,16 @@
+---
+layout: post
+title:  TripIt Alternate Flights
+date:   2017-05-06 14:22:04 -0700
+categories: featured
+label: Mobile • Travel
+tagline: Making Rebooking a Flight a Breeze
+thumbnail: tripitaltflights.png
+main-img: tripitaltflights.png
+summary: <a href="http://tripit.com">TripIt from Concur</a> organizes your flight, hotel, and car rental plans into a master trip itinerary. I’ve been reimagining Alternate Flights for native iOS and Android, a pro feature that helps users search and book alternate flights.
+---
+<section class="project-body">
+<p>
+<b>*Disclaimer: My work is still pre-release, so stay tuned for future updates!</b> If you’d like to learn more feel free to <a href="mailto:linrac@gmail.com">reach out</a>.
+</p>
+</section>

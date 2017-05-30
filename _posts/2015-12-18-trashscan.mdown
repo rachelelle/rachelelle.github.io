@@ -2,61 +2,58 @@
 layout: post
 title:  TrashScan
 date:   2015-12-6 14:22:04 -0700
-categories: ux
-label: Physical Design, Sustainability
+categories: archive
+label: Interactive Device Design • Sustainability
 tagline: Revolutionizing Waste Management & Sorting
 thumbnail: trashscan_thumb.png
 main-img: trashscan.png
-external_url: https://www.hackster.io/trashscan/trashscan-3ca9fe
 ---
-<section>
-<p class="intro">TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles & cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I've only included the highlights of the project here, but a more comprehensive write-up can be found on <a href="{{ page.external_url }}" target="_blank">Hackster</a>. 
-<br>
-<br>
+<section class="project-body">
+<p>
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles & cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I've only included the highlights of the project here, but a more comprehensive write-up can be found on <a href="{{ page.external_url }}" target="_blank">Hackster</a>. 
+</p>
+<p>
 TrashScan has been featured as a <a href="http://jacobsinstitute.berkeley.edu/student-project/trashscan/" target="_blank">Project Spotlight</a> for the <a href="http://jacobsinstitute.berkeley.edu" target="_blank">Jacobs Institute for Design Innovation</a>. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
 </p>
 </section>
-
-<div class="row">
-  <div class="col-md-6 project-problem">
-  		<h2 class="block-title">Problem</h2>
+<hr>
+<section class="project-body">
+  		<h2>Problem</h2>
   		  Students do not know what bin their trash belongs in. People don't care about what bin their trash belongs in. Cross-contamination in bins prevents composting.
-  </div>
-  <div class="col-md-6 project-role">
-  	<h2 class="block-title">Role</h2>
-  		<ul>
+</section>
+<hr>
+<section class="project-body">
+  	<h2>Role</h2>
   		  <li>Project manager</li>	
 	      <li>Conducted ethnographic interviews and regularly met with interviewees</li>
 	      <li>Created the animations in Processing</li>
 	      <li>Sketched concepts and developed user's interaction with the platform</li>
-    	</ul>
-  	</div>
 
-</div>
-
-<section>
-<h1 class="section-title">Initial Research</h1>
-
-We interviewed Monica and Nicole, two students coordinators from Cal Recycling. From our first interview with Monica, we learned about the inefficiencies of sorting trash during waste audits. These issues originate from human errors of cross-contamination between bins. It is difficult to teach 40,000 students to correct their habits and take the time to learn about disposing in the correct bin. 
+</section>
+<hr>
+<section class="project-body">
+<h2>Initial Research</h2>
 <p>
-<ul>In a follow up interview, we learned that many of the common errors were:
+We interviewed Monica and Nicole, two students coordinators from Cal Recycling. From our first interview with Monica, we learned about the inefficiencies of sorting trash during waste audits. These issues originate from human errors of cross-contamination between bins. It is difficult to teach 40,000 students to correct their habits and take the time to learn about disposing in the correct bin. 
+</p>
+<p>
+In a follow up interview, we learned that many of the common errors were:
 	<li>dry paper should go in mixed paper (no soiled/wet paper)</li>
 	<li>plastics were found in compost, but they don’t belong in the compost bin (should go to landfill or bottles & cans)</li>
 	<li>The non-compostable spoons from off campus were placed in compost</li>
-</ul>
-
-
+</p>
 </section>
-
-
-<section>
-<h1 class="section-title">Design Process</h1>
+<hr>
+<section class="project-body">
+<h2>Design Process</h2>
+<p>
 Our first design included a box with lights positioned at the top. A camera would look into the box, and once the item was sorted, a light would indicate the correct bin. However, this initial design was too constricting and bulky, so we simplified out design to a flat platform. The user would place their trash onto the platform and a light attached to the right side of the platform would light up, much like the initial design. In our third design, we wanted to be able to add more to the device and have some sort of imagery to be displayed on the platform. Thus, we added in a projector next to the camera and removed the lights. The device would have a flat platform on which an image would be displayed. We would customize the image per bin. 
-<br>
-<br>
+</p>
+<p>
 For our final design, we used a monitor, which conveniently served both as the platform, as well as where the visuals and sound played from. We place this monitor inside a box.  Users would see an initial start screen, with simple instructions guiding them on how to use TrashScan.
-<br>
-<br>
+</p>
+<hr>
+<section class="project-body">
 <div class="row">
 	<div class="col-md-4"><img src="{{ site.baseurl }}/img/portfolio/trashscan/iteration1.png" class="img-responsive center-block"></div>
 	<div class="col-md-4">
@@ -66,55 +63,53 @@ For our final design, we used a monitor, which conveniently served both as the p
 		<img src="{{ site.baseurl }}/img/portfolio/trashscan/iteration3.png" class="img-responsive center-block">
 	</div>
 </div>
-<br>
+<p>
 Because signage is often hidden and ineffective for telling people what belongs in each bin, we wanted to display animations and play sounds to engage the user and associate each bin with a sound and graphic. We included facts stated during the interviews as part of the messaging. For compost, we played a victorious sound to encourage composting, and an error “wah-wah” noise to discourage people from using the landfill.
+</p>
 </section>
-
-<section>
-<h1 class="section-title">Final Prototype</h1>
+<hr>
+<section class="project-body">
+<h2>Final Prototype</h2>
 <div class="video-module responsive-video">
 <iframe width="655" height="375" src="https://www.youtube.com/embed/xkhOMdKdvc4" frameborder="0" allowfullscreen></iframe>
 </div>
 <p>
 We made animations with <a href="http://py.processing.org/">Processing.py</a>, then converted it to video so it could be played on Raspberry Pi. After an object is identified and sorted into its corresponding bin, the monitor will play the animation for its bin. We included sound to help the user remember which bin the object belongs to. For the <strong>Compost</strong> bin, we play a victorious sound to encourage composting; for <strong>Landfill</strong> we play a sad sound to discourage putting waste in the landfill. Fun facts on the screen encourages education as part of the user's interaction with the platform.
-<p>
-<h3 class="subtitle">Greeting Screen</h3>
+</p>
+
+<h3 class="project-body">Greeting Screen</h3>
 <iframe src="https://player.vimeo.com/video/166338989" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>
-<h3 class="subtitle">Compost Sort</h3>
+<h3 class="project-body">Compost Sort</h3>
 <iframe src="https://player.vimeo.com/video/168866419" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>
-<h3 class="subtitle">Bottles & Cans Sort</h3>
+<h3 class="project-body">Bottles & Cans Sort</h3>
 <iframe src="https://player.vimeo.com/video/168866418" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>
-<h3 class="subtitle">Mixed Paper Sort</h3>
+<h3 class="project-body">Mixed Paper Sort</h3>
 <iframe src="https://player.vimeo.com/video/168866582" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>
-<h3 class="subtitle">Landfill Sort</h3>
+<h3 class="project-body">Landfill Sort</h3>
 <iframe src="https://player.vimeo.com/video/168866581" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </section>
-
-<section>
-<h1 class="section-title">Final Thoughts</h1>
-
-<ul>
-<h3 class="subtitle">Challenges</h3>
+<hr>
+<section class="project-body">
+<h2>Final Thoughts</h2>
+<h3 class="project-body">Challenges</h3>
 	<li>The object detection was sensitive to the lighting of the room so it had to be readjusted whenever we presented it in a different setting.</li>
 	<li>We faced technical limitations from the Raspberry Pi in playing the Processing graphics directly using our Python code, but we were able to overcome this problem by rendering the motion animation as a video.</li>
-	</ul>
-<ul>
-<h3 class="subtitle">For Future Iterations</h3>
+
+<h3 class="project-body">For Future Iterations</h3>
 	<li>Companion application for mobile</li>
 	<li>The ability to detect multiple objects (e.g. a tray of plate and food)</li>
 	<li>Accounting for edge cases (plastic vs. compostable spoon)</li>
-</ul>
-<p>
-<ul>
-<h3 class="subtitle">Credit</h3>
+</section>
+<hr>
+<section class="project-body">
+<h2>Credit</h2>
 	<li>Machine Learning: Jessie Salas</li>
 	<li>Ethnographic Interviews: Rachel Lin</li>
 	<li>Animations & Frontend: Rachel Lin, Chonyi Lama</li>
 	<li>Object Recognition: Lesley Chiang</li>
 	<li>Box Construction: Drake Myers</li>
-</ul>
 </section>

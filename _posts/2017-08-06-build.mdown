@@ -1,0 +1,142 @@
+---
+layout: post
+title:  BUILD Simplification of Controls
+date:   2017-04-06 14:22:04 -0700
+categories: featured
+label: Web • Prototyping Tool 
+tagline: Simplifying Controls
+thumbnail: smartbrush-thumb.png
+main-img: build.png
+summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of design tools in the SAP Cloud Platform that empowers SAP customers, partners, and business analysts to build enterprise apps and validate them with users, while learning the design-led development process. I simplified the most frequently used UI5 controls in BUILD’s Prototyping Tool.
+---
+<section class="project-body">
+<p>
+<b>*Disclaimer: My work is still pre-release, so stay tuned for future updates! The illustrations below are not the final design.</b> 
+</p>
+  <h2>Problem</h2>
+  <p>
+  I simplified two of the most frequently used controls, which are the essential building blocks for creating apps in BUILD. 
+</p> 
+<p>
+<b>Forms</b> are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
+ </p>
+ <p>
+<b>Radio Buttons</b> is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple groups could be included in Forms. 
+ </p>
+</section>
+<hr>
+<section class="project-body">
+  <h2>Role</h2>
+  <p>
+  <ul>
+  <li>Led end-to-end design efforts from user research to design implementation while collaborating with Product Managers and frontend developers</li>
+    <li>Achieved greater usability with key stakeholders</li>
+  <li>Introduced direct manipulation on Canvas</li>
+  <li>Improved properties panel settings and more intuitive layout formatting</li>
+  </ul>
+  </p>
+</section>
+<hr>
+<section class="project-body">
+  <h2>Reformation of Forms</h2>
+  <h3 class="project-body">Mindset Mismatch</h3>
+  <p>
+  I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
+  </p>
+  <h3 class="project-body">Foundational Changes</h3>
+  <p>
+  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls. We found the following concepts to be the most valuable and quickest to implement.
+</p>
+<ul>
+<li>
+  <b>One Form</b>: The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
+</li>
+<li>
+<b>Adding Rows</b>: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form.
+</li>
+<figure>
+    <img src="{{ site.baseurl }}/img/portfolio/build/FormRow.png" class="img-responsive center-block">
+    <figcaption>Form Row</figcaption>
+  </figure>
+<li>
+  <b>Show Form-specific Controls</b>: When a user clicks on a Form or any elements within a Form, the Control Panel will surface controls that could only be added to Forms.
+</li>
+<figure>
+    <img src="{{ site.baseurl }}/img/portfolio/build/ControlPanel.png" class="img-responsive center-block">
+    <figcaption>Control Panel only shows Form Controls</figcaption>
+  </figure>
+<li>
+<b>Contextual Right Click Menu</b>: a quick alternative to adding, duplicating, and deleting a row
+</li>
+<figure>
+    <img src="{{ site.baseurl }}/img/portfolio/build/RightClickMenu1.png" class="img-responsive center-block">
+    <figcaption>Contextual Right Click Menu for a Row and Form</figcaption>
+  </figure>
+</ul>
+  <h3 class="project-body">Unexpected Challenge: Form Groups</h3>
+  <p>
+  As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. After the incremental changes were finished being built in the production site, we tested participants’ ability to build a form - from a form with a single group to a more complex form with additional groups. 
+  </p>
+  <h3 class="project-body">Final Solution: Abstracting Layers</h3>
+  <p>
+  Users still struggled to create a form because the process still required too many clicks to reach the lowest level of the hierarchy, the most edited level. We solved the problem by creating handlers and performing direct manipulations element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
+  <ul>
+  <li><b>Handlers</b>: select rows, drag and rearrange Form Sections</li>
+  <li><b>Add Control via “+” Button on Canvas</b></li>
+  <li><b>Add Form Section Button: Direct manipulation on canvas</b></li>
+  <li><b>Layout Formatting</b>: define # of columns in Form for specified device (mobile, tablet, desktop) and define arrangement of labels (side-by-side or stacked)</li>
+  </ul>
+  </p>
+</section>
+<hr>
+<section class="project-body">
+  <h2>Radio Buttons: Better Together</h2>
+  <p>
+    <img src="{{ site.baseurl }}/img/portfolio/build/RadioButtons.png" class="img-responsive center-block">
+  <h3 class="project-body">Grouping Radio Buttons & Checkboxes</h3>
+  <p>
+  BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
+  </p>
+  <h3 class="project-body">Validating Multiple Choice vs. Separate Radio Buttons and Checkboxes</h3>
+  <figure>
+    <img src="{{ site.baseurl }}/img/portfolio/build/radiobuttonpaperproto.jpg" class="img-responsive center-block">
+    <figcaption>Testing the Multiple Choice concept with a paper prototype</figcaption>
+  </figure>
+  <p>
+  Because the Checkbox control is structurally similar to the Radio Button control, I wanted to validate whether to combine Radio Buttons and Checkboxes under one control named “Multiple Choice.” In the case that the user wanted to switch from Radio Buttons to Checkboxes and vice versa, the user should be able to maintain the same data or text they inputted. We quickly tested the concept with a paper prototype. In the end, I decided to separate Radio Buttons and Checkboxes as two separate controls. Providing the capability to switch between the two controls while maintaining the same data and text input proved to be valuable.
+  </p>
+  <h3 class="project-body">Shipping Changes</h3>
+  <p>
+  <b>Direct Manipulation on Canvas</b>
+  <li>Adding a new radio button with “+” button</li>
+  <li>Right click contextual menu for adding, duplicating, and deleting radio buttons</li>
+  </p>
+  <p>
+  <b>Properties Panel</b>
+  <li>Formatting horizontal and vertical layout</li>
+  </p>
+  <p>
+  The next steps will be to figure out how to maintain data while switching between different controls.
+  </p>
+</section>
+<hr>
+<section class="project-body">
+  <h2>Lessons Learned</h2>
+  <p>
+<ul>
+<li>
+<b>Get unstuck</b> by testing early with incremental changes. Finding the right fidelity to test can save time and eliminate technical debt in the long run. For Radio Buttons, paper prototyping the multiple choice concept proved to be the best way to quickly disprove my hypothesis and determine which path to choose for my design.
+</li>
+<li>
+<b>Document Your Progress</b>: Organizing ideas from brainstorming sessions, design reviews, and meeting notes allowed me to revisit ideas that were conceived from earlier parts of the process but tossed away. They may prove to be viable solutions later down the road (highly recommend Dropbox Paper to keep track!)
+</li>
+</ul>
+  </p>
+</section>
+<hr>
+<section class="project-body">
+  <h2>Thank you</h2>
+  <p>
+I’m grateful for the unique challenge of designing UI controls with such a supportive, talented team. Shoutout to Suhaib Syed (Designer), Wenjing Yang (Designer), and Hong Wang (Product Manager) for leading the stride on simplifying controls and improving the overall usability of the Prototyping Tool in BUILD!
+  </p>
+</section>

@@ -1,28 +1,62 @@
 <header class="site-header">
 
     <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+   <!-- DROP DOWN MENU -->
+      <div class="drop-menu">
+        <span class="close-icon"></span>
+            <div class="list-one">
+                <ul id="menu-main-menu" class="menu">
+                <h3 class="project-menu">Featured</h3>
+                  {% for post in site.categories.featured %}
+                    <div class="project-item">
+                      <a href="{{ post.url | prepend: site.baseurl }}"><div class="project-link">{{ post.title }}</div></a>
+                      <div class="project-menu-label">{{ post.label }}</div>
+                    </div>
+                  {% endfor %}
+            </ul>                
+         </div>
+          <div class="list-one">
+                <ul id="menu-main-menu" class="menu">
+                <h3 class="project-menu">More Projects</h3>
+                  {% for post in site.categories.archive %}
+                  <div class="project-item">
+                      <a href="{{ post.url | prepend: site.baseurl }}"><div class="project-link">{{ post.title }}</div></a>
+                      <div class="project-menu-label">{{ post.label }}</div>
+                    </div>
+                  {% endfor %}
+            </ul>                
+         </div>
+    </div><!--/.nav-collapse -->
+
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img alt="Brand" class="logo" src="{{ site.baseurl }}/img/{{ site.logo }}"></a>
        <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/"><img alt="Brand" class="logo" src="{{ site.baseurl }}/img/{{ site.logo }}"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
     </div>
+
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="navbar navbar-nav navbar-right">
-        {% for my_page in site.pages %}
+      <div class="container-fluid">
+
+      <ul class="navbar navbar-nav">
+<!--         {% for my_page in site.pages %}
           {% if my_page.title %}
           <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+         <li><a class="page-link" href="/about">About</a></li>
+         <li><a id="nav-toggle" class="page-link" href="#">Projects</a></li>
+         <li></li>
+        <li><a class="page-link" href="https://drive.google.com/open?id=0B5-Wo7zYci-iVVRPY0RFV2J4Wkk" target="_blank">Résumé</a></li>
+        <li><a class="page-link" href="mailto:linrac@gmail.com">Contact</a></li>
       </ul>
+      </div>
     </div>
 
   </div>
   </nav>
-
-</header>

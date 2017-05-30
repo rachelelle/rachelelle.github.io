@@ -1,22 +1,58 @@
 ---
 layout: default
 ---
-<header class="post-header">
+<!-- <header class="post-header">
     <h1 class="post-title category-title" id="homepage">Rachel Lin   • UX Designer & Developer</h1>
-  </header>
+</header> -->
+<section class="hero">
+<h1>Hello, my name is Rachel!</h1>
+<p>
+<img style="width: 80px" src="{{ site.baseurl }}/img/rachelicon.svg">
+</p>
+<p>I am a <i>designer</i> and <b style="font-family: monospace; color: #8D88BE">developer</b> passionate about delivering simple solutions to users and bringing disciplines together for the best outcome. I currently design digital product experiences across different organizations at <a href="http://sap.com" target="_blank">SAP</a>.
+</p>
+</section>
+<section class="project-home row" id="project1">
+  <div class="project_blurb col-md-6 col-xs-12">
+    <h3 class="project-home">Mobile • Travel</h3>
+    <h2 class="project-home" id="project1">TripIt Alternate Flights</h2>
+    <p class="project-home">
+      As a UX Designer, I worked closely with cross-functional teams to deliver an improved, native iOS and Android experience for rebooking flights.
+    </p>
+    <a href="{{ site.baseurl }}/tripit/"><button class="cta" id="featured-project1">Learn More</button></a>
+  </div>
+  <div class="project_img col-md-6 col-xs-12">
+    <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/tripitaltflights.png">
+  </div>
+</section>
+<section class="project-home row" id="project2">
+  <div class="project_img col-md-6 col-xs-12">
+    <img class="img-responsive" src="{{ site.baseurl }}/img/portfolio/buildprototype.png">
+  </div>
+  <div class="project_blurb col-md-6 col-xs-12">
+     <h3 class="project-home">Web • Prototyping Tool</h3>
+    <h2 class="project-home" id="project2">SAP BUILD Simplification of Controls</h2>
+    <p class="project-home">
+      As a Product Designer for BUILD, I simplified the manipulations of commonly used UI5 Controls in the SAP Cloud Platform prototyping tool.
+    </p>
+    <a href="{{ site.baseurl }}/build/"><button class="cta" id="featured-project2">Learn More</button></a>
+  </div>
+  </div>
+</section>
+
 <div class="home">
 
 <!--   <h1 class="page-heading">Posts</h1> -->
 
-  <ul class="post-list">
+<!--   <ul class="post-list">
     {% for post in site.posts %}
-      <!-- <li>
+      <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li> -->
+      </li>
       <div class="col-sm-4 portfolio-item">
           <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-link">
               <div class="caption">
@@ -28,6 +64,6 @@ layout: default
           </a>
       </div>
     {% endfor %}
-  </ul>
+  </ul> -->
 
 </div>

@@ -1,19 +1,21 @@
 <footer class="site-footer">
+<hr class="footer">
 
   <div class="container">
 
     <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-1 col-md-10 col-xs-12 pull-left">
+        Made with &hearts; by Rachel Lin
        <!--  <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul> -->
       </div>
 
-      <div class="footer-col footer-col-2">
-<!--         <ul class="social-media-list">
+<!--       <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -25,10 +27,10 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
-        </ul> -->
-      </div>
+        </ul>
+      </div> -->
 
-      <div class="footer-col footer-col-3 pull-right">
+      <div class="footer-col footer-col-3 col-md-2 col-xs-12">
         <ul class="list-inline">
           {% for network in site.social %}
           <li>

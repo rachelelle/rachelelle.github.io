@@ -6,63 +6,222 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 May 2017 20:44:06 -0700</pubDate>
-    <lastBuildDate>Thu, 04 May 2017 20:44:06 -0700</lastBuildDate>
+    <pubDate>Tue, 30 May 2017 00:24:15 -0700</pubDate>
+    <lastBuildDate>Tue, 30 May 2017 00:24:15 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>ThredUP Personal Shops 2.0</title>
-        <description>&lt;section&gt;
-    &lt;p class=&quot;intro&quot;&gt;Last summer, I had the privilege of interning at &lt;a href=&quot;http://thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP&lt;/a&gt;, the world&#39;s largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.&lt;/p&gt;
+        <title>TripIt Alternate Flights</title>
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+&lt;p&gt;
+&lt;b&gt;*Disclaimer: My work is still pre-release, so stay tuned for future updates!&lt;/b&gt; If you’d like to learn more feel free to &lt;a href=&quot;mailto:linrac@gmail.com&quot;&gt;reach out&lt;/a&gt;.
+&lt;/p&gt;
 &lt;/section&gt;
+</description>
+        <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
+        <link>/tripit/</link>
+        <guid isPermaLink="true">/tripit/</guid>
+        
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>BUILD Simplification of Controls</title>
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+&lt;p&gt;
+&lt;b&gt;*Disclaimer: My work is still pre-release, so stay tuned for future updates! The illustrations below are not the final design.&lt;/b&gt; 
+&lt;/p&gt;
+  &lt;h2&gt;Problem&lt;/h2&gt;
+  &lt;p&gt;
+  I simplified two of the most frequently used controls, which are the essential building blocks for creating apps in BUILD. 
+&lt;/p&gt; 
+&lt;p&gt;
+&lt;b&gt;Forms&lt;/b&gt; are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
+ &lt;/p&gt;
+ &lt;p&gt;
+&lt;b&gt;Radio Buttons&lt;/b&gt; is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple groups could be included in Forms. 
+ &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Role&lt;/h2&gt;
+  &lt;p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;Led end-to-end design efforts from user research to design implementation while collaborating with Product Managers and frontend developers&lt;/li&gt;
+    &lt;li&gt;Achieved greater usability with key stakeholders&lt;/li&gt;
+  &lt;li&gt;Introduced direct manipulation on Canvas&lt;/li&gt;
+  &lt;li&gt;Improved properties panel settings and more intuitive layout formatting&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Reformation of Forms&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Mindset Mismatch&lt;/h3&gt;
+  &lt;p&gt;
+  I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Foundational Changes&lt;/h3&gt;
+  &lt;p&gt;
+  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls. We found the following concepts to be the most valuable and quickest to implement.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;b&gt;One Form&lt;/b&gt;: The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Adding Rows&lt;/b&gt;: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form.
+&lt;/li&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/FormRow.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;Form Row&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;li&gt;
+  &lt;b&gt;Show Form-specific Controls&lt;/b&gt;: When a user clicks on a Form or any elements within a Form, the Control Panel will surface controls that could only be added to Forms.
+&lt;/li&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/ControlPanel.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;Control Panel only shows Form Controls&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;li&gt;
+&lt;b&gt;Contextual Right Click Menu&lt;/b&gt;: a quick alternative to adding, duplicating, and deleting a row
+&lt;/li&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/RightClickMenu1.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;Contextual Right Click Menu for a Row and Form&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/ul&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Unexpected Challenge: Form Groups&lt;/h3&gt;
+  &lt;p&gt;
+  As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. After the incremental changes were finished being built in the production site, we tested participants’ ability to build a form - from a form with a single group to a more complex form with additional groups. 
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Final Solution: Abstracting Layers&lt;/h3&gt;
+  &lt;p&gt;
+  Users still struggled to create a form because the process still required too many clicks to reach the lowest level of the hierarchy, the most edited level. We solved the problem by creating handlers and performing direct manipulations element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
+  &lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Handlers&lt;/b&gt;: select rows, drag and rearrange Form Sections&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Add Control via “+” Button on Canvas&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Add Form Section Button: Direct manipulation on canvas&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Layout Formatting&lt;/b&gt;: define # of columns in Form for specified device (mobile, tablet, desktop) and define arrangement of labels (side-by-side or stacked)&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Radio Buttons: Better Together&lt;/h2&gt;
+  &lt;p&gt;
+    &lt;img src=&quot;/img/portfolio/build/RadioButtons.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Grouping Radio Buttons &amp; Checkboxes&lt;/h3&gt;
+  &lt;p&gt;
+  BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Validating Multiple Choice vs. Separate Radio Buttons and Checkboxes&lt;/h3&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/radiobuttonpaperproto.jpg&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;Testing the Multiple Choice concept with a paper prototype&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;p&gt;
+  Because the Checkbox control is structurally similar to the Radio Button control, I wanted to validate whether to combine Radio Buttons and Checkboxes under one control named “Multiple Choice.” In the case that the user wanted to switch from Radio Buttons to Checkboxes and vice versa, the user should be able to maintain the same data or text they inputted. We quickly tested the concept with a paper prototype. In the end, I decided to separate Radio Buttons and Checkboxes as two separate controls. Providing the capability to switch between the two controls while maintaining the same data and text input proved to be valuable.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Shipping Changes&lt;/h3&gt;
+  &lt;p&gt;
+  &lt;b&gt;Direct Manipulation on Canvas&lt;/b&gt;
+  &lt;li&gt;Adding a new radio button with “+” button&lt;/li&gt;
+  &lt;li&gt;Right click contextual menu for adding, duplicating, and deleting radio buttons&lt;/li&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+  &lt;b&gt;Properties Panel&lt;/b&gt;
+  &lt;li&gt;Formatting horizontal and vertical layout&lt;/li&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+  The next steps will be to figure out how to maintain data while switching between different controls.
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Lessons Learned&lt;/h2&gt;
+  &lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;Get unstuck&lt;/b&gt; by testing early with incremental changes. Finding the right fidelity to test can save time and eliminate technical debt in the long run. For Radio Buttons, paper prototyping the multiple choice concept proved to be the best way to quickly disprove my hypothesis and determine which path to choose for my design.
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Document Your Progress&lt;/b&gt;: Organizing ideas from brainstorming sessions, design reviews, and meeting notes allowed me to revisit ideas that were conceived from earlier parts of the process but tossed away. They may prove to be viable solutions later down the road (highly recommend Dropbox Paper to keep track!)
+&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Thank you&lt;/h2&gt;
+  &lt;p&gt;
+I’m grateful for the unique challenge of designing UI controls with such a supportive, talented team. Shoutout to Suhaib Syed (Designer), Wenjing Yang (Designer), and Hong Wang (Product Manager) for leading the stride on simplifying controls and improving the overall usability of the Prototyping Tool in BUILD!
+  &lt;/p&gt;
+&lt;/section&gt;</description>
+        <pubDate>Thu, 06 Apr 2017 14:22:04 -0700</pubDate>
+        <link>/build/</link>
+        <guid isPermaLink="true">/build/</guid>
+        
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>ThredUP Personal Shops</title>
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Problem&lt;/h2&gt;
+  &lt;p&gt;
+  Only a very small percentage of users onboarded to the feature (not allowed to disclose figures), yet its users have the highest average order values.
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
 
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
-  		  Only a very small percentage of users onboarded to the feature (not allowed to disclose figures), yet its users have the highest average order values.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-      &lt;ul&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Role&lt;/h2&gt;
+&lt;p&gt;
       &lt;li&gt;Led a strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.&lt;/li&gt;
-        &lt;li&gt;Worked closely with Product, Engineering, Design, and Marketing in the process of developing specs and receiving feedback&lt;/li&gt;
-        &lt;li&gt;Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.&lt;/li&gt;
-      &lt;/ul&gt;
-  	&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Strategy&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Identifying Existing Successful Trends&lt;/h1&gt;
-I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
+      &lt;li&gt;Worked closely with Product, Engineering, Design, and Marketing in the process of developing specs and receiving feedback&lt;/li&gt;
+      &lt;li&gt;Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.&lt;/li&gt;
+&lt;/p&gt;
 &lt;/section&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Defining the Product Strategy&lt;/h2&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Identifying Existing Successful Trends&lt;/h3&gt;
+&lt;p&gt;
+    I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
+&lt;/p&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;An In-Depth Understanding of Users&lt;/h3&gt;
+&lt;p&gt;
+   I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
+&lt;p&gt;
 
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;An In-Depth Understanding of Users&lt;/h1&gt;
-I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
-&lt;br /&gt;
-&lt;br /&gt;
 Based on my phone interviews with the users, I created a mental model to understand the user&#39;s train of thought.
-  &lt;h3 class=&quot;subtitle&quot;&gt;Mental Model&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Mental Model&lt;/h3&gt;
     &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
     &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
     &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
     &lt;li&gt;Will these items fit me?&lt;/li&gt;
     &lt;li&gt;Will it save me search time?&lt;/li&gt;
     &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
-&lt;br /&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Style Profile&lt;/h3&gt;
+
+
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Style Profile&lt;/h2&gt;
 We also further refined the idea of creating a Style Profile for every account in order to &lt;strong&gt;set Sizes and top 10 brands&lt;/strong&gt;, based on the findings of a high percentage of users caring about their the brands they purchase and wanting to discover more items to similar brands.
 &lt;/section&gt;
 
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Validating Ideas&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Iteration&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Validating Ideas&lt;/h3&gt;
 The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
 &lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
 &lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
-&lt;p&gt;
+
 &lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
   &lt;!-- Carousel indicators --&gt;
   &lt;!-- Wrapper for carousel items --&gt;
@@ -115,23 +274,21 @@ The aim of the first iteration (prototyped in FramerJS) was to validate and answ
 &lt;/div&gt;
 &lt;p&gt;
 &lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+&lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
-&lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Findings&lt;/h3&gt;
+&lt;p&gt;
   &lt;li&gt;Simplify the view - remove color coding.&lt;/li&gt;
   &lt;li&gt;The concept of &quot;Pocket&quot; was too confusing.&lt;/li&gt;
   &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
   &lt;li&gt;Users are not interested in seeing popular saved searches.&lt;/li&gt;
-  &lt;p&gt;
-  &lt;p&gt;
+&lt;/p&gt;
 
 
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Refining the Design&lt;/h1&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Refining the Design&lt;/h3&gt;
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   &lt;p&gt;
     &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
@@ -178,27 +335,25 @@ After conducting the first user testing session on-site with 6 users who had at 
     &lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
+&lt;div class=&quot;cta&quot;&gt;
+  &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
   &lt;/div&gt;
   &lt;br /&gt;
   &lt;br /&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Findings&lt;/h3&gt;
     &lt;li&gt;We should rolllout to web, instead of mobile first.&lt;/li&gt;
     &lt;li&gt;There were mixed reactions to the heart iconography&lt;/li&gt;
+&lt;/p&gt;
 
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Execution&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Execution&lt;/h2&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Challenges&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;It was tempting to include many new features for the redesign of Personal Shops, but I learned to &lt;strong&gt;prioritize features&lt;/strong&gt; and make tradeoffs given the scope of the project. This simplification allowed for a more simplified design that was easy on the eyes.&lt;/li&gt;
   &lt;li&gt;I discovered the technical limitations for mobile after speaking with the Engineering team, so I had to quickly find an alternative solution for web.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Takeaways&lt;/h3&gt;
 &lt;ul&gt;
 	&lt;li&gt;Involve other stakeholders earlier in the process to learn about potential contraints.&lt;/li&gt;
 	&lt;li&gt;Simplicity and elegance rules. Think about information hierarchy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
@@ -221,113 +376,119 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
-        <link>/ux/thredup-ps/</link>
-        <guid isPermaLink="true">/ux/thredup-ps/</guid>
+        <link>/thredup-ps/</link>
+        <guid isPermaLink="true">/thredup-ps/</guid>
         
         
-        <category>ux</category>
+        <category>archive</category>
         
       </item>
     
       <item>
         <title>SmartBrush</title>
-        <description>&lt;section&gt;
-  &lt;p class=&quot;intro&quot;&gt;Our team of four developed SmartBrush, a dental hygiene app for Android mobile and smartwatch that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report &lt;a href=&quot;/files/SmartBrushFinalReport.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-      &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Problem&lt;/h2&gt;
+  &lt;p&gt;
       Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavities and gum diseases down the road, which can hurt self-confidence in one&#39;s appearance.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-    &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-    &lt;ul&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Role&lt;/h2&gt;
+  &lt;p&gt;
       &lt;li&gt;Project Manager and Lead Designer&lt;/li&gt;
       &lt;li&gt;Ensured team of engineers met deadlines and contributed to design process&lt;/li&gt;
       &lt;li&gt;Designed visual assets, animations and overall UX Design&lt;/li&gt;
       &lt;li&gt;Sketched concepts, developed user journey map and intereviewed users&lt;/li&gt;
       &lt;li&gt;Implemented GifViews in Android&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
 
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;SmartBrush in Action&lt;/h1&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;SmartBrush in Action&lt;/h2&gt;
 &lt;div class=&quot;video-module responsive-video&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;650&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/7vfUYkNVRzE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/section&gt;
+&lt;hr /&gt;
 
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Strategy&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Brainstorming&lt;/h1&gt;
-We wanted most of the interactions during brushing to occur when using the watch. After weighing the constraints, pros, and cons of our top three ideas, we selected a dental hygiene app. We thought it held the most potential for designing unique interactions for the watch interface in particular. There were many more ideas that we could implement for solving the problem of poor dental hygiene through gamification, providing facts, and keeping track of progress through a numerical system.
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Ideation &amp;amp; Sketches&lt;/h1&gt;
-After discovering the saturation of dental hygiene apps for children in the Play Store and recognizing there is still a need for teens and young adults to correct their poor brushing and flossing habits, we decided to pivot to target 10-20 year olds. 
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot; style=&quot;text-align: center&quot;&gt;User Journey Map&lt;/h3&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Defining the Strategy&lt;/h2&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Brainstorming&lt;/h3&gt;
+&lt;p&gt;We wanted most of the interactions during brushing to occur when using the watch. After weighing the constraints, pros, and cons of our top three ideas, we selected a dental hygiene app. We thought it held the most potential for designing unique interactions for the watch interface in particular. There were many more ideas that we could implement for solving the problem of poor dental hygiene through gamification, providing facts, and keeping track of progress through a numerical system.
+&lt;/p&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Ideation &amp;amp; Sketches&lt;/h3&gt;
+&lt;p&gt;After discovering the saturation of dental hygiene apps for children in the Play Store and recognizing there is still a need for teens and young adults to correct their poor brushing and flossing habits, we decided to pivot to target 10-20 year olds. 
+&lt;/p&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;User Journey Map&lt;/h3&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.figma.com/file/Laa1xLrzw4I487dMAVAU743E/Smart-Brush-User-Journey-Map&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/UserJourneyMap.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot; style=&quot;text-align: center&quot;&gt;Sketches&lt;/h3&gt;
-&lt;p&gt;
+&lt;/p&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Sketches&lt;/h3&gt;
+
 &lt;a href=&quot;https://www.figma.com/file/guugKmS6m1uQWVMW6KBj6D/CS-160-Nurse-Joy-and-the-ChancPaper-Sketches-Public&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/sketch.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;
 We based our sketches on the User Journey Map.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
 
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Initial Research&lt;/h1&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Competitive Analysis&lt;/h3&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Initial Research&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Competitive Analysis&lt;/h3&gt;
   &lt;strong&gt;Top 3 Competitors:&lt;/strong&gt;
   &lt;li&gt;Chomper Chums&lt;/li&gt;
   &lt;li&gt;Quickbrush&lt;/li&gt;
   &lt;li&gt;Aquafresh Brush Time&lt;/li&gt;
   &lt;p&gt;
   With the plethora of dental hygiene apps for children, we wanted to differentiate and focus on designing an app for a slightly older user base of young teens to young adults.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;User Interviews&lt;/h3&gt;
   &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;User Interviews&lt;/h3&gt;
   Our initial interviews with a &lt;strong&gt;dental assistant, mother of two children, and a teenage student&lt;/strong&gt; allowed us to dive deeper into identifying the user&#39;s top needs and primary tasks for our app. The dental assistant emphasized the importance of &lt;strong&gt;flossing&lt;/strong&gt; and finding ways to &lt;strong&gt;entertain children&lt;/strong&gt; so that they would be motivated to brush their teeth. The mother shared with us how influential parents are for teaching their children about dental hygiene. The teenage student revealed his dental hygiene habits and how it is tied with his &lt;strong&gt;self-esteem in regards to physical appearance&lt;/strong&gt;. He also suggested an aspect of &lt;strong&gt;gamification&lt;/strong&gt; to make the experience of brushing teeth and flossing more enjoyable. We took all of these findings into account in our process of building features.
-  &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Top 5 User Needs&lt;/h3&gt;
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Top 5 User Needs&lt;/h3&gt;
   &lt;li&gt;Have a fun and entertaining experience so brushing teeth won’t feel like a hassle.&lt;/li&gt;
   &lt;li&gt;Receiving feedback and tracking progress for techniques.&lt;/li&gt;
   &lt;li&gt;Learn proper brushing habits and techniques.&lt;/li&gt;
   &lt;li&gt;Not slowing down the brushing/flossing process.&lt;/li&gt;
   &lt;li&gt;Motivation to maintain good oral health and prevent dental disorders.&lt;/li&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
 
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Wireframing&lt;/h1&gt;
-  Our team used &lt;a href=&quot;http://figma.com&quot; target=&quot;_blank&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Iteration&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Wireframing&lt;/h3&gt;
   &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;3 Primary Tasks&lt;/h3&gt;
+  Our team used &lt;a href=&quot;http://figma.com&quot; target=&quot;_blank&quot;&gt;Figma&lt;/a&gt; as our primary collaborative, prototyping tool (includes a handy Slack integration). We wanted our first wireframe to accomplish the three primary tasks.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;3 Primary Tasks&lt;/h3&gt;
   &lt;li&gt;Brushing&lt;/li&gt;
   &lt;li&gt;Flossing&lt;/li&gt;
   &lt;li&gt;Checking Progress and Rankings&lt;/li&gt;
-  &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Version 1.0&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Version 1.0&lt;/h3&gt;
   &lt;img src=&quot;/img/portfolio/smartbrush/wireframev1.png&quot; class=&quot;img-responsive&quot; /&gt;
   &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public&quot; target=&quot;_blank&quot;&gt;View Wireframe&lt;/a&gt;
+    &lt;a href=&quot;https://www.figma.com/file/GJd7n0GcPV36Rmo6Tg14Un/Final-Wireframes-v1-Public&quot; target=&quot;_blank&quot;&gt;
+      &lt;button class=&quot;cta&quot;&gt;View Wireframe&lt;/button&gt;
+    &lt;/a&gt;
  &lt;/div&gt;
   &lt;p&gt;
- &lt;h3 class=&quot;subtitle&quot;&gt;Version 2.0&lt;/h3&gt;
+ &lt;h3 class=&quot;project-body&quot;&gt;Version 2.0&lt;/h3&gt;
  &lt;img src=&quot;/img/portfolio/smartbrush/wireframev2.png&quot; class=&quot;img-responsive&quot; /&gt;
   &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public&quot; target=&quot;_blank&quot;&gt;View Wireframe&lt;/a&gt;
+  &lt;a href=&quot;https://www.figma.com/file/5036UJPwm5jX8cpyTlir3k/PROG-03-Milestone-1-Public&quot; target=&quot;_blank&quot;&gt;
+    &lt;button class=&quot;cta&quot;&gt;View Wireframe&lt;/button&gt;
+  &lt;/a&gt;
   &lt;/div&gt;
   &lt;p&gt;
- 
   After receiving feedback from TAs, usability testing participants, and fellow students, here are the key changes made for the second version:
   &lt;p&gt;
   &lt;table class=&quot;table table-bordered&quot;&gt;
@@ -350,15 +511,15 @@ We based our sketches on the User Journey Map.
 &lt;p&gt;
 &lt;img src=&quot;/img/portfolio/smartbrush/branding.png&quot; class=&quot;img-responsive&quot; /&gt;
 
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Final Prototype&lt;/h2&gt;
   We developed the final prototype on Android. Brushing animations (made in After Effects) indicate the progress of brushing your teeth as the teeth turn from yellow to white and the pulsating effect highlight the areas of your teeth to brush. We established a streak system in which a streak is equal to brushing twice in a day and flossing once during the day. The counter resets daily at midnight. After the 15-second timer for the Brushing Screens reaches 0, the watch will vibrate to indicate an automatic transition to the next screen.
   &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Final Flow&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Final Flow&lt;/h3&gt;
   &lt;a href=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/portfolio/smartbrush/finaldesignflow.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;/a&gt;
   &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Animations&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Animations&lt;/h3&gt;
   &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-5 center-block&quot;&gt;
   &lt;img src=&quot;/img/portfolio/smartbrush/bottomrightdiagram.gif&quot; class=&quot;img-responsive&quot; /&gt;
@@ -368,26 +529,26 @@ We based our sketches on the User Journey Map.
   &lt;/div&gt;
   &lt;/div&gt;
 
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Execution&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Technical Challenges&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Execution&lt;/h2&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Technical Challenges&lt;/h3&gt;
     &lt;li&gt;&lt;strong&gt;Running the Gif Views&lt;/strong&gt;: our flossing animation was unable to play on physical watch because it ran out of memory, but it played normally on the emulator.&lt;/li&gt;
     &lt;li&gt;&lt;strong&gt;Storing and updating the streak count on the phone and watch after brushing&lt;/strong&gt;: We needed to figure out a system of updating the streaks. We set a timestamp at midnight to reset the count of brushing and flossing. The data for streak counts are stored on the phone, but the watch retries this information to update the streak count and send the data back to the phone.&lt;/li&gt;
 &lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
-  Overall, I had a wonderful experience of learning how to develop an app in Android with a team and learning about the UI guidelines for Android and Android Wear. This is also the first project where I designed an experience and programmed for wearables.
+&lt;hr /&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Takeaways&lt;/h2&gt;
   &lt;p&gt;
-  &lt;ul&gt;Here are the valuable lessons I learned along the way:
+  Overall, I had a wonderful experience of learning how to develop an app in Android with a team and learning about the UI guidelines for Android and Android Wear. This is also the first project where I designed an experience and programmed for wearables.
+  &lt;/p&gt;
+  Here are the valuable lessons I learned along the way:
   &lt;li&gt;Know the &lt;a href=&quot;http://developer.android.com/design/wear/patterns.html&quot; target=&quot;_blank&quot;&gt;Android Wear UI Patterns&lt;/a&gt; front and back before diving into sketching, wireframing, and creating visual design elements.&lt;/li&gt;
   &lt;li&gt;Technical constraints, such as the physical handware running out of memory for playing animations, can influence the final design implementation and may require an alternative solution.&lt;/li&gt;
-  &lt;/ul&gt;
-
-
-&lt;section&gt;
-   &lt;h1 class=&quot;section-title&quot;&gt;Credit&lt;/h1&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+   &lt;h2&gt;Credit&lt;/h2&gt;
     &lt;li&gt;Contextual Inquiries: Rachel Lin, Nithish Arunkumar, Mukund Chillikanti&lt;/li&gt;
     &lt;li&gt;Visual Design, Animations, and UI Design: Rachel Lin&lt;/li&gt;
     &lt;li&gt;Backend (Android): Mukund Chillikanti&lt;/li&gt;
@@ -395,251 +556,65 @@ We based our sketches on the User Journey Map.
     &lt;li&gt;My Activity Screen (Android): Tait Gu&lt;/li&gt;
     &lt;li&gt;Gif Views (Android): Rachel Lin&lt;/li&gt;
 &lt;/section&gt;
-&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Fri, 06 May 2016 14:22:04 -0700</pubDate>
-        <link>/ux/smartbrush/</link>
-        <guid isPermaLink="true">/ux/smartbrush/</guid>
+        <link>/smartbrush/</link>
+        <guid isPermaLink="true">/smartbrush/</guid>
         
         
-        <category>ux</category>
-        
-      </item>
-    
-      <item>
-        <title>Westfield Showroom</title>
-        <description>&lt;section&gt;
-With a team of designers, I created a service design concept to bridge the convenience of online shopping with the personal attention and customer service characteristic of physical shopping experiences. 
-&lt;/section&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-      &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
-      Build a service concept based on issues we identified from user research on 18-25 year olds.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-    &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Designer leading user research and usability testing&lt;/li&gt;
-      &lt;li&gt;Validated Showroom concept by facilitating a simulation of the service design concept&lt;/li&gt;
-      &lt;li&gt;Worked closely with the VP of Creative Services and Product Manager&lt;/li&gt;	
-    &lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Ideation&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Concept Development&lt;/h1&gt;
-Our service concept ideas touched upon a variety of services offered by Westfield Malls across the world: shopping, parking and transportation, food courts, and movie theaters. Our team of designers conducted interviews by segmenting the target demographic of 18-25 year olds into these groups:
-&lt;li&gt;grad students (1 male, 1 female)&lt;/li&gt;
-&lt;li&gt;undergrad students (1 male, 1 female)&lt;/li&gt;
-&lt;li&gt;a couple who graduated (1 male, 1 female)&lt;/li&gt;
-&lt;li&gt;recent grads (1 male, 1 female)&lt;/li&gt;
-&lt;p&gt;
- &lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
- &lt;li&gt;Distinct behaviors between the women and men in the mall&lt;/li&gt;
- &lt;li&gt;Men value efficiency and often shop with a female who provides input (mom, sister, girlfriend, wife)&lt;/li&gt;
- &lt;li&gt;Common pain points: crowdedness, transportation to the mall (espeically for distant students)&lt;/li&gt;
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Goals&lt;/h3&gt;
-&lt;li&gt;Avoid crowds&lt;/li&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Validation&lt;/h1&gt;
-We selected the &lt;strong&gt;Marketplace + Kiosk&lt;/strong&gt; concept as the most feasible for directly addressing the problems of crowdedness in a mall and improved personal attention and care to the customer.
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Validating the Flow&lt;/h1&gt;
-Put first iteration here.
-  &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Validating the Flow&lt;/h1&gt;
-Version B. Testing
-&lt;p&gt;
- &lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Takeaways&lt;/h1&gt;
-  The fitting rooms of our service design has the potential to evolve into an interactive fitting experience.
-&lt;/section&gt;</description>
-        <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
-        <link>/ux/westfieldshowroom/</link>
-        <guid isPermaLink="true">/ux/westfieldshowroom/</guid>
-        
-        
-        <category>ux</category>
-        
-      </item>
-    
-      <item>
-        <title>ThredUP Support</title>
-        <description>&lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
-&lt;/div&gt;
-&lt;section&gt;
-  &lt;p class=&quot;intro&quot;&gt;As a part-time, remote Product Intern at thredUP for the last six months, I redesigned and implemented the &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;ThredUP Support Page&lt;/a&gt;. The new Zendesk website allows thredUP’s two kinds of users, Shoppers and Sellers, to easily find answers to their questions.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-      &lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
-      Customers would directly email the Customer Support team to ask simple questions that had already been answered on Zendesk. This would add unnecessary inefficiencies to their workflow.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-    &lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-      &lt;ul&gt;
-        &lt;li&gt;In collaboration with the Customer Support team, I organized the sections and articles they wanted to display to users&lt;/li&gt;
-        &lt;li&gt;Created additional iconography&lt;/li&gt;
-        &lt;li&gt;Mocked up a prototype in Marvel&lt;/li&gt;
-        &lt;li&gt;Implemented the frontend in HTML, CSS, JavaScript/jQuery&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;The Approach&lt;/h1&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
-&lt;p&gt;
-Depending on the user’s role (whether they were a Shopper or a Seller), I wanted them to be able to quickly and easily find their question among the many categories. A first path to finding the question would be to toggle between the two categories of “Shopping” and “Selling” at the top, then locate the appropriate category.  The second entry point would be a left side sliding, accordion style menu bar, that would nest further into the category clicked. I included both solutions in my sketch.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;img src=&quot;/img/portfolio/tusupport/sketch.jpg&quot; class=&quot;img-responsive center-block&quot; /&gt;
- &lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Visual Assets&lt;/h1&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Iconography&lt;/h1&gt;
-  I added icons to clearly signify the different section categories under “Shopping” and “Selling.” These were based on icons that can also be found on &lt;a href=&quot;http://thredup.com&quot;&gt;thredUP&lt;/a&gt;.
-  &lt;img src=&quot;/img/portfolio/tusupport/icons.png&quot; class=&quot;img-responsive center-block&quot; /&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1 class=&quot;group-title&quot;&gt;Iteration&lt;/h1&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
-  Based on the sketch I drew during the design process, I created a prototype in Marvel. I shared this prototype with the Design and Customer Support teams to receive feedback before I proceeded to code the changes in Zendesk.
-  &lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;&lt;a href=&quot;https://marvelapp.com/8aijdh&quot; target=&quot;_blank&quot;&gt;View Prototype&lt;/a&gt;&lt;/div&gt;
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
-  I coded the website in HTML, CSS, and JavaScript/jQuery. The new website format of &lt;strong&gt;toggling between categories&lt;/strong&gt; based on the two different user roles (Selling and Shopping) has proven to be a easier way for users to find answers to their questions. The addition of &lt;strong&gt;iconography&lt;/strong&gt; to sections titles allows users to easily identify which section their question belongs to. As a result, Customer Support team has been experiencing &lt;strong&gt;less direct emails since launch&lt;/strong&gt;. A second iteration with the left sliding sidebar will be released soon. 
-  &lt;p&gt;
-  &lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;http://support.thredup.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Home Page&lt;/h3&gt;
-  &lt;img src=&quot;/img/portfolio/tusupport/homepage.png&quot; class=&quot;img-responsive center-block img-border&quot; /&gt;
-  &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Category Page&lt;/h3&gt;
-  &lt;img src=&quot;/img/portfolio/tusupport/sectionpage.png&quot; class=&quot;img-responsive center-block img-border&quot; /&gt;
-  &lt;p&gt;
-  &lt;h3 class=&quot;subtitle&quot;&gt;Article Page&lt;/h3&gt;
-  &lt;img src=&quot;/img/portfolio/tusupport/article.png&quot; class=&quot;img-responsive center-block img-border&quot; /&gt;
-
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/section&gt;
-</description>
-        <pubDate>Sat, 02 Apr 2016 14:22:04 -0700</pubDate>
-        <link>/webdev/tusupport/</link>
-        <guid isPermaLink="true">/webdev/tusupport/</guid>
-        
-        
-        <category>webdev</category>
-        
-      </item>
-    
-      <item>
-        <title>Modern Citizen</title>
-        <description>&lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;http://modern-citizen.com&quot; target=&quot;_blank&quot;&gt;Visit Site&lt;/a&gt;
-&lt;/div&gt;
-&lt;section&gt;
-&lt;p class=&quot;intro&quot;&gt;&lt;a href=&quot;http://modern-citizen.com&quot;&gt;Modern Citizen&lt;/a&gt; is the online style destination for the modern woman. The problem I sought to address as a web development intern was creating features and pages for content creation and creative brand content. My mental model throughout the design process was &quot;how can I make customers clearly understand our brand vision and engage with what it means to be a modern woman?&quot; I coded Modern Citizen&#39;s blog layout and other website features for engagement with social media.&lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;The Blog&lt;/h1&gt;
-We wanted to further engage our customers with content related to the mission of forward-thinking women going places in their careers and in travel. It is structured by 3 square images for feature stories and 3 columns for each blog post. Currently, the &lt;a href=&quot;http://www.modern-citizen.com/blogs/thecompass&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; is unavailable on the website.
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Mockup&lt;/h3&gt;
-&lt;p&gt;
-&lt;img src=&quot;/img/portfolio/moderncitizen/blogmockup.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;VIP Program&lt;/h1&gt;
-I designed and coded a call to action on the website for customers to join Modern Citizen&#39;s VIP Program to receive exclusive access to upcoming collections and receive samples curated by stylists. This program is currently unavailable online.
-&lt;p&gt;
-&lt;img src=&quot;/img/portfolio/moderncitizen/vip_program.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
-
-&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
-</description>
-        <pubDate>Fri, 25 Dec 2015 13:22:04 -0800</pubDate>
-        <link>/webdev/moderncitizen/</link>
-        <guid isPermaLink="true">/webdev/moderncitizen/</guid>
-        
-        
-        <category>webdev</category>
+        <category>archive</category>
         
       </item>
     
       <item>
         <title>TrashScan</title>
-        <description>&lt;section&gt;
-&lt;p class=&quot;intro&quot;&gt;TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;https://www.hackster.io/trashscan/trashscan-3ca9fe&quot; target=&quot;_blank&quot;&gt;Hackster&lt;/a&gt;. 
-&lt;br&gt;
-&lt;br&gt;
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+&lt;p&gt;
+TrashScan is a revolutionary new way of waste management and sorting. With it, we can more easily sort trash into the correct bins: compost, bottles &amp; cans, mixed paper, and landfill. Simply place your trash on top of the platform and TrashScan will let you know which bin to place it in. This technology not only makes it easier to sort trash, but it works towards educating users on the intricacies of recycling and composting in order help communities achieve zero waste by 2020. I&#39;ve only included the highlights of the project here, but a more comprehensive write-up can be found on &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Hackster&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
 TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkeley.edu/student-project/trashscan/&quot; target=&quot;_blank&quot;&gt;Project Spotlight&lt;/a&gt; for the &lt;a href=&quot;http://jacobsinstitute.berkeley.edu&quot; target=&quot;_blank&quot;&gt;Jacobs Institute for Design Innovation&lt;/a&gt;. Our team also had the honor of presenting our prototype to the Jacobs Institute Advisory Board.
 &lt;/p&gt;
 &lt;/section&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  		&lt;h2&gt;Problem&lt;/h2&gt;
   		  Students do not know what bin their trash belongs in. People don&#39;t care about what bin their trash belongs in. Cross-contamination in bins prevents composting.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-  		&lt;ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  	&lt;h2&gt;Role&lt;/h2&gt;
   		  &lt;li&gt;Project manager&lt;/li&gt;	
 	      &lt;li&gt;Conducted ethnographic interviews and regularly met with interviewees&lt;/li&gt;
 	      &lt;li&gt;Created the animations in Processing&lt;/li&gt;
 	      &lt;li&gt;Sketched concepts and developed user&#39;s interaction with the platform&lt;/li&gt;
-    	&lt;/ul&gt;
-  	&lt;/div&gt;
 
-&lt;/div&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Initial Research&lt;/h1&gt;
-
-We interviewed Monica and Nicole, two students coordinators from Cal Recycling. From our first interview with Monica, we learned about the inefficiencies of sorting trash during waste audits. These issues originate from human errors of cross-contamination between bins. It is difficult to teach 40,000 students to correct their habits and take the time to learn about disposing in the correct bin. 
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Initial Research&lt;/h2&gt;
 &lt;p&gt;
-&lt;ul&gt;In a follow up interview, we learned that many of the common errors were:
+We interviewed Monica and Nicole, two students coordinators from Cal Recycling. From our first interview with Monica, we learned about the inefficiencies of sorting trash during waste audits. These issues originate from human errors of cross-contamination between bins. It is difficult to teach 40,000 students to correct their habits and take the time to learn about disposing in the correct bin. 
+&lt;/p&gt;
+&lt;p&gt;
+In a follow up interview, we learned that many of the common errors were:
 	&lt;li&gt;dry paper should go in mixed paper (no soiled/wet paper)&lt;/li&gt;
 	&lt;li&gt;plastics were found in compost, but they don’t belong in the compost bin (should go to landfill or bottles &amp; cans)&lt;/li&gt;
 	&lt;li&gt;The non-compostable spoons from off campus were placed in compost&lt;/li&gt;
-&lt;/ul&gt;
-
-
+&lt;/p&gt;
 &lt;/section&gt;
-
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Design Process&lt;/h2&gt;
+&lt;p&gt;
 Our first design included a box with lights positioned at the top. A camera would look into the box, and once the item was sorted, a light would indicate the correct bin. However, this initial design was too constricting and bulky, so we simplified out design to a flat platform. The user would place their trash onto the platform and a light attached to the right side of the platform would light up, much like the initial design. In our third design, we wanted to be able to add more to the device and have some sort of imagery to be displayed on the platform. Thus, we added in a projector next to the camera and removed the lights. The device would have a flat platform on which an image would be displayed. We would customize the image per bin. 
-&lt;br&gt;
-&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
 For our final design, we used a monitor, which conveniently served both as the platform, as well as where the visuals and sound played from. We place this monitor inside a box.  Users would see an initial start screen, with simple instructions guiding them on how to use TrashScan.
-&lt;br&gt;
-&lt;br&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
 &lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;col-md-4&quot;&gt;&lt;img src=&quot;/img/portfolio/trashscan/iteration1.png&quot; class=&quot;img-responsive center-block&quot;&gt;&lt;/div&gt;
 	&lt;div class=&quot;col-md-4&quot;&gt;
@@ -649,175 +624,62 @@ For our final design, we used a monitor, which conveniently served both as the p
 		&lt;img src=&quot;/img/portfolio/trashscan/iteration3.png&quot; class=&quot;img-responsive center-block&quot;&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-&lt;br&gt;
+&lt;p&gt;
 Because signage is often hidden and ineffective for telling people what belongs in each bin, we wanted to display animations and play sounds to engage the user and associate each bin with a sound and graphic. We included facts stated during the interviews as part of the messaging. For compost, we played a victorious sound to encourage composting, and an error “wah-wah” noise to discourage people from using the landfill.
+&lt;/p&gt;
 &lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Final Prototype&lt;/h1&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Final Prototype&lt;/h2&gt;
 &lt;div class=&quot;video-module responsive-video&quot;&gt;
 &lt;iframe width=&quot;655&quot; height=&quot;375&quot; src=&quot;https://www.youtube.com/embed/xkhOMdKdvc4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;
 We made animations with &lt;a href=&quot;http://py.processing.org/&quot;&gt;Processing.py&lt;/a&gt;, then converted it to video so it could be played on Raspberry Pi. After an object is identified and sorted into its corresponding bin, the monitor will play the animation for its bin. We included sound to help the user remember which bin the object belongs to. For the &lt;strong&gt;Compost&lt;/strong&gt; bin, we play a victorious sound to encourage composting; for &lt;strong&gt;Landfill&lt;/strong&gt; we play a sad sound to discourage putting waste in the landfill. Fun facts on the screen encourages education as part of the user&#39;s interaction with the platform.
-&lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Greeting Screen&lt;/h3&gt;
+&lt;/p&gt;
+
+&lt;h3 class=&quot;project-body&quot;&gt;Greeting Screen&lt;/h3&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/166338989&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Compost Sort&lt;/h3&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Compost Sort&lt;/h3&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/168866419&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Bottles &amp; Cans Sort&lt;/h3&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Bottles &amp; Cans Sort&lt;/h3&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/168866418&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Mixed Paper Sort&lt;/h3&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Mixed Paper Sort&lt;/h3&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/168866582&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Landfill Sort&lt;/h3&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Landfill Sort&lt;/h3&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/168866581&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Final Thoughts&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Challenges&lt;/h3&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Challenges&lt;/h3&gt;
 	&lt;li&gt;The object detection was sensitive to the lighting of the room so it had to be readjusted whenever we presented it in a different setting.&lt;/li&gt;
 	&lt;li&gt;We faced technical limitations from the Raspberry Pi in playing the Processing graphics directly using our Python code, but we were able to overcome this problem by rendering the motion animation as a video.&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;ul&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;For Future Iterations&lt;/h3&gt;
+
+&lt;h3 class=&quot;project-body&quot;&gt;For Future Iterations&lt;/h3&gt;
 	&lt;li&gt;Companion application for mobile&lt;/li&gt;
 	&lt;li&gt;The ability to detect multiple objects (e.g. a tray of plate and food)&lt;/li&gt;
 	&lt;li&gt;Accounting for edge cases (plastic vs. compostable spoon)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Credit&lt;/h3&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;h2&gt;Credit&lt;/h2&gt;
 	&lt;li&gt;Machine Learning: Jessie Salas&lt;/li&gt;
 	&lt;li&gt;Ethnographic Interviews: Rachel Lin&lt;/li&gt;
 	&lt;li&gt;Animations &amp; Frontend: Rachel Lin, Chonyi Lama&lt;/li&gt;
 	&lt;li&gt;Object Recognition: Lesley Chiang&lt;/li&gt;
 	&lt;li&gt;Box Construction: Drake Myers&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/section&gt;</description>
         <pubDate>Sun, 06 Dec 2015 13:22:04 -0800</pubDate>
-        <link>/ux/trashscan/</link>
-        <guid isPermaLink="true">/ux/trashscan/</guid>
+        <link>/trashscan/</link>
+        <guid isPermaLink="true">/trashscan/</guid>
         
         
-        <category>ux</category>
-        
-      </item>
-    
-      <item>
-        <title>Immersio Virtual Museum</title>
-        <description>&lt;section&gt;
-    &lt;p class=&quot;intro&quot;&gt;Our team of four worked with Immersio, a VR/AR design company, in Spring 2015 to redesign an immersive virtual reality experience for art museum exhibitions. You can view more details on our &lt;a href=&quot;https://www.behance.net/gallery/28274269/BI-x-Immersio-Virtual-Museum&quot; target=&quot;_blank&quot;&gt;Behance&lt;/a&gt;.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-md-6 project-problem&quot;&gt;
-  		&lt;h2 class=&quot;block-title&quot;&gt;Problem&lt;/h2&gt;
-  		  Our client came to us with an open-ended proposal to redesign the experience of his existing virtual art gallery.
-  &lt;/div&gt;
-  &lt;div class=&quot;col-md-6 project-role&quot;&gt;
-  	&lt;h2 class=&quot;block-title&quot;&gt;Role&lt;/h2&gt;
-    &lt;ul&gt;
-        &lt;li&gt;Team Lead&lt;/li&gt;
-        &lt;li&gt;Advised our client to pursue a more feasible virtual reality experience for museums rather than art galleries&lt;/li&gt;
-        &lt;li&gt;Facilitated brainstorming sessions&lt;/li&gt;
-        &lt;li&gt;Conducted interviews for user research&lt;/li&gt;
-        &lt;li&gt;Mocked up the medium-fidelity prototype in Photoshop&lt;/li&gt;
-    &lt;/ul&gt;
-  	&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;User Research&lt;/h1&gt;
-We visited art galleries in Downtown San Francisco and interviewed gallery owners and visitors to understand their motivations for purchasing art (if they happened to be buyers) and their thoughts of interacting with art virtually. 
-&lt;br&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;h3 class=&quot;subtitle&quot;&gt;Findings&lt;/h3&gt;
-  &lt;li&gt;We faced concern and resistance from art gallery owners and art buyers.&lt;/li&gt;
-  &lt;li&gt;It didn’t make sense for them to experience art virtually; they must see art in person before they consider purchasing.&lt;/li&gt;
-&lt;/ul&gt; 
-&lt;br&gt;
-Based on our findings, we decided to pivot from the original prompt to designing an educational, virtual reality experience at museums.  We identified our target users as art historians, students, and museum attendees.
-&lt;/section&gt;
-
-&lt;section&gt;
-	&lt;h1 class=&quot;section-title&quot;&gt;Design Process&lt;/h1&gt;
-   &lt;h3 class=&quot;subtitle&quot;&gt;Primary Tasks&lt;/h3&gt;
-    &lt;li&gt;Selecting exhibits based on chronological order of exhibition&lt;/li&gt;
-    &lt;li&gt;Archiving&lt;/li&gt;
-    &lt;li&gt;Viewing artworks&lt;/li&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Prototyping&lt;/h1&gt;
-    We aimed to prototype in a way that appeared as though it were in a 3D space. 
-    &lt;h3 class=&quot;subtitle&quot;&gt;Exhibition Selection&lt;/h3&gt;
-    3D curved panels of museum exhibits shown in chronological order of exhibition. The user would be able to turn his head or use the game controller to rotate between panels that hung in a circle formation. The highlight effect would show the state that the current panel is being selected. Upon selection, the panel will gradually fade into the chosen exhibit environment, as though the user has transported to a different location. This is how we wanted to achieve as much of an immersive experience as possible.
-    &lt;img src=&quot;/img/portfolio/immersio/exhibit.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-    &lt;br&gt;
-    &lt;h3 class=&quot;subtitle&quot;&gt;Gallery View&lt;/h3&gt;
-    The user experiences the gallery as though they are in the center of the space. The user uses the game controller to select which exhibits he would like to take a closer look at. 
-    &lt;img src=&quot;/img/portfolio/immersio/galleryview.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-    &lt;br&gt;
-    &lt;h3 class=&quot;subtitle&quot;&gt;Artwork Close-up&lt;/h3&gt;
-    The viewer has the option to either zoom-in on the artwork or view more information, such as commentary about the work.
-    &lt;img src=&quot;/img/portfolio/immersio/closeup.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Final Product&lt;/h1&gt;
-  The final product was created in Unity. It was built at &lt;a href=&quot;http://devpost.com/software/techne-virtual-reality-art-gallery&quot; target=&quot;_blank&quot;&gt;GigHacks SF&lt;/a&gt;.
-  &lt;img src=&quot;/img/portfolio/immersio.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-  &lt;p&gt;
-  We used an Oculus Rift to demo our product.
-  &lt;img src=&quot;/img/portfolio/immersio/showcase.jpg&quot; class=&quot;img-responsive center-block&quot;&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1 class=&quot;section-title&quot;&gt;Challenges&lt;/h1&gt;
-&lt;ul&gt;
-	&lt;li&gt;Findings from user research can pivot the original design and inform clients about the feasibility of their ideas.&lt;/li&gt;
-  &lt;li&gt;It was difficult to prototype for a 3D interface on tools that are used to design 2D interfaces.&lt;/li&gt;
-	&lt;li&gt;Designing for an unfamiliar interface such as virtual reality can be challenging with lack of design documentation, but there is more freedom to think outside of the box.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-  &lt;h1 class=&quot;section-title&quot;&gt;Credit&lt;/h1&gt;
-    &lt;li&gt;Programming (Unity): Daniel Pok&lt;/li&gt;
-    &lt;li&gt;Ethnographic Interviews: Rachel Lin, Amanda Vu, Daniel Pok&lt;/li&gt;
-    &lt;li&gt;Medium-Fidelity Prototype: Rachel Lin, Amanda Vu&lt;/li&gt;
-&lt;/section&gt;
-
-
-
-
-&lt;!-- &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
-</description>
-        <pubDate>Sun, 02 Aug 2015 14:22:04 -0700</pubDate>
-        <link>/ux/immersio/</link>
-        <guid isPermaLink="true">/ux/immersio/</guid>
-        
-        
-        <category>ux</category>
+        <category>archive</category>
         
       </item>
     
