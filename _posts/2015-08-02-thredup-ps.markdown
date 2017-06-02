@@ -19,30 +19,34 @@ summary: Last summer, I had the privilege of interning at <a href="http://thredu
 <section class="project-body">
 <h2>Role</h2>
 <p>
+<ul>
       <li>Led a strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.</li>
       <li>Worked closely with Product, Engineering, Design, and Marketing in the process of developing specs and receiving feedback</li>
       <li>Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.</li>
+</ul>
 </p>
 </section>
 <section class="project-body">
-<h2>Defining the Product Strategy</h2>
-<h3 class="project-body">Identifying Existing Successful Trends</h3>
-<p>
-    I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
-</p>
-<h3 class="project-body">An In-Depth Understanding of Users</h3>
-<p>
-   I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
-<p>
-
-Based on my phone interviews with the users, I created a mental model to understand the user's train of thought.
-  <h3 class="project-body">Mental Model</h3>
-    <li>Can I quickly find relevant items?</li>
-    <li>How can I find great deals that caters to my family's lifestyle?</li>
-    <li>How can I easily shop my favorite brands?</li>
-    <li>Will these items fit me?</li>
-    <li>Will it save me search time?</li>
-    <li>How can we get coveted items first?</li>
+  <h2>Defining the Product Strategy</h2>
+  <h3 class="project-body">Identifying Existing Successful Trends</h3>
+  <p>
+      I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
+  </p>
+  <h3 class="project-body">An In-Depth Understanding of Users</h3>
+  <p>
+     I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
+  </p>
+<p>Based on my phone interviews with the users, I created a mental model to understand the user's train of thought.
+    <h3 class="project-body">Mental Model</h3>
+    <ul>
+      <li>Can I quickly find relevant items?</li>
+      <li>How can I find great deals that caters to my family's lifestyle?</li>
+      <li>How can I easily shop my favorite brands?</li>
+      <li>Will these items fit me?</li>
+      <li>Will it save me search time?</li>
+      <li>How can we get coveted items first?</li>
+    </ul>
+  </p>
 </section>
 
 <section class="project-body">
@@ -123,9 +127,7 @@ After conducting the first user testing session on-site with 6 users who had at 
   <li>Users wanted to be able to click through a feed row to see the PLP.</li>
   <li>Users are not interested in seeing popular saved searches.</li>
 </p>
-
-
-  <h3 class="project-body">Refining the Design</h3>
+<h3 class="project-body">Refining the Design</h3>
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   <p>
     <div id="v2Carousel" class="carousel slide" data-ride="carousel">

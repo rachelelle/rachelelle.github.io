@@ -10,7 +10,6 @@ body {
 i {
     font-family: 'Rubik';
     color: #8D88BE;
-    font-weight: 500;
 }
 
 hr {
@@ -336,8 +335,8 @@ button.cta{
 
 button.cta#featured-project1 {
     background-color: transparent;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
 }
 
 button.cta#featured-project2{

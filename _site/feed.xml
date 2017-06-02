@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 May 2017 23:08:01 -0700</pubDate>
-    <lastBuildDate>Tue, 30 May 2017 23:08:01 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Jun 2017 19:58:18 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2017 19:58:18 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -182,31 +182,35 @@ I’m grateful for the unique challenge of designing UI controls with such a sup
 &lt;section class=&quot;project-body&quot;&gt;
 &lt;h2&gt;Role&lt;/h2&gt;
 &lt;p&gt;
+&lt;ul&gt;
       &lt;li&gt;Led a strategic redesign by analyzing data and conducting interviews that led to key findings influencing user flows and KPIs set.&lt;/li&gt;
       &lt;li&gt;Worked closely with Product, Engineering, Design, and Marketing in the process of developing specs and receiving feedback&lt;/li&gt;
       &lt;li&gt;Created prototypes in FramerJS and facilitated user testing sessions that influenced rollout to another platform.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/p&gt;
 &lt;/section&gt;
 &lt;section class=&quot;project-body&quot;&gt;
-&lt;h2&gt;Defining the Product Strategy&lt;/h2&gt;
-&lt;h3 class=&quot;project-body&quot;&gt;Identifying Existing Successful Trends&lt;/h3&gt;
-&lt;p&gt;
-    I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
-&lt;/p&gt;
-&lt;h3 class=&quot;project-body&quot;&gt;An In-Depth Understanding of Users&lt;/h3&gt;
-&lt;p&gt;
-   I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
-&lt;p&gt;
-
-Based on my phone interviews with the users, I created a mental model to understand the user&#39;s train of thought.
-  &lt;h3 class=&quot;project-body&quot;&gt;Mental Model&lt;/h3&gt;
-    &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
-    &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
-    &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
-    &lt;li&gt;Will these items fit me?&lt;/li&gt;
-    &lt;li&gt;Will it save me search time?&lt;/li&gt;
-    &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
-
+  &lt;h2&gt;Defining the Product Strategy&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Identifying Existing Successful Trends&lt;/h3&gt;
+  &lt;p&gt;
+      I first pulled current data on users with Personal Shops to find the top used search filters and looked at which platforms (web, mobile/web, iOS, and Android) were the most popular and had the highest average order values.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;An In-Depth Understanding of Users&lt;/h3&gt;
+  &lt;p&gt;
+     I surveyed users with over 10 Personal Shops to understand their behaviors for saving so many shops in the first place. I followed up with 7 users who consented to following up with me for a more in-depth discussion about their use of thredUP and other shopping apps.
+  &lt;/p&gt;
+&lt;p&gt;Based on my phone interviews with the users, I created a mental model to understand the user&#39;s train of thought.
+    &lt;h3 class=&quot;project-body&quot;&gt;Mental Model&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Can I quickly find relevant items?&lt;/li&gt;
+      &lt;li&gt;How can I find great deals that caters to my family&#39;s lifestyle?&lt;/li&gt;
+      &lt;li&gt;How can I easily shop my favorite brands?&lt;/li&gt;
+      &lt;li&gt;Will these items fit me?&lt;/li&gt;
+      &lt;li&gt;Will it save me search time?&lt;/li&gt;
+      &lt;li&gt;How can we get coveted items first?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;
+&lt;/section&gt;
 
 &lt;section class=&quot;project-body&quot;&gt;
 &lt;h2&gt;Style Profile&lt;/h2&gt;
@@ -286,9 +290,7 @@ After conducting the first user testing session on-site with 6 users who had at 
   &lt;li&gt;Users wanted to be able to click through a feed row to see the PLP.&lt;/li&gt;
   &lt;li&gt;Users are not interested in seeing popular saved searches.&lt;/li&gt;
 &lt;/p&gt;
-
-
-  &lt;h3 class=&quot;project-body&quot;&gt;Refining the Design&lt;/h3&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Refining the Design&lt;/h3&gt;
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   &lt;p&gt;
     &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
@@ -376,7 +378,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
         <link>/thredup-ps/</link>
