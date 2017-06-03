@@ -336,12 +336,14 @@ button.cta{
 button.cta#featured-project1 {
     background-color: transparent;
     color: #FFFFFF;
+    padding: 5px 30px;
     border: 2px solid #FFFFFF;
 }
 
 button.cta#featured-project2{
     background-color: transparent;
     color: #FFFFFF;
+    padding: 5px 30px;
     border: 2px solid #FFFFFF;
 }
 
