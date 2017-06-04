@@ -31,7 +31,6 @@ Interested in working together?
 			<h3>Interaction Design</h3>
 			<ul>
 				<li>User Research</li>
-				<li>Information Architecture</li>
 				<li>Wireframing</li>
 				<li>Prototyping</li>
 				<li>Usability Testing</li>
