@@ -146,7 +146,7 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
   <p>
 <ul>
 <li>
-<b>Changes Beyond One Control</b>: In the process of redesigning controls, I had to be mindful of any changes made to Form or Radio Buttons and how they could affect the usability of other controls. The simplification of controls effort should aim to simplify the individual control and other structurally similar controls.
+<b>Changes Beyond One Control</b>: In the process of redesigning controls, I had to be mindful of any changes made to Form or Radio Buttons and how they could affect the usability of other controls. Simplifying a control means finding opportunities to simplify other structurally similar controls.
 </li>
 <li>
 <b>Get unstuck</b> by testing early with incremental changes. Finding the right fidelity to test can save time and eliminate technical debt in the long run. For Radio Buttons, paper prototyping the multiple choice concept proved to be the best way to quickly disprove my hypothesis and determine which path to choose for my design.
