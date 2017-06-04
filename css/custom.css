@@ -1251,7 +1251,6 @@ blockquote{
   border: none;
   font-family: 'Rubik';
   font-weight: 500;
-  /* line-height: 30px; */
 }
 
 blockquote::before{
@@ -1273,6 +1272,8 @@ blockquote::before{
 blockquote footer{
     font-weight: 300;
     line-height: 36px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 
