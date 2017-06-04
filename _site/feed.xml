@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jun 2017 14:35:14 -0700</pubDate>
-    <lastBuildDate>Sat, 03 Jun 2017 14:35:14 -0700</lastBuildDate>
+    <pubDate>Sat, 03 Jun 2017 22:44:09 -0700</pubDate>
+    <lastBuildDate>Sat, 03 Jun 2017 22:44:09 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -31,7 +31,7 @@
         <title>BUILD Simplification of Controls</title>
         <description>&lt;section class=&quot;project-body&quot;&gt;
 &lt;p&gt;
-&lt;b&gt;*Disclaimer: My work is still pre-release, so stay tuned for future updates! The illustrations below are not the final design.&lt;/b&gt; 
+&lt;b&gt;*Disclaimer: Some parts of my work are still pre-release, so stay tuned for future updates! The illustrations below are not the final design, unless stated otherwise.&lt;/b&gt; 
 &lt;/p&gt;
   &lt;h2&gt;Problem&lt;/h2&gt;
   &lt;p&gt;
@@ -63,6 +63,10 @@
   &lt;p&gt;
   I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
   &lt;/p&gt;
+  &lt;blockquote&gt;
+    I got frustrated when I was trying to add an extra row, and dragging was not being consistent
+    &lt;footer&gt;Repeat User&lt;/footer&gt;
+  &lt;/blockquote&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Foundational Changes&lt;/h3&gt;
   &lt;p&gt;
   We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls. We found the following concepts to be the most valuable and quickest to implement.
@@ -72,21 +76,22 @@
   &lt;b&gt;One Form&lt;/b&gt;: The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
 &lt;/li&gt;
 &lt;li&gt;
-&lt;b&gt;Adding Rows&lt;/b&gt;: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form.
+&lt;b&gt;Form Row&lt;/b&gt;: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 &lt;/li&gt;
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/FormRow.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Form Row&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;li&gt;
-  &lt;b&gt;Show Form-specific Controls&lt;/b&gt;: When a user clicks on a Form or any elements within a Form, the Control Panel will surface controls that could only be added to Forms.
+  &lt;b&gt;Show Form-specific Controls&lt;/b&gt;: When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 &lt;/li&gt;
 &lt;figure&gt;
-    &lt;img src=&quot;/img/portfolio/build/ControlPanel.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-    &lt;figcaption&gt;Control Panel only shows Form Controls&lt;/figcaption&gt;
+    &lt;img src=&quot;/img/portfolio/build/CPFormControls.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;&lt;b&gt;Now Live&lt;/b&gt;: Controls Panel only shows Form Controls when a Form or its children are selected&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;li&gt;
-&lt;b&gt;Contextual Right Click Menu&lt;/b&gt;: a quick alternative to adding, duplicating, and deleting a row
+&lt;b&gt;Contextual Right Click Menu&lt;/b&gt;: A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
+
 &lt;/li&gt;
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/RightClickMenu1.png&quot; class=&quot;img-responsive center-block&quot;&gt;
@@ -95,14 +100,24 @@
 &lt;/ul&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Unexpected Challenge: Form Groups&lt;/h3&gt;
   &lt;p&gt;
-  As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. After the incremental changes were finished being built in the production site, we tested participants’ ability to build a form - from a form with a single group to a more complex form with additional groups. 
+As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. After the foundational changes were finished being built in the production site, we tested participants’ ability to build a form. We provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
+  &lt;/p&gt;
+    &lt;blockquote&gt;
+    It shouldn&#39;t have taken 30 minutes to assemble this form
+    &lt;footer&gt;Participant&lt;/footer&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;
+  Users still struggled to create a form because the process still required too many clicks to reach the lowest level of the Form hierarchy, the most edited level. Users failed to reformat and rearrange Form Groups for more elaborate forms.
   &lt;/p&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Final Solution: Abstracting Layers&lt;/h3&gt;
   &lt;p&gt;
-  Users still struggled to create a form because the process still required too many clicks to reach the lowest level of the hierarchy, the most edited level. We solved the problem by creating handlers and performing direct manipulations element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
+  We solved the problem by creating handlers to directly select the lower level elements and performing direct manipulations on element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
+  &lt;/p&gt;
+  &lt;p&gt;
+&lt;b&gt;Changes for Easier Manipulation:&lt;/b&gt;
   &lt;ul&gt;
   &lt;li&gt;&lt;b&gt;Handlers&lt;/b&gt;: select rows, drag and rearrange Form Sections&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Add Control via “+” Button on Canvas&lt;/b&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Add Form-Specific Controls via “+” Button on Canvas&lt;/b&gt;&lt;/li&gt;
   &lt;li&gt;&lt;b&gt;Add Form Section Button: Direct manipulation on canvas&lt;/b&gt;&lt;/li&gt;
   &lt;li&gt;&lt;b&gt;Layout Formatting&lt;/b&gt;: define # of columns in Form for specified device (mobile, tablet, desktop) and define arrangement of labels (side-by-side or stacked)&lt;/li&gt;
   &lt;/ul&gt;
@@ -123,8 +138,14 @@
     &lt;figcaption&gt;Testing the Multiple Choice concept with a paper prototype&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;p&gt;
-  Because the Checkbox control is structurally similar to the Radio Button control, I wanted to validate whether to combine Radio Buttons and Checkboxes under one control named “Multiple Choice.” In the case that the user wanted to switch from Radio Buttons to Checkboxes and vice versa, the user should be able to maintain the same data or text they inputted. We quickly tested the concept with a paper prototype. In the end, I decided to separate Radio Buttons and Checkboxes as two separate controls. Providing the capability to switch between the two controls while maintaining the same data and text input proved to be valuable.
+  Because the Checkbox control is structurally similar to the Radio Button control, I wanted to validate whether to combine Radio Buttons and Checkboxes under one control named “Multiple Choice.” In the case that the user wanted to switch from Radio Buttons to Checkboxes and vice versa, the user should be able to maintain the same data or text they inputted. We quickly tested the concept with a paper prototype. During research, we discovered that the concept of “Multiple Choice” conveys different meanings, especially to non-native English speakers. 
   &lt;/p&gt;
+&lt;blockquote&gt;
+  To me, “Multiple Choice” means selecting multiple options so I would expect Checkboxes to appear if I dragged the control to the Canvas
+  &lt;footer&gt;Participant&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Based on those confusions, I decided to separate Radio Buttons and Checkboxes as two separate controls. Participants thought that providing the capability to switch between the two controls while maintaining the same data and text input was valuable.
   &lt;h3 class=&quot;project-body&quot;&gt;Shipping Changes&lt;/h3&gt;
   &lt;p&gt;
   &lt;b&gt;Direct Manipulation on Canvas&lt;/b&gt;
@@ -144,6 +165,9 @@
   &lt;h2&gt;Lessons Learned&lt;/h2&gt;
   &lt;p&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;Changes Beyond One Control&lt;/b&gt;: In the process of redesigning controls, I had to be mindful of any changes made to Form or Radio Buttons and how they could affect the usability of other controls. The simplification of controls effort should aim to simplify the individual control and other structurally similar controls.
+&lt;/li&gt;
 &lt;li&gt;
 &lt;b&gt;Get unstuck&lt;/b&gt; by testing early with incremental changes. Finding the right fidelity to test can save time and eliminate technical debt in the long run. For Radio Buttons, paper prototyping the multiple choice concept proved to be the best way to quickly disprove my hypothesis and determine which path to choose for my design.
 &lt;/li&gt;
