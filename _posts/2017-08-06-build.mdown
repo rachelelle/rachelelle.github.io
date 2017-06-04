@@ -21,7 +21,7 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
 <b>Forms</b> are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
  </p>
  <p>
-<b>Radio Buttons</b> is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple groups could be included in Forms. 
+<b>Radio Buttons</b> is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
  </p>
 </section>
 <hr>
@@ -49,7 +49,7 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
   </blockquote>
   <h3 class="project-body">Foundational Changes</h3>
   <p>
-  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls. We found the following concepts to be the most valuable and quickest to implement.
+ We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. We first focused on developing the following concepts to be the most valuable and quickest to implement.
 </p>
 <ul>
 <li>

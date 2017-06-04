@@ -32,6 +32,7 @@ Interested in working together?
 			<ul>
 				<li>User Research</li>
 				<li>Information Architecture</li>
+				<li>Wireframing</li>
 				<li>Prototyping</li>
 				<li>Usability Testing</li>
 			</ul>
