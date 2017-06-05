@@ -1244,11 +1244,11 @@ blockquote{
   position: relative;
   
   /*Font*/
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
   
   /*Borders - (Optional)*/
-  border-left: 8px solid #8D88BE;
+  border: none;
   font-family: 'Rubik';
   font-weight: 500;
 }
@@ -1260,7 +1260,7 @@ blockquote::before{
   font-family: 'Georgia';
   font-size: 80px;
   font-weight: bold;
-  color: #999;
+  color: #8D88BE;
   
   /*Positioning*/
   position: absolute;
@@ -1272,7 +1272,10 @@ blockquote::before{
 blockquote footer{
     font-weight: 300;
     line-height: 36px;
+    font-size: 18px;
+    margin-top: 10px;
 }
+
 
 
 

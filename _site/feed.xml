@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jun 2017 22:44:09 -0700</pubDate>
-    <lastBuildDate>Sat, 03 Jun 2017 22:44:09 -0700</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 22:42:46 -0700</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 22:42:46 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -41,7 +41,7 @@
 &lt;b&gt;Forms&lt;/b&gt; are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
  &lt;/p&gt;
  &lt;p&gt;
-&lt;b&gt;Radio Buttons&lt;/b&gt; is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple groups could be included in Forms. 
+&lt;b&gt;Radio Buttons&lt;/b&gt; is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
  &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
@@ -65,11 +65,11 @@
   &lt;/p&gt;
   &lt;blockquote&gt;
     I got frustrated when I was trying to add an extra row, and dragging was not being consistent
-    &lt;footer&gt;Repeat User&lt;/footer&gt;
+    &lt;footer&gt;Program Manager&lt;/footer&gt;
   &lt;/blockquote&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Foundational Changes&lt;/h3&gt;
   &lt;p&gt;
-  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls. We found the following concepts to be the most valuable and quickest to implement.
+ We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. We first focused on developing the following concepts to be the most valuable and quickest to implement.
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -104,7 +104,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;/p&gt;
     &lt;blockquote&gt;
     It shouldn&#39;t have taken 30 minutes to assemble this form
-    &lt;footer&gt;Participant&lt;/footer&gt;
+    &lt;footer&gt;UX Designer&lt;/footer&gt;
   &lt;/blockquote&gt;
   &lt;p&gt;
   Users still struggled to create a form because the process still required too many clicks to reach the lowest level of the Form hierarchy, the most edited level. Users failed to reformat and rearrange Form Groups for more elaborate forms.
@@ -142,7 +142,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;/p&gt;
 &lt;blockquote&gt;
   To me, “Multiple Choice” means selecting multiple options so I would expect Checkboxes to appear if I dragged the control to the Canvas
-  &lt;footer&gt;Participant&lt;/footer&gt;
+  &lt;footer&gt;Business Analyst&lt;/footer&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
 Based on those confusions, I decided to separate Radio Buttons and Checkboxes as two separate controls. Participants thought that providing the capability to switch between the two controls while maintaining the same data and text input was valuable.
@@ -166,7 +166,7 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
   &lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;b&gt;Changes Beyond One Control&lt;/b&gt;: In the process of redesigning controls, I had to be mindful of any changes made to Form or Radio Buttons and how they could affect the usability of other controls. The simplification of controls effort should aim to simplify the individual control and other structurally similar controls.
+&lt;b&gt;Changes Beyond One Control&lt;/b&gt;: In the process of redesigning controls, I had to be mindful of any changes made to Form or Radio Buttons and how they could affect the usability of other controls. Simplifying a control means finding opportunities to simplify other structurally similar controls.
 &lt;/li&gt;
 &lt;li&gt;
 &lt;b&gt;Get unstuck&lt;/b&gt; by testing early with incremental changes. Finding the right fidelity to test can save time and eliminate technical debt in the long run. For Radio Buttons, paper prototyping the multiple choice concept proved to be the best way to quickly disprove my hypothesis and determine which path to choose for my design.
