@@ -651,21 +651,20 @@ section.project-home {
     padding: 0px;
     position: relative;
     float: left;
-    margin: 0px;
+    margin: 40px 0px;
+    border-radius: 2px;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 section.project-home#project1 {
     background-color: #F7971C;
     color: #FFFFFF;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
 }
 
 section.project-home#project2 {
     background-color: #073053;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
 }
+
 
 
 section.project-hero {
