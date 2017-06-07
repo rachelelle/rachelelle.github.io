@@ -11,6 +11,6 @@ summary: <a href="http://tripit.com" target="_blank">TripIt from Concur</a> orga
 ---
 <section class="project-body">
 <p>
-<b>*Disclaimer: The project is still in progress, so stay tuned for future updates!</b> If you’d like to learn more feel free to <a href="mailto:linrac@gmail.com">reach out</a>.
+<b>The project is still in the works, so stay tuned for future updates! If you’d like to learn more feel free to</b> <a href="mailto:linrac@gmail.com">reach out</a>.
 </p>
 </section>
