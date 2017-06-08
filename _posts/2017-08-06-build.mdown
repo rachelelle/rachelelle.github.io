@@ -11,7 +11,7 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
 ---
 <section class="project-body">
 <p>
-<b>To comply with my confidentiality agreement I have omitted and appropriated confidential information. These designs are a reinterpretation of the original, unless stated otherwise.</b> 
+<b>Some parts of my work are still pre-release, so stay tuned for future updates! To comply with NDA, the reinterpreted visuals below are not the final design, unless stated otherwise.</b> 
 </p>
   <h2>Problem</h2>
   <p>
