@@ -14,14 +14,11 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
 <b>Some parts of my work are still pre-release, so stay tuned for future updates! To comply with NDA, the reinterpreted visuals below are not the final design, unless stated otherwise.</b> 
 </p>
   <h2>Problem</h2>
-  <p>
-  I simplified two of the most frequently used controls, which are the essential building blocks for creating apps in BUILD. 
-</p> 
 <p>
 <b>Forms</b> are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
  </p>
  <p>
-<b>Radio Buttons</b> is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
+<b>Radio Buttons</b> is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons.
  </p>
 </section>
 <hr>
@@ -127,6 +124,9 @@ As we were ready to finalize designs, a new requirement was introduced for us to
 <p>
 Based on those confusions, I decided to separate Radio Buttons and Checkboxes as two separate controls. Participants thought that providing the capability to switch between the two controls while maintaining the same data and text input was valuable.
   <h3 class="project-body">Shipping Changes</h3>
+  <p>
+  I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
+  </p>
   <p>
   <b>Direct Manipulation on Canvas</b>
   <li>Adding a new radio button with “+” button</li>
