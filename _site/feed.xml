@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Jun 2017 23:11:40 -0700</pubDate>
-    <lastBuildDate>Tue, 06 Jun 2017 23:11:40 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 00:45:18 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 00:45:18 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -31,17 +31,14 @@
         <title>BUILD Simplification of Controls</title>
         <description>&lt;section class=&quot;project-body&quot;&gt;
 &lt;p&gt;
-&lt;b&gt;To comply with my confidentiality agreement I have omitted and appropriated confidential information. These designs are a reinterpretation of the original, unless stated otherwise.&lt;/b&gt; 
+&lt;b&gt;Some parts of my work are still pre-release, so stay tuned for future updates! To comply with NDA, the reinterpreted visuals below are not the final design, unless stated otherwise.&lt;/b&gt; 
 &lt;/p&gt;
   &lt;h2&gt;Problem&lt;/h2&gt;
-  &lt;p&gt;
-  I simplified two of the most frequently used controls, which are the essential building blocks for creating apps in BUILD. 
-&lt;/p&gt; 
 &lt;p&gt;
 &lt;b&gt;Forms&lt;/b&gt; are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
  &lt;/p&gt;
  &lt;p&gt;
-&lt;b&gt;Radio Buttons&lt;/b&gt; is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons. I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
+&lt;b&gt;Radio Buttons&lt;/b&gt; is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons.
  &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
@@ -65,7 +62,7 @@
   &lt;/p&gt;
   &lt;blockquote&gt;
     I got frustrated when I was trying to add an extra row, and dragging was not being consistent
-    &lt;footer&gt;Program Manager&lt;/footer&gt;
+    &lt;footer&gt;Research Participant&lt;/footer&gt;
   &lt;/blockquote&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Foundational Changes&lt;/h3&gt;
   &lt;p&gt;
@@ -75,6 +72,11 @@
 &lt;li&gt;
   &lt;b&gt;One Form&lt;/b&gt;: The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
 &lt;/li&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/OneForm.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;From two Form types to One Form&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
 &lt;li&gt;
 &lt;b&gt;Form Row&lt;/b&gt;: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 &lt;/li&gt;
@@ -104,7 +106,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;/p&gt;
     &lt;blockquote&gt;
     It shouldn&#39;t have taken 30 minutes to assemble this form
-    &lt;footer&gt;UX Designer&lt;/footer&gt;
+    &lt;footer&gt;Research Participant&lt;/footer&gt;
   &lt;/blockquote&gt;
   &lt;p&gt;
   Users still struggled to create a form because the process still required too many clicks to reach the lowest level of the Form hierarchy, the most edited level. Users failed to reformat and rearrange Form Groups for more elaborate forms.
@@ -129,6 +131,10 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;p&gt;
     &lt;img src=&quot;/img/portfolio/build/RadioButtons.png&quot; class=&quot;img-responsive center-block&quot;&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Grouping Radio Buttons &amp; Checkboxes&lt;/h3&gt;
+  &lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/RadioButton.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;Original Radio Button Control&lt;/figcaption&gt;
+  &lt;/figure&gt;
   &lt;p&gt;
   BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
   &lt;/p&gt;
@@ -148,13 +154,20 @@ As we were ready to finalize designs, a new requirement was introduced for us to
 Based on those confusions, I decided to separate Radio Buttons and Checkboxes as two separate controls. Participants thought that providing the capability to switch between the two controls while maintaining the same data and text input was valuable.
   &lt;h3 class=&quot;project-body&quot;&gt;Shipping Changes&lt;/h3&gt;
   &lt;p&gt;
+  I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
+  &lt;/p&gt;
+  &lt;p&gt;
+  &lt;ul&gt;
   &lt;b&gt;Direct Manipulation on Canvas&lt;/b&gt;
   &lt;li&gt;Adding a new radio button with “+” button&lt;/li&gt;
   &lt;li&gt;Right click contextual menu for adding, duplicating, and deleting radio buttons&lt;/li&gt;
+  &lt;/ul&gt;
   &lt;/p&gt;
   &lt;p&gt;
-  &lt;b&gt;Properties Panel&lt;/b&gt;
-  &lt;li&gt;Formatting horizontal and vertical layout&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;b&gt;Properties Panel&lt;/b&gt;
+      &lt;li&gt;Formatting horizontal and vertical layout&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/p&gt;
   &lt;p&gt;
   The next steps will be to figure out how to maintain data while switching between different controls.
