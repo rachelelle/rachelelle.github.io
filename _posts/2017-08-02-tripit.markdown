@@ -15,7 +15,7 @@ summary: <a href="http://tripit.com" target="_blank">TripIt from Concur</a> orga
 </p>
 <h2>Problem</h2>
 <p>
-The existing Alternate Flights on mobile pulls up an web view with a seemingly broken experience due to lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
+The existing Alternate Flights on mobile pulls up a web view with a seemingly broken experience due to lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
 </p>
 </section>
 <hr>
