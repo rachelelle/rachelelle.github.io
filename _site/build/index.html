@@ -152,10 +152,16 @@
 </p>
   <h2>Problem</h2>
 <p>
-<b>Forms</b> are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
+<b>Forms</b> are used to display information, input fields, and other data on pages, but they are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming to complete. The usability issues were deeply rooted in the mindset mismatch of how users expected to manipulate a Form vs. the unintuitive structure of Forms. 
+<br>
+<br>
+<a href="#formresearch">&rarr; Learn more about the Form research findings.</a>
  </p>
  <p>
-<b>Radio Buttons</b> is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons.
+<b>Radio Buttons</b> currently exist as an unusable, individual radio button control. They lacked the functionality of selecting a radio button out of a group of radio buttons. Along with the dire need to fix the functionality also comes the opportunity to enhance radio buttons’ usability within a Form.
+<br>
+<br>
+<a href="#radiobuttons">&rarr; See how I made radio buttons usable as a group.</a>
  </p>
 </section>
 <hr>
@@ -173,7 +179,7 @@
 <hr>
 <section class="project-body">
   <h2>Reformation of Forms</h2>
-  <h3 class="project-body">Mindset Mismatch</h3>
+  <h3 class="project-body" id="formresearch">Mindset Mismatch</h3>
   <p>
   I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
   </p>
@@ -191,7 +197,7 @@
 </li>
 <figure>
     <img src="/img/portfolio/build/OneForm.png" class="img-responsive center-block">
-    <figcaption>From two Form types to One Form</figcaption>
+    <figcaption>From two Form types to one type of Form</figcaption>
 </figure>
 <br>
 <li>
@@ -219,7 +225,7 @@
 </ul>
   <h3 class="project-body">Unexpected Challenge: Form Groups</h3>
   <p>
-As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. After the foundational changes were finished being built in the production site, we tested participants’ ability to build a form. We provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
+As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. In the meantime, our foundational changes were being built in the production site and the developers decided to add the Form Groups to stick with the requirements of including Form Groups in a Form. Even after coming up with some new concepts of Forms including the manipulations of Form Groups, we decided to test participants’ ability to build a form with the up-to-date version of Forms in the production site to identify usability roadblocks and narrow down design concepts. For the usability test, we provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
   </p>
     <blockquote>
     It shouldn't have taken 30 minutes to assemble this form
@@ -233,6 +239,9 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   We solved the problem by creating handlers to directly select the lower level elements and performing direct manipulations on element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
   </p>
   <p>
+    <i>To comply with NDA I did not display final designs. If you're interested in learning more, reach out and I would be happy to explain in more detail.</i>
+  </p>  
+  <p>
 <b>Changes for Easier Manipulation:</b>
   <ul>
   <li><b>Handlers</b>: select rows, drag and rearrange Form Sections</li>
@@ -243,7 +252,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   </p>
 </section>
 <hr>
-<section class="project-body">
+<section class="project-body" id="radiobuttons">
   <h2>Radio Buttons: Better Together</h2>
   <p>
     <img src="/img/portfolio/build/RadioButtons.png" class="img-responsive center-block">

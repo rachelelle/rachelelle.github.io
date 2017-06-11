@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2017 00:45:18 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2017 00:45:18 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 01:44:12 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 01:44:12 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -16,6 +16,21 @@
 &lt;p&gt;
 &lt;b&gt;The project is still in the works, so stay tuned for future updates! If you’d like to learn more feel free to&lt;/b&gt; &lt;a href=&quot;mailto:linrac@gmail.com&quot;&gt;reach out&lt;/a&gt;.
 &lt;/p&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;
+The existing Alternate Flights on mobile pulls up an web view with a seemingly broken experience due to lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Role&lt;/h2&gt;
+  &lt;p&gt;
+  &lt;ul&gt;
+  &lt;li&gt;Led end-to-end design efforts from user research to design implementation&lt;/li&gt;
+  &lt;li&gt;Collaborated closely with PMs, mobile devs, and designers using lean UX methodologies&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/p&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
@@ -35,10 +50,16 @@
 &lt;/p&gt;
   &lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;
-&lt;b&gt;Forms&lt;/b&gt; are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming. Forms are used to display information, input fields, and other data on pages. 
+&lt;b&gt;Forms&lt;/b&gt; are used to display information, input fields, and other data on pages, but they are difficult to edit and manipulate, given its complex, multiple-layer hierarchy. Quick, simple tasks from adding rows to adding individuals controls to a row were unintuitive and time-consuming to complete. The usability issues were deeply rooted in the mindset mismatch of how users expected to manipulate a Form vs. the unintuitive structure of Forms. 
+&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;#formresearch&quot;&gt;&amp;rarr; Learn more about the Form research findings.&lt;/a&gt;
  &lt;/p&gt;
  &lt;p&gt;
-&lt;b&gt;Radio Buttons&lt;/b&gt; is a new control that consists of a group of radio buttons. It previously existed as an individual radio button control that lacked the functionality of selecting a radio button out of a group of radio buttons.
+&lt;b&gt;Radio Buttons&lt;/b&gt; currently exist as an unusable, individual radio button control. They lacked the functionality of selecting a radio button out of a group of radio buttons. Along with the dire need to fix the functionality also comes the opportunity to enhance radio buttons’ usability within a Form.
+&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;#radiobuttons&quot;&gt;&amp;rarr; See how I made radio buttons usable as a group.&lt;/a&gt;
  &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
@@ -56,7 +77,7 @@
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
   &lt;h2&gt;Reformation of Forms&lt;/h2&gt;
-  &lt;h3 class=&quot;project-body&quot;&gt;Mindset Mismatch&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot; id=&quot;formresearch&quot;&gt;Mindset Mismatch&lt;/h3&gt;
   &lt;p&gt;
   I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
   &lt;/p&gt;
@@ -74,7 +95,7 @@
 &lt;/li&gt;
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/OneForm.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-    &lt;figcaption&gt;From two Form types to One Form&lt;/figcaption&gt;
+    &lt;figcaption&gt;From two Form types to one type of Form&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br&gt;
 &lt;li&gt;
@@ -102,7 +123,7 @@
 &lt;/ul&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Unexpected Challenge: Form Groups&lt;/h3&gt;
   &lt;p&gt;
-As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. After the foundational changes were finished being built in the production site, we tested participants’ ability to build a form. We provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
+As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. In the meantime, our foundational changes were being built in the production site and the developers decided to add the Form Groups to stick with the requirements of including Form Groups in a Form. Even after coming up with some new concepts of Forms including the manipulations of Form Groups, we decided to test participants’ ability to build a form with the up-to-date version of Forms in the production site to identify usability roadblocks and narrow down design concepts. For the usability test, we provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
   &lt;/p&gt;
     &lt;blockquote&gt;
     It shouldn&#39;t have taken 30 minutes to assemble this form
@@ -116,6 +137,9 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   We solved the problem by creating handlers to directly select the lower level elements and performing direct manipulations on element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
   &lt;/p&gt;
   &lt;p&gt;
+    &lt;i&gt;To comply with NDA I did not display final designs. If you&#39;re interested in learning more, reach out and I would be happy to explain in more detail.&lt;/i&gt;
+  &lt;/p&gt;  
+  &lt;p&gt;
 &lt;b&gt;Changes for Easier Manipulation:&lt;/b&gt;
   &lt;ul&gt;
   &lt;li&gt;&lt;b&gt;Handlers&lt;/b&gt;: select rows, drag and rearrange Form Sections&lt;/li&gt;
@@ -126,7 +150,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
-&lt;section class=&quot;project-body&quot;&gt;
+&lt;section class=&quot;project-body&quot; id=&quot;radiobuttons&quot;&gt;
   &lt;h2&gt;Radio Buttons: Better Together&lt;/h2&gt;
   &lt;p&gt;
     &lt;img src=&quot;/img/portfolio/build/RadioButtons.png&quot; class=&quot;img-responsive center-block&quot;&gt;
