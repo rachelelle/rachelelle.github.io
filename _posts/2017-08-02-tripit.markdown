@@ -11,11 +11,11 @@ summary: <a href="http://tripit.com" target="_blank">TripIt from Concur</a> orga
 ---
 <section class="project-body">
 <p>
-<b>The project is still in the works, so stay tuned for future updates! If you’d like to learn more feel free to</b> <a href="mailto:linrac@gmail.com">reach out</a>.
+<b>My work is pre-release, so stay tuned for future updates! If you’d like to learn more feel free to</b> <a href="mailto:linrac@gmail.com">reach out</a>.
 </p>
 <h2>Problem</h2>
 <p>
-The existing Alternate Flights on mobile pulls up a web view with a seemingly broken experience due to lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
+The existing Alternate Flights on mobile pulls up a dated web view with a seemingly broken experience - no thanks to the lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
 </p>
 </section>
 <hr>
@@ -23,8 +23,14 @@ The existing Alternate Flights on mobile pulls up a web view with a seemingly br
   <h2>Role</h2>
   <p>
   <ul>
-  <li>Led end-to-end design efforts from user research to design implementation</li>
-  <li>Collaborated closely with PMs, mobile devs, and designers using lean UX methodologies</li>
+  <li>Led end-to-end design efforts from user research to design QA</li>
+  <li>Identified opportunities to integrate with Concur’s flight booking capabilities</li>
+  <li>Collaborated closely with PMs, mobile devs, and our researcher using lean UX methodologies</li>
+  <li>Pushed initiative for implementing delightful loading spinners</li>
   </ul>
   </p>
+</section>
+<hr>
+<section class="project-body">
+  <center>More to come...</center>
 </section>

@@ -6,19 +6,19 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2017 01:44:12 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2017 01:44:12 -0700</lastBuildDate>
+    <pubDate>Wed, 19 Jul 2017 23:25:23 -0700</pubDate>
+    <lastBuildDate>Wed, 19 Jul 2017 23:25:23 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>TripIt Alternate Flights</title>
         <description>&lt;section class=&quot;project-body&quot;&gt;
 &lt;p&gt;
-&lt;b&gt;The project is still in the works, so stay tuned for future updates! If you’d like to learn more feel free to&lt;/b&gt; &lt;a href=&quot;mailto:linrac@gmail.com&quot;&gt;reach out&lt;/a&gt;.
+&lt;b&gt;My work is pre-release, so stay tuned for future updates! If you’d like to learn more feel free to&lt;/b&gt; &lt;a href=&quot;mailto:linrac@gmail.com&quot;&gt;reach out&lt;/a&gt;.
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;
-The existing Alternate Flights on mobile pulls up an web view with a seemingly broken experience due to lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
+The existing Alternate Flights on mobile pulls up a dated web view with a seemingly broken experience - no thanks to the lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
 &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr /&gt;
@@ -27,10 +27,17 @@ The existing Alternate Flights on mobile pulls up an web view with a seemingly b
   &lt;h2&gt;Role&lt;/h2&gt;
   &lt;p&gt;
   &lt;ul&gt;
-  &lt;li&gt;Led end-to-end design efforts from user research to design implementation&lt;/li&gt;
-  &lt;li&gt;Collaborated closely with PMs, mobile devs, and designers using lean UX methodologies&lt;/li&gt;
+  &lt;li&gt;Led end-to-end design efforts from user research to design QA&lt;/li&gt;
+  &lt;li&gt;Identified opportunities to integrate with Concur’s flight booking capabilities&lt;/li&gt;
+  &lt;li&gt;Collaborated closely with PMs, mobile devs, and our researcher using lean UX methodologies&lt;/li&gt;
+  &lt;li&gt;Pushed initiative for implementing delightful loading spinners&lt;/li&gt;
   &lt;/ul&gt;
   &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr /&gt;
+
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;center&gt;More to come...&lt;/center&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
@@ -352,50 +359,50 @@ After conducting the first user testing session on-site with 6 users who had at 
   &lt;li&gt;Users are not interested in seeing popular saved searches.&lt;/li&gt;
 &lt;/p&gt;
 &lt;h3 class=&quot;project-body&quot;&gt;Refining the Design&lt;/h3&gt;
-  Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
-  &lt;p&gt;
-    &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
-    &lt;!-- Carousel indicators --&gt;
-    &lt;!-- Wrapper for carousel items --&gt;
-    &lt;div class=&quot;carousel-inner&quot;&gt;
-        &lt;div class=&quot;item active&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-home.png&quot; class=&quot;img-responsive&quot; alt=&quot;First Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            &quot;My Shop&quot; only displays rows of recently searches. Users can save shops by tapping the heart.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-edit.png&quot; alt=&quot;Second Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            The user can easily edit, delete, and modify notification settings for the saved search.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-PLPsave.png&quot; alt=&quot;Third Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-           Save Search bottom bar button is a clear call-to-action.
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;item&quot;&gt;
-            &lt;img src=&quot;/img/portfolio/thredup-ps/v2-promo.png&quot; alt=&quot;Fourth Slide&quot; /&gt;
-            &lt;div class=&quot;carousel-caption active&quot;&gt;
-            Reward users for saving 3 shops by offering a promo.
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;ol class=&quot;carousel-indicators&quot;&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
-        &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
-    &lt;/ol&gt;   
-    &lt;!-- Carousel controls --&gt;
-    &lt;a class=&quot;carousel-control left&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;prev&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a class=&quot;carousel-control right&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;next&quot;&gt;
-        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
-    &lt;/a&gt;
+Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
+&lt;p&gt;
+  &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+  &lt;!-- Carousel indicators --&gt;
+  &lt;!-- Wrapper for carousel items --&gt;
+  &lt;div class=&quot;carousel-inner&quot;&gt;
+      &lt;div class=&quot;item active&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v2-home.png&quot; class=&quot;img-responsive&quot; alt=&quot;First Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          &quot;My Shop&quot; only displays rows of recently searches. Users can save shops by tapping the heart.
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v2-edit.png&quot; alt=&quot;Second Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          The user can easily edit, delete, and modify notification settings for the saved search.
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v2-PLPsave.png&quot; alt=&quot;Third Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+         Save Search bottom bar button is a clear call-to-action.
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;item&quot;&gt;
+          &lt;img src=&quot;/img/portfolio/thredup-ps/v2-promo.png&quot; alt=&quot;Fourth Slide&quot; /&gt;
+          &lt;div class=&quot;carousel-caption active&quot;&gt;
+          Reward users for saving 3 shops by offering a promo.
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;ol class=&quot;carousel-indicators&quot;&gt;
+      &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+      &lt;li data-target=&quot;#v2Carousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+  &lt;/ol&gt;   
+  &lt;!-- Carousel controls --&gt;
+  &lt;a class=&quot;carousel-control left&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;prev&quot;&gt;
+      &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;carousel-control right&quot; href=&quot;#v2Carousel&quot; data-slide=&quot;next&quot;&gt;
+      &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;
 &lt;div class=&quot;cta&quot;&gt;
