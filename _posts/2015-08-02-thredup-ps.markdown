@@ -176,6 +176,12 @@ We also further refined the idea of creating a Style Profile for every account i
   <div class="cta">
     <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank"><button class="cta">View Prototype</button></a>
     </div>
+    <br>
+    <br>
+    <h3 class="project-body">Findings</h3>
+      <li>We should rolllout to web, instead of mobile first.</li>
+      <li>There were mixed reactions to the heart iconography</li>
+  </p>
 </section>
 <hr>
 <section class="project-body">
