@@ -193,24 +193,7 @@ We also further refined the idea of creating a Style Profile for every account i
 </ul>
 <h3 class="project-body">Takeaways</h3>
 <ul>
-	<li>Involve other stakeholders earlier in the process to learn about potential contraints.</li>
-	<li>Simplicity and elegance rules. Think about information hierarchy when considering the visual. Only emphasize what needs to be emphasized. </li>
+  <li>Involve other stakeholders earlier in the process to learn about potential contraints.</li>
+  <li>Simplicity and elegance rules. Think about information hierarchy when considering the visual. Only emphasize what needs to be emphasized. </li>
 </ul>
 </section>
-
-
-
-
-<!-- {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/ -->
