@@ -57,132 +57,131 @@ We also further refined the idea of creating a Style Profile for every account i
 <hr>
 
 <section class="project-body">
-<h2>Iteration</h2>
-  <h3 class="project-body">Validating Ideas</h3>
-The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
-<li>Would customers be interested in seeing recent searches, suggested searches, and popular searches?</li>
-<li>Does saving the search into a separate tab ("Pocket") increase engagement?</li>
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Carousel indicators -->
-  <!-- Wrapper for carousel items -->
-  <div class="carousel-inner">
-      <div class="item active">
-          <img src="/img/portfolio/thredup-ps/v1-home.png" alt="First Slide">
-          <div class="carousel-caption active">
-          The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v1-popup.png" alt="Second Slide">
-          <div class="carousel-caption active">
-          Notify the user about saving a search to Pocket, where all of the saved searches are stored
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v1-pocket.png" alt="Third Slide">
-          <div class="carousel-caption active">
-          Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v1-pocketedit.png" alt="Third Slide">
-          <div class="carousel-caption active">
-          In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v1-PLP.png" alt="Third Slide">
-          <div class="carousel-caption active">
-          The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
-          </div>
-      </div>
+  <h2>Iteration</h2>
+    <h3 class="project-body">Validating Ideas</h3>
+  The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
+  <li>Would customers be interested in seeing recent searches, suggested searches, and popular searches?</li>
+  <li>Does saving the search into a separate tab ("Pocket") increase engagement?</li>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/img/portfolio/thredup-ps/v1-home.png" alt="First Slide">
+            <div class="carousel-caption active">
+            The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-popup.png" alt="Second Slide">
+            <div class="carousel-caption active">
+            Notify the user about saving a search to Pocket, where all of the saved searches are stored
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-pocket.png" alt="Third Slide">
+            <div class="carousel-caption active">
+            Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-pocketedit.png" alt="Third Slide">
+            <div class="carousel-caption active">
+            In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-PLP.png" alt="Third Slide">
+            <div class="carousel-caption active">
+            The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
+            </div>
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>   
+    <!-- Carousel controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
   </div>
-  <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-  </ol>   
-  <!-- Carousel controls -->
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-<p>
-<div class="cta">
-<a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank"><button class="cta">View Prototype</button></a>
-</div>
-<br>
-<br>
-After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
-<h3 class="project-body">Findings</h3>
-<p>
-  <li>Simplify the view - remove color coding.</li>
-  <li>The concept of "Pocket" was too confusing.</li>
-  <li>Users wanted to be able to click through a feed row to see the PLP.</li>
-  <li>Users are not interested in seeing popular saved searches.</li>
-</p>
-<h3 class="project-body">Refining the Design</h3>
-Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
-<p>
-  <div id="v2Carousel" class="carousel slide" data-ride="carousel">
-  <!-- Carousel indicators -->
-  <!-- Wrapper for carousel items -->
-  <div class="carousel-inner">
-      <div class="item active">
-          <img src="/img/portfolio/thredup-ps/v2-home.png" class="img-responsive" alt="First Slide">
-          <div class="carousel-caption active">
-          "My Shop" only displays rows of recently searches. Users can save shops by tapping the heart.
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v2-edit.png" alt="Second Slide">
-          <div class="carousel-caption active">
-          The user can easily edit, delete, and modify notification settings for the saved search.
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v2-PLPsave.png" alt="Third Slide">
-          <div class="carousel-caption active">
-         Save Search bottom bar button is a clear call-to-action.
-          </div>
-      </div>
-      <div class="item">
-          <img src="/img/portfolio/thredup-ps/v2-promo.png" alt="Fourth Slide">
-          <div class="carousel-caption active">
-          Reward users for saving 3 shops by offering a promo.
-          </div>
-      </div>
-  </div>
-  <ol class="carousel-indicators">
-      <li data-target="#v2Carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#v2Carousel" data-slide-to="1"></li>
-      <li data-target="#v2Carousel" data-slide-to="2"></li>
-      <li data-target="#v2Carousel" data-slide-to="3"></li>
-  </ol>   
-  <!-- Carousel controls -->
-  <a class="carousel-control left" href="#v2Carousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="carousel-control right" href="#v2Carousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-<p>
-<div class="cta">
-  <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank"><button class="cta">View Prototype</button></a>
+  <p>
+  <div class="cta">
+  <a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank"><button class="cta">View Prototype</button></a>
   </div>
   <br>
   <br>
+  After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
   <h3 class="project-body">Findings</h3>
-    <li>We should rolllout to web, instead of mobile first.</li>
-    <li>There were mixed reactions to the heart iconography</li>
-</p>
+  <p>
+    <li>Simplify the view - remove color coding.</li>
+    <li>The concept of "Pocket" was too confusing.</li>
+    <li>Users wanted to be able to click through a feed row to see the PLP.</li>
+    <li>Users are not interested in seeing popular saved searches.</li>
+  </p>
+  <h3 class="project-body">Refining the Design</h3>
+  Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
+  <p>
+    <div id="v2Carousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/img/portfolio/thredup-ps/v2-home.png" class="img-responsive" alt="First Slide">
+            <div class="carousel-caption active">
+            "My Shop" only displays rows of recently searches. Users can save shops by tapping the heart.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v2-edit.png" alt="Second Slide">
+            <div class="carousel-caption active">
+            The user can easily edit, delete, and modify notification settings for the saved search.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v2-PLPsave.png" alt="Third Slide">
+            <div class="carousel-caption active">
+           Save Search bottom bar button is a clear call-to-action.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v2-promo.png" alt="Fourth Slide">
+            <div class="carousel-caption active">
+            Reward users for saving 3 shops by offering a promo.
+            </div>
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#v2Carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#v2Carousel" data-slide-to="1"></li>
+        <li data-target="#v2Carousel" data-slide-to="2"></li>
+        <li data-target="#v2Carousel" data-slide-to="3"></li>
+    </ol>   
+    <!-- Carousel controls -->
+    <a class="carousel-control left" href="#v2Carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#v2Carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+  <p>
+  <div class="cta">
+    <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank"><button class="cta">View Prototype</button></a>
+    </div>
+    <br>
+    <br>
+    <h3 class="project-body">Findings</h3>
+      <li>We should rolllout to web, instead of mobile first.</li>
+      <li>There were mixed reactions to the heart iconography</li>
+  </p>
 </section>
 <hr>
 <section class="project-body">
