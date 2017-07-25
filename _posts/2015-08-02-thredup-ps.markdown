@@ -62,6 +62,56 @@ We also further refined the idea of creating a Style Profile for every account i
   The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
   <li>Would customers be interested in seeing recent searches, suggested searches, and popular searches?</li>
   <li>Does saving the search into a separate tab ("Pocket") increase engagement?</li>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/img/portfolio/thredup-ps/v1-home.png" alt="First Slide">
+            <div class="carousel-caption active">
+            The Feed is the main home screen that includes a personal greeting, Recent Searches, Suggested, and Popular. The color coding for each search was based on shop-type (Women, Girls, Boys).
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-popup.png" alt="Second Slide">
+            <div class="carousel-caption active">
+            Notify the user about saving a search to Pocket, where all of the saved searches are stored
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-pocket.png" alt="Third Slide">
+            <div class="carousel-caption active">
+            Inside Pocket: The red circle notifies how many new arrivals there are in the saved search.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-pocketedit.png" alt="Third Slide">
+            <div class="carousel-caption active">
+            In the past, users were unable to update their saved search directly and we also wanted to provide notification settings to set frequency of notifications for new arrivals. The pink copy incentivizes users to save shops in order receive a discount.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/portfolio/thredup-ps/v1-PLP.png" alt="Third Slide">
+            <div class="carousel-caption active">
+            The Product Listing Page (PLP) for the saved search shows the saved search bar, so users are clear of which shop they are browsing.
+            </div>
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>   
+    <!-- Carousel controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
 </section>
 <hr>
 <section class="project-body">
