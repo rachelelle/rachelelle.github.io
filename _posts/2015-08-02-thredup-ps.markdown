@@ -125,7 +125,6 @@ We also further refined the idea of creating a Style Profile for every account i
   </p>
   <h3 class="project-body">Refining the Design</h3>
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
-  <p>
   <div id="v2Carousel" class="carousel slide" data-ride="carousel">
     <!-- Carousel indicators -->
     <!-- Wrapper for carousel items -->
@@ -172,9 +171,7 @@ We also further refined the idea of creating a Style Profile for every account i
   <div class="cta">
     <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank"><button class="cta">View Prototype</button></a>
   </div>
-    <br>
-    <br>
-    <h3 class="project-body">Findings</h3>
+  <h3 class="project-body">Findings</h3>
       <li>We should rolllout to web, instead of mobile first.</li>
       <li>There were mixed reactions to the heart iconography</li>
 </section>
