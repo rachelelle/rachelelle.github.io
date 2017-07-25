@@ -169,7 +169,6 @@ We also further refined the idea of creating a Style Profile for every account i
         <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
   </div>
-  <p>
   <div class="cta">
     <a href="http://share.framerjs.com/daab0qd1fmzh/" target="_blank"><button class="cta">View Prototype</button></a>
   </div>
