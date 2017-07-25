@@ -58,6 +58,10 @@ We also further refined the idea of creating a Style Profile for every account i
 
 <section class="project-body">
   <h2>Iteration</h2>
+  <h3 class="project-body">Validating Ideas</h3>
+  The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
+  <li>Would customers be interested in seeing recent searches, suggested searches, and popular searches?</li>
+  <li>Does saving the search into a separate tab ("Pocket") increase engagement?</li>
 </section>
 <hr>
 <section class="project-body">
