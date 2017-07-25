@@ -116,9 +116,9 @@ We also further refined the idea of creating a Style Profile for every account i
   <div class="cta">
     <a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank"><button class="cta">View Prototype</button></a>
   </div>
-  <br>
-  <br>
+  <p>
   After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
+  </p>
 </section>
 <hr>
 <section class="project-body">
