@@ -126,8 +126,6 @@ We also further refined the idea of creating a Style Profile for every account i
     <li>Users wanted to be able to click through a feed row to see the PLP.</li>
     <li>Users are not interested in seeing popular saved searches.</li>
   </p>
-  <h3 class="project-body">Refining the Design</h3>
-  Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
 </section>
 <hr>
 <section class="project-body">
