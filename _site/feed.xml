@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Jul 2017 23:40:46 -0700</pubDate>
-    <lastBuildDate>Wed, 19 Jul 2017 23:40:46 -0700</lastBuildDate>
+    <pubDate>Mon, 24 Jul 2017 22:28:41 -0700</pubDate>
+    <lastBuildDate>Mon, 24 Jul 2017 22:28:41 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -29,8 +29,8 @@ The existing Alternate Flights on mobile pulls up a dated web view with a seemin
   &lt;ul&gt;
   &lt;li&gt;Led end-to-end design efforts from user research to design QA&lt;/li&gt;
   &lt;li&gt;Identified opportunities to integrate with Concur’s flight booking capabilities&lt;/li&gt;
+  &lt;li&gt;Introduced new visual design language patterns for lists, navigation, iconography, and delightful loading spinners&lt;/li&gt;
   &lt;li&gt;Collaborated closely with PMs, mobile devs, and our researcher using lean UX methodologies&lt;/li&gt;
-  &lt;li&gt;Pushed initiative for implementing delightful loading spinners&lt;/li&gt;
   &lt;/ul&gt;
   &lt;/p&gt;
 &lt;/section&gt;
@@ -345,7 +345,7 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;/div&gt;
   &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
-  &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
   &lt;/div&gt;
   &lt;br /&gt;
   &lt;br /&gt;
@@ -360,7 +360,7 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;h3 class=&quot;project-body&quot;&gt;Refining the Design&lt;/h3&gt;
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
   &lt;p&gt;
-    &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+  &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
     &lt;!-- Carousel indicators --&gt;
     &lt;!-- Wrapper for carousel items --&gt;
     &lt;div class=&quot;carousel-inner&quot;&gt;
@@ -406,13 +406,13 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
     &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
-    &lt;/div&gt;
+  &lt;/div&gt;
     &lt;br /&gt;
     &lt;br /&gt;
     &lt;h3 class=&quot;project-body&quot;&gt;Findings&lt;/h3&gt;
       &lt;li&gt;We should rolllout to web, instead of mobile first.&lt;/li&gt;
       &lt;li&gt;There were mixed reactions to the heart iconography&lt;/li&gt;
-  &lt;/p&gt;
+    &lt;p&gt;
 
 &lt;hr /&gt;
 &lt;section class=&quot;project-body&quot;&gt;
@@ -428,7 +428,7 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;li&gt;Simplicity and elegance rules. Think about information hierarchy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
         <link>/thredup-ps/</link>
