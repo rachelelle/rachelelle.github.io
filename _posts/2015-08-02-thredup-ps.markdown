@@ -113,9 +113,7 @@ We also further refined the idea of creating a Style Profile for every account i
     </a>
   </div>
   <p>
-  <div class="cta">
     <a href="http://share.framerjs.com/y2r6k8czd5k7/" target="_blank"><button class="cta">View Prototype</button></a>
-  </div>
 </section>
 <hr>
 <section class="project-body">
