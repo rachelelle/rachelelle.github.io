@@ -5,6 +5,15 @@ $(document).ready(function(){
  //    	$('.caption').css( "color", "gray" );
 	// })
 
+	function handleFirstTab(e) {
+	    if (e.keyCode === 9) { // the "I am a keyboard user" key
+	        document.body.classList.add('user-is-tabbing');
+	        window.removeEventListener('keydown', handleFirstTab);
+	    }
+	}
+
+	window.addEventListener('keydown', handleFirstTab);
+
 		// ===== Scroll to Top ==== 
 	$(window).scroll(function() {
 	    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px

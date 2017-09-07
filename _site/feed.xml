@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jul 2017 22:28:41 -0700</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2017 22:28:41 -0700</lastBuildDate>
+    <pubDate>Wed, 06 Sep 2017 23:18:31 -0700</pubDate>
+    <lastBuildDate>Wed, 06 Sep 2017 23:18:31 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -17,8 +17,11 @@
 &lt;b&gt;My work is pre-release, so stay tuned for future updates! If you’d like to learn more feel free to&lt;/b&gt; &lt;a href=&quot;mailto:linrac@gmail.com&quot;&gt;reach out&lt;/a&gt;.
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;/h2&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;
+How might we create an efficient, easily understood, scannable, and useful native mobile experience for travelers that allows them to view flight results and seamlessly take the next steps to rebook a flight?
+&lt;/h3&gt; 
 &lt;p&gt;
-The existing Alternate Flights on mobile pulls up a dated web view with a seemingly broken experience - no thanks to the lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the users find the flight results unscannable. It fails to provide travelers actionable steps to rebook a flight.
+The existing Alternate Flights on mobile pulls up a dated web view with a seemingly broken experience. Users mistook this lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the flight results are unscannable. It fails to provide travelers actionable steps to rebook a flight.
 &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr /&gt;
@@ -289,11 +292,11 @@ We also further refined the idea of creating a Style Profile for every account i
 
 &lt;section class=&quot;project-body&quot;&gt;
   &lt;h2&gt;Iteration&lt;/h2&gt;
-    &lt;h3 class=&quot;project-body&quot;&gt;Validating Ideas&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Validating Ideas&lt;/h3&gt;
   The aim of the first iteration (prototyped in FramerJS) was to validate and answer:
   &lt;li&gt;Would customers be interested in seeing recent searches, suggested searches, and popular searches?&lt;/li&gt;
   &lt;li&gt;Does saving the search into a separate tab (&quot;Pocket&quot;) increase engagement?&lt;/li&gt;
-  &lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+    &lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
     &lt;!-- Carousel indicators --&gt;
     &lt;!-- Wrapper for carousel items --&gt;
     &lt;div class=&quot;carousel-inner&quot;&gt;
@@ -343,12 +346,9 @@ We also further refined the idea of creating a Style Profile for every account i
         &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
     &lt;/a&gt;
   &lt;/div&gt;
-  &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
     &lt;a href=&quot;http://share.framerjs.com/y2r6k8czd5k7/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
   &lt;/div&gt;
-  &lt;br /&gt;
-  &lt;br /&gt;
   After conducting the first user testing session on-site with 6 users who had at least one Personal Shop, I gained a lot of helpful insights for improving the next iteration.
   &lt;h3 class=&quot;project-body&quot;&gt;Findings&lt;/h3&gt;
   &lt;p&gt;
@@ -359,7 +359,6 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;/p&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Refining the Design&lt;/h3&gt;
   Since I had limited time to conduct another user test, I tested this prototype internally with select employees from Product, Engineering, Design, and Marketing to gather feedback from multiple points of view. I updated my FramerJS prototype based on findings from usability testing for version 1.0.
-  &lt;p&gt;
   &lt;div id=&quot;v2Carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
     &lt;!-- Carousel indicators --&gt;
     &lt;!-- Wrapper for carousel items --&gt;
@@ -403,18 +402,15 @@ We also further refined the idea of creating a Style Profile for every account i
         &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
     &lt;/a&gt;
   &lt;/div&gt;
-  &lt;p&gt;
   &lt;div class=&quot;cta&quot;&gt;
     &lt;a href=&quot;http://share.framerjs.com/daab0qd1fmzh/&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
   &lt;/div&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;h3 class=&quot;project-body&quot;&gt;Findings&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Findings&lt;/h3&gt;
       &lt;li&gt;We should rolllout to web, instead of mobile first.&lt;/li&gt;
       &lt;li&gt;There were mixed reactions to the heart iconography&lt;/li&gt;
-    &lt;p&gt;
-
+&lt;/section&gt;
 &lt;hr /&gt;
+
 &lt;section class=&quot;project-body&quot;&gt;
 &lt;h2&gt;Execution&lt;/h2&gt;
 &lt;h3 class=&quot;project-body&quot;&gt;Challenges&lt;/h3&gt;
@@ -428,7 +424,6 @@ We also further refined the idea of creating a Style Profile for every account i
   &lt;li&gt;Simplicity and elegance rules. Think about information hierarchy when considering the visual. Only emphasize what needs to be emphasized. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/section&gt;
 </description>
         <pubDate>Thu, 02 Jun 2016 14:22:04 -0700</pubDate>
         <link>/thredup-ps/</link>
@@ -637,11 +632,10 @@ TrashScan has been featured as a &lt;a href=&quot;http://jacobsinstitute.berkele
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
   	&lt;h2&gt;Role&lt;/h2&gt;
-  		  &lt;li&gt;Project manager&lt;/li&gt;	
+  		  &lt;li&gt;Led design efforts from user research and conceptualization to functional prototype&lt;/li&gt;	
 	      &lt;li&gt;Conducted ethnographic interviews and regularly met with interviewees&lt;/li&gt;
 	      &lt;li&gt;Created the animations in Processing&lt;/li&gt;
 	      &lt;li&gt;Sketched concepts and developed user&#39;s interaction with the platform&lt;/li&gt;
-
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
