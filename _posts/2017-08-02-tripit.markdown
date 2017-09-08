@@ -15,7 +15,7 @@ summary: <a href="http://tripit.com" target="_blank">TripIt from Concur</a> orga
 </p>
 <h2>Problem</h2>
 <h3 class="project-body">
-How might we create an efficient, easily understood, scannable, and useful native mobile experience for travelers that allows them to view flight results and seamlessly take the next steps to rebook a flight?
+How might we create a native mobile experience for travelers that allows them to view flight results and seamlessly take the next steps to rebook a flight?
 </h3> 
 <p>
 The existing Alternate Flights on mobile pulls up a dated web view with a seemingly broken experience. Users mistook this lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the flight results are unscannable. It fails to provide travelers actionable steps to rebook a flight.
