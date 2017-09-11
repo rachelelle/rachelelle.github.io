@@ -812,6 +812,7 @@ h1.about {
 h2 {
     font-family: 'Rubik';
     font-size: 24px;
+    line-height: 28px;
     font-weight: 500;
     color: #534952;
 }

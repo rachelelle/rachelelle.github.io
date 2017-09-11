@@ -7,11 +7,11 @@ label: Mobile • Travel
 tagline: Making Rebooking a Flight a Breeze
 thumbnail: tripitaltflights.png
 main-img: tripitaltflights.png
-summary: <a href="http://tripit.com" target="_blank">TripIt from Concur</a> organizes your flight, hotel, and car rental plans into a master trip itinerary. I’ve been reimagining Alternate Flights for native iOS and Android, a pro feature that helps users search and rebook flights. We're minimizing travel anxieties by getting business and leisure travelers to their destination on time.
+summary: <a href="http://tripit.com" target="_blank">TripIt from SAP Concur</a> organizes your flight, hotel, and car rental plans into a master trip itinerary. I’ve been reimagining Alternate Flights for native iOS and Android, a pro feature that helps users search and rebook flights. We're minimizing travel anxieties by getting business and leisure travelers to their destination on time.
 ---
 <section class="project-body">
 <p>
-<b>My work is pre-release, so stay tuned for future updates! If you’d like to learn more feel free to</b> <a href="mailto:linrac@gmail.com">reach out</a>.
+<b>My work is pre-release, so stay tuned for future updates! To comply with NDA, I cannot show final visuals here. If you’d like to learn more feel free to</b> <a href="mailto:linrac@gmail.com">reach out</a>.
 </p>
 <h2>Problem</h2>
 <h3 class="project-body">
