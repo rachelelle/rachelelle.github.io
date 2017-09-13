@@ -11,7 +11,7 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
 ---
 <section class="project-body">
 <p>
-<b>Due to a non-disclosure agreement, the reinterpreted visuals below are not the final design, unless stated otherwise. Some parts my work cannot be shown yet. I'm happy to talk about my experiences in person.</b> 
+<b>Due to a non-disclosure agreement, some parts of my work cannot be shown yet. I'm happy to talk about my experiences in person.</b> 
 </p>
   <h2>Problem</h2>
 <p>
@@ -59,31 +59,31 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
 </p>
   <b>One Form</b>
   <br>
-  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
+  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one.
 <figure>
     <img src="{{ site.baseurl }}/img/portfolio/build/OneForm.png" class="img-responsive center-block">
-    <figcaption>From two Form types to one type of Form</figcaption>
+    <figcaption>From two indistinguishable Form types to one Form type</figcaption>
 </figure>
 <br>
 <b>Form Row</b>
 <br>
 We introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 <figure>
-    <img src="{{ site.baseurl }}/img/portfolio/build/FormRow.png" class="img-responsive center-block">
+    <img src="{{ site.baseurl }}/img/portfolio/build/FormRow.gif" class="img-responsive center-block">
     <figcaption>Form Row</figcaption>
   </figure>
   <b>Show Form-specific Controls</b>
   <br>
   When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 <figure>
-    <img src="{{ site.baseurl }}/img/portfolio/build/CPFormControls.png" class="img-responsive center-block">
-    <figcaption><b>Now Live</b>: Controls Panel only shows Form Controls when a Form or its children are selected</figcaption>
+    <img src="{{ site.baseurl }}/img/portfolio/build/FormSpecificControls.gif" class="img-responsive center-block">
+    <figcaption>Controls Panel only shows Form Controls when a Form or its children are selected</figcaption>
   </figure>
 <b>Contextual Right Click Menu</b>
 <br>
  A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
 <figure>
-    <img src="{{ site.baseurl }}/img/portfolio/build/RightClickMenu1.png" class="img-responsive center-block">
+    <img src="{{ site.baseurl }}/img/portfolio/build/FormRightClickMenu.gif" class="img-responsive center-block">
     <figcaption>Contextual Right Click Menu for a Row and Form</figcaption>
   </figure>
   <h3 class="project-body">Unexpected Challenge: Form Groups</h3>

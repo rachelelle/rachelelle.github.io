@@ -138,7 +138,7 @@
   <div class="post-tagline"><h3>Web • Prototyping Tool</h3></div>
   <div class="post-main-title" itemprop="name headline"><h1>BUILD Simplification of Controls</h1></div>
   <!-- <div class="post-tagline"><i>Simplifying Controls</i></div> -->
-  <div class="post-summary"><a href="http://build.me" target="_blank">BUILD</a> is a suite of design tools in the SAP Cloud Platform that empowers SAP customers, partners, and business analysts to build enterprise apps and validate them with users, while learning the design-led development process. I simplified the most frequently used UI5 controls in BUILD’s Prototyping Tool.</div>
+  <div class="post-summary"><a href="http://build.me" target="_blank">BUILD</a> is a suite of design tools in the SAP Cloud Platform that empowers SAP customers, partners, and business analysts to build enterprise apps and validate them with users, while learning the design-led development process. I enhanced the usability of the most frequently used UI5 controls in BUILD’s Prototyping Tool.</div>
 </section>
   <div class="img-container">
     <img src="/img/portfolio/build.png" class="img-responsive post-img" />
@@ -150,7 +150,7 @@
   <div class="post-content portfolio-content" itemprop="articleBody">
     <section class="project-body">
 <p>
-<b>Due to a non-disclosure agreement, the reinterpreted visuals below are not the final design, unless stated otherwise. Some parts my work cannot be shown yet. I'm happy to talk about my experiences in person.</b> 
+<b>Due to a non-disclosure agreement, some parts of my work cannot be shown yet. I'm happy to talk about my experiences in person.</b> 
 </p>
   <h2>Problem</h2>
 <p>
@@ -160,7 +160,7 @@
 <a href="#formresearch">&rarr; Learn more about the Form research findings.</a>
  </p>
  <p>
-<b>Radio Buttons</b> currently exist as an unusable, individual radio button control. They lacked the functionality of selecting a radio button out of a group of radio buttons. Along with the dire need to fix the functionality also comes the opportunity to enhance radio buttons’ usability within a Form.
+<b>Radio Buttons</b> previously existed as an unusable, individual radio button control. They lacked the functionality of selecting a radio button out of a group of radio buttons. Along with the dire need to fix the functionality also came the opportunity to enhance radio buttons’ usability within a Form.
 <br>
 <br>
 <a href="#radiobuttons">&rarr; See how I made radio buttons usable as a group.</a>
@@ -198,31 +198,31 @@
 </p>
   <b>One Form</b>
   <br>
-  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
+  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one.
 <figure>
     <img src="/img/portfolio/build/OneForm.png" class="img-responsive center-block">
-    <figcaption>From two Form types to one type of Form</figcaption>
+    <figcaption>From two indistinguishable Form types to one Form type</figcaption>
 </figure>
 <br>
 <b>Form Row</b>
 <br>
 We introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 <figure>
-    <img src="/img/portfolio/build/FormRow.png" class="img-responsive center-block">
+    <img src="/img/portfolio/build/FormRow.gif" class="img-responsive center-block">
     <figcaption>Form Row</figcaption>
   </figure>
   <b>Show Form-specific Controls</b>
   <br>
   When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 <figure>
-    <img src="/img/portfolio/build/CPFormControls.png" class="img-responsive center-block">
-    <figcaption><b>Now Live</b>: Controls Panel only shows Form Controls when a Form or its children are selected</figcaption>
+    <img src="/img/portfolio/build/FormSpecificControls.gif" class="img-responsive center-block">
+    <figcaption>Controls Panel only shows Form Controls when a Form or its children are selected</figcaption>
   </figure>
 <b>Contextual Right Click Menu</b>
 <br>
  A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
 <figure>
-    <img src="/img/portfolio/build/RightClickMenu1.png" class="img-responsive center-block">
+    <img src="/img/portfolio/build/FormRightClickMenu.gif" class="img-responsive center-block">
     <figcaption>Contextual Right Click Menu for a Row and Form</figcaption>
   </figure>
   <h3 class="project-body">Unexpected Challenge: Form Groups</h3>
@@ -279,6 +279,8 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
     <figcaption>Adding a Radio Button through direct manipulation on the Canvas</figcaption>
   </figure>
   <b>Right Click Contextual Menu</b>
+  <br>
+  I provided the right click contextual menu for Radio Buttons group-level and individual-level. Users can easily duplicate, copy, or delete a radio button group. For individual radio buttons, users can add radio buttons before or after the selected button.
     <figure>
       <img src="/img/portfolio/build/RightClickMenu.gif" class="img-responsive center-block">
       <figcaption>Right click menu on Radio Buttons group and individual radio buttons</figcaption>
@@ -287,7 +289,7 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
   <p>
   <b>Formatting Horizontal and Vertical Layout</b>
   <br>
-  By default, we display radio buttons in the more readable vertical layout. Users also have the option to format the radio buttons in a horizontal row.
+  I chose to display radio buttons in the more readable vertical layout by default. If desired, users also have the option to format the radio buttons in a horizontal format.
     <figure>
       <img src="/img/portfolio/build/VerticalHorizontal.gif" class="img-responsive center-block">
       <figcaption>Select horizontal or vertical layout settings in the Properties Panel</figcaption>
