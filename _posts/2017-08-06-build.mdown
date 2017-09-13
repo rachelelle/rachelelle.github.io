@@ -7,7 +7,7 @@ label: Web • Prototyping Tool
 tagline: Simplifying Controls
 thumbnail: smartbrush-thumb.png
 main-img: build.png
-summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of design tools in the SAP Cloud Platform that empowers SAP customers, partners, and business analysts to build enterprise apps and validate them with users, while learning the design-led development process. I simplified the most frequently used UI5 controls in BUILD’s Prototyping Tool.
+summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of design tools in the SAP Cloud Platform that empowers SAP customers, partners, and business analysts to build enterprise apps and validate them with users, while learning the design-led development process. I enhanced the usability of the most frequently used UI5 controls in BUILD’s Prototyping Tool.
 ---
 <section class="project-body">
 <p>
