@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Sep 2017 01:29:18 -0700</pubDate>
-    <lastBuildDate>Tue, 12 Sep 2017 01:29:18 -0700</lastBuildDate>
+    <pubDate>Tue, 12 Sep 2017 22:55:42 -0700</pubDate>
+    <lastBuildDate>Tue, 12 Sep 2017 22:55:42 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -72,7 +72,10 @@
   &lt;/blockquote&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Foundational Changes&lt;/h3&gt;
   &lt;p&gt;
- We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. We first focused on developing the following concepts to be the most valuable and quickest to implement.
+ We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. 
+ &lt;/p&gt;
+ &lt;p&gt;
+ We first developed the following concepts that were most valuable and quickest to implement:
 &lt;/p&gt;
   &lt;b&gt;One Form&lt;/b&gt;
   &lt;br&gt;
@@ -151,20 +154,25 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
   I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
   &lt;/p&gt;
   &lt;p&gt;
-  &lt;ul&gt;
-  &lt;b&gt;Direct Manipulation on Canvas&lt;/b&gt;
-  &lt;li&gt;Adding a new radio button with “+” button&lt;/li&gt;
-  &lt;li&gt;Right click contextual menu for adding, duplicating, and deleting radio buttons&lt;/li&gt;
-  &lt;/ul&gt;
+  &lt;b&gt;Adding a New Radio Button&lt;/b&gt;
+    &lt;figure&gt;
+    &lt;img src=&quot;/img/portfolio/build/addradiobutton.gif&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;figcaption&gt;Adding a Radio Button through direct manipulation on the Canvas&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;b&gt;Right Click Contextual Menu&lt;/b&gt;
+    &lt;figure&gt;
+      &lt;img src=&quot;/img/portfolio/build/RightClickMenu.gif&quot; class=&quot;img-responsive center-block&quot;&gt;
+      &lt;figcaption&gt;Right click menu on Radio Buttons group and individual radio buttons&lt;/figcaption&gt;
+    &lt;/figure&gt;
   &lt;/p&gt;
   &lt;p&gt;
-    &lt;ul&gt;
-      &lt;b&gt;Properties Panel&lt;/b&gt;
-      &lt;li&gt;Formatting horizontal and vertical layout&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/p&gt;
-  &lt;p&gt;
-  The next steps will be to figure out how to maintain data while switching between different controls.
+  &lt;b&gt;Formatting Horizontal and Vertical Layout&lt;/b&gt;
+  &lt;br&gt;
+  By default, we display radio buttons in the more readable vertical layout. Users also have the option to format the radio buttons in a horizontal row.
+    &lt;figure&gt;
+      &lt;img src=&quot;/img/portfolio/build/VerticalHorizontal.gif&quot; class=&quot;img-responsive center-block&quot;&gt;
+      &lt;figcaption&gt;Select horizontal or vertical layout settings in the Properties Panel&lt;/figcaption&gt;
+    &lt;/figure&gt;
   &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;

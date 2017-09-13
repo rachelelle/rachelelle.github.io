@@ -52,7 +52,10 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
   </blockquote>
   <h3 class="project-body">Foundational Changes</h3>
   <p>
- We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. We first focused on developing the following concepts to be the most valuable and quickest to implement.
+ We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. 
+ </p>
+ <p>
+ We first developed the following concepts that were most valuable and quickest to implement:
 </p>
   <b>One Form</b>
   <br>
@@ -131,20 +134,25 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
   I made a new control with expanded capabilities so that multiple radio button groups could be included in Forms. 
   </p>
   <p>
-  <ul>
-  <b>Direct Manipulation on Canvas</b>
-  <li>Adding a new radio button with “+” button</li>
-  <li>Right click contextual menu for adding, duplicating, and deleting radio buttons</li>
-  </ul>
+  <b>Adding a New Radio Button</b>
+    <figure>
+    <img src="{{ site.baseurl }}/img/portfolio/build/addradiobutton.gif" class="img-responsive center-block">
+    <figcaption>Adding a Radio Button through direct manipulation on the Canvas</figcaption>
+  </figure>
+  <b>Right Click Contextual Menu</b>
+    <figure>
+      <img src="{{ site.baseurl }}/img/portfolio/build/RightClickMenu.gif" class="img-responsive center-block">
+      <figcaption>Right click menu on Radio Buttons group and individual radio buttons</figcaption>
+    </figure>
   </p>
   <p>
-    <ul>
-      <b>Properties Panel</b>
-      <li>Formatting horizontal and vertical layout</li>
-    </ul>
-  </p>
-  <p>
-  The next steps will be to figure out how to maintain data while switching between different controls.
+  <b>Formatting Horizontal and Vertical Layout</b>
+  <br>
+  By default, we display radio buttons in the more readable vertical layout. Users also have the option to format the radio buttons in a horizontal row.
+    <figure>
+      <img src="{{ site.baseurl }}/img/portfolio/build/VerticalHorizontal.gif" class="img-responsive center-block">
+      <figcaption>Select horizontal or vertical layout settings in the Properties Panel</figcaption>
+    </figure>
   </p>
 </section>
 <hr>
