@@ -140,6 +140,8 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
     <figcaption>Adding a Radio Button through direct manipulation on the Canvas</figcaption>
   </figure>
   <b>Right Click Contextual Menu</b>
+  <br>
+  I provided the right click contextual menu for Radio Buttons group-level and individual-level. Users can easily duplicate, copy, or delete a radio button group. For individual radio buttons, users can add radio buttons before or after the selected button.
     <figure>
       <img src="{{ site.baseurl }}/img/portfolio/build/RightClickMenu.gif" class="img-responsive center-block">
       <figcaption>Right click menu on Radio Buttons group and individual radio buttons</figcaption>
@@ -148,7 +150,7 @@ Based on those confusions, I decided to separate Radio Buttons and Checkboxes as
   <p>
   <b>Formatting Horizontal and Vertical Layout</b>
   <br>
-  By default, we display radio buttons in the more readable vertical layout. Users also have the option to format the radio buttons in a horizontal row.
+  I chose to display radio buttons in the more readable vertical layout by default. If desired, users also have the option to format the radio buttons in a horizontal format.
     <figure>
       <img src="{{ site.baseurl }}/img/portfolio/build/VerticalHorizontal.gif" class="img-responsive center-block">
       <figcaption>Select horizontal or vertical layout settings in the Properties Panel</figcaption>
