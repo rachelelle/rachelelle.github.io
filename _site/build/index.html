@@ -148,7 +148,7 @@
   <div class="post-content portfolio-content" itemprop="articleBody">
     <section class="project-body">
 <p>
-<b>Some parts of my work are still pre-release, so stay tuned for future updates! To comply with NDA, the reinterpreted visuals below are not the final design, unless stated otherwise.</b> 
+<b>Due to a non-disclosure agreement, the reinterpreted visuals below are not the final design, unless stated otherwise. Some parts my work cannot be shown yet. I'm happy to talk about my experiences in person.</b> 
 </p>
   <h2>Problem</h2>
 <p>
@@ -191,38 +191,35 @@
   <p>
  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. We first focused on developing the following concepts to be the most valuable and quickest to implement.
 </p>
-<ul>
-<li>
-  <b>One Form</b>: The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
-</li>
+  <b>One Form</b>
+  <br>
+  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
 <figure>
     <img src="/img/portfolio/build/OneForm.png" class="img-responsive center-block">
     <figcaption>From two Form types to one type of Form</figcaption>
 </figure>
 <br>
-<li>
-<b>Form Row</b>: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
-</li>
+<b>Form Row</b>
+<br>
+We introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 <figure>
     <img src="/img/portfolio/build/FormRow.png" class="img-responsive center-block">
     <figcaption>Form Row</figcaption>
   </figure>
-<li>
-  <b>Show Form-specific Controls</b>: When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
-</li>
+  <b>Show Form-specific Controls</b>
+  <br>
+  When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 <figure>
     <img src="/img/portfolio/build/CPFormControls.png" class="img-responsive center-block">
     <figcaption><b>Now Live</b>: Controls Panel only shows Form Controls when a Form or its children are selected</figcaption>
   </figure>
-<li>
-<b>Contextual Right Click Menu</b>: A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
-
-</li>
+<b>Contextual Right Click Menu</b>
+<br>
+ A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
 <figure>
     <img src="/img/portfolio/build/RightClickMenu1.png" class="img-responsive center-block">
     <figcaption>Contextual Right Click Menu for a Row and Form</figcaption>
   </figure>
-</ul>
   <h3 class="project-body">Unexpected Challenge: Form Groups</h3>
   <p>
 As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. In the meantime, our foundational changes were being built in the production site and the developers decided to add the Form Groups to stick with the requirements of including Form Groups in a Form. Even after coming up with some new concepts of Forms including the manipulations of Form Groups, we decided to test participants’ ability to build a form with the up-to-date version of Forms in the production site to identify usability roadblocks and narrow down design concepts. For the usability test, we provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
@@ -236,19 +233,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   </p>
   <h3 class="project-body">Final Solution: Abstracting Layers</h3>
   <p>
-  We solved the problem by creating handlers to directly select the lower level elements and performing direct manipulations on element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
-  </p>
-  <p>
-    <i>To comply with NDA I did not display final designs. If you're interested in learning more, reach out and I would be happy to explain in more detail.</i>
-  </p>  
-  <p>
-<b>Changes for Easier Manipulation:</b>
-  <ul>
-  <li><b>Handlers</b>: select rows, drag and rearrange Form Sections</li>
-  <li><b>Add Form-Specific Controls via “+” Button on Canvas</b></li>
-  <li><b>Add Form Section Button: Direct manipulation on canvas</b></li>
-  <li><b>Layout Formatting</b>: define # of columns in Form for specified device (mobile, tablet, desktop) and define arrangement of labels (side-by-side or stacked)</li>
-  </ul>
+    <b>Due to my non-disclosure agreement, I cannot display final designs. If you're interested in learning more, reach out and I would be happy to explain in more detail.</b>
   </p>
 </section>
 <hr>

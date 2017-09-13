@@ -6,41 +6,16 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Sep 2017 21:26:50 -0700</pubDate>
-    <lastBuildDate>Sun, 10 Sep 2017 21:26:50 -0700</lastBuildDate>
+    <pubDate>Tue, 12 Sep 2017 01:29:18 -0700</pubDate>
+    <lastBuildDate>Tue, 12 Sep 2017 01:29:18 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>TripIt Alternate Flights</title>
         <description>&lt;section class=&quot;project-body&quot;&gt;
 &lt;p&gt;
-&lt;b&gt;My work is pre-release, so stay tuned for future updates! To comply with NDA, I cannot show final visuals here. If you’d like to learn more feel free to&lt;/b&gt; &lt;a href=&quot;mailto:linrac@gmail.com&quot;&gt;reach out&lt;/a&gt;.
+&lt;b&gt;My work is pre-release, so stay tuned for future updates! Due to a non-disclosure agreement, my work cannot be shown yet. I&#39;m happy to talk about my experiences in person.&lt;/b&gt;
 &lt;/p&gt;
-&lt;h2&gt;Problem&lt;/h2&gt;
-&lt;h3 class=&quot;project-body&quot;&gt;
-How might we create a native mobile experience for travelers that allows them to view flight results and seamlessly take the next steps to rebook a flight?
-&lt;/h3&gt; 
-&lt;p&gt;
-The existing Alternate Flights on mobile pulls up a dated web view with a seemingly broken experience. Users mistook this lack of system status feedback of loading flight results. The search navigation for flights is difficult to edit and the flight results are unscannable. It fails to provide travelers actionable steps to rebook a flight.
-&lt;/p&gt;
-&lt;/section&gt;
-&lt;hr /&gt;
-
-&lt;section class=&quot;project-body&quot;&gt;
-  &lt;h2&gt;Role&lt;/h2&gt;
-  &lt;p&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Led end-to-end design efforts from user research to design QA&lt;/li&gt;
-  &lt;li&gt;Identified opportunities to integrate with Concur’s flight booking capabilities&lt;/li&gt;
-  &lt;li&gt;Introduced new visual design language patterns for lists, navigation, iconography, and delightful loading spinners&lt;/li&gt;
-  &lt;li&gt;Collaborated closely with PMs, mobile devs, and our researcher using lean UX methodologies&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/p&gt;
-&lt;/section&gt;
-&lt;hr /&gt;
-
-&lt;section class=&quot;project-body&quot;&gt;
-  &lt;center&gt;More to come...&lt;/center&gt;
 &lt;/section&gt;
 </description>
         <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
@@ -56,7 +31,7 @@ The existing Alternate Flights on mobile pulls up a dated web view with a seemin
         <title>BUILD Simplification of Controls</title>
         <description>&lt;section class=&quot;project-body&quot;&gt;
 &lt;p&gt;
-&lt;b&gt;Some parts of my work are still pre-release, so stay tuned for future updates! To comply with NDA, the reinterpreted visuals below are not the final design, unless stated otherwise.&lt;/b&gt; 
+&lt;b&gt;Due to a non-disclosure agreement, the reinterpreted visuals below are not the final design, unless stated otherwise. Some parts my work cannot be shown yet. I&#39;m happy to talk about my experiences in person.&lt;/b&gt; 
 &lt;/p&gt;
   &lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;
@@ -99,38 +74,35 @@ The existing Alternate Flights on mobile pulls up a dated web view with a seemin
   &lt;p&gt;
  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. We first focused on developing the following concepts to be the most valuable and quickest to implement.
 &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-  &lt;b&gt;One Form&lt;/b&gt;: The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
-&lt;/li&gt;
+  &lt;b&gt;One Form&lt;/b&gt;
+  &lt;br&gt;
+  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/OneForm.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;From two Form types to one type of Form&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br&gt;
-&lt;li&gt;
-&lt;b&gt;Form Row&lt;/b&gt;: we introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
-&lt;/li&gt;
+&lt;b&gt;Form Row&lt;/b&gt;
+&lt;br&gt;
+We introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/FormRow.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Form Row&lt;/figcaption&gt;
   &lt;/figure&gt;
-&lt;li&gt;
-  &lt;b&gt;Show Form-specific Controls&lt;/b&gt;: When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
-&lt;/li&gt;
+  &lt;b&gt;Show Form-specific Controls&lt;/b&gt;
+  &lt;br&gt;
+  When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/CPFormControls.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;&lt;b&gt;Now Live&lt;/b&gt;: Controls Panel only shows Form Controls when a Form or its children are selected&lt;/figcaption&gt;
   &lt;/figure&gt;
-&lt;li&gt;
-&lt;b&gt;Contextual Right Click Menu&lt;/b&gt;: A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
-
-&lt;/li&gt;
+&lt;b&gt;Contextual Right Click Menu&lt;/b&gt;
+&lt;br&gt;
+ A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/RightClickMenu1.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Contextual Right Click Menu for a Row and Form&lt;/figcaption&gt;
   &lt;/figure&gt;
-&lt;/ul&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Unexpected Challenge: Form Groups&lt;/h3&gt;
   &lt;p&gt;
 As we were ready to finalize designs, a new requirement was introduced for us to include Form Groups into the Forms. We revisited the drawing board to see how the extra layer of hierarchy would change the structure of our designs. In the meantime, our foundational changes were being built in the production site and the developers decided to add the Form Groups to stick with the requirements of including Form Groups in a Form. Even after coming up with some new concepts of Forms including the manipulations of Form Groups, we decided to test participants’ ability to build a form with the up-to-date version of Forms in the production site to identify usability roadblocks and narrow down design concepts. For the usability test, we provided screenshots of a Purchase Order form (a common customer use case) for participants to recreate - from a simple form to a form with additional groups.
@@ -144,19 +116,7 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;/p&gt;
   &lt;h3 class=&quot;project-body&quot;&gt;Final Solution: Abstracting Layers&lt;/h3&gt;
   &lt;p&gt;
-  We solved the problem by creating handlers to directly select the lower level elements and performing direct manipulations on element-level and row level interactions on the Canvas. We also renamed “Form Groups” to Form Sections, since users were confused by the nomenclature of “Form Groups.” 
-  &lt;/p&gt;
-  &lt;p&gt;
-    &lt;i&gt;To comply with NDA I did not display final designs. If you&#39;re interested in learning more, reach out and I would be happy to explain in more detail.&lt;/i&gt;
-  &lt;/p&gt;  
-  &lt;p&gt;
-&lt;b&gt;Changes for Easier Manipulation:&lt;/b&gt;
-  &lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Handlers&lt;/b&gt;: select rows, drag and rearrange Form Sections&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Add Form-Specific Controls via “+” Button on Canvas&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Add Form Section Button: Direct manipulation on canvas&lt;/b&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Layout Formatting&lt;/b&gt;: define # of columns in Form for specified device (mobile, tablet, desktop) and define arrangement of labels (side-by-side or stacked)&lt;/li&gt;
-  &lt;/ul&gt;
+    &lt;b&gt;Due to my non-disclosure agreement, I cannot display final designs. If you&#39;re interested in learning more, reach out and I would be happy to explain in more detail.&lt;/b&gt;
   &lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
