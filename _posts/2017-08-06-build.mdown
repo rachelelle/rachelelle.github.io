@@ -21,7 +21,7 @@ summary:  <a href="http://build.me" target="_blank">BUILD</a> is a suite of desi
 <a href="#formresearch">&rarr; Learn more about the Form research findings.</a>
  </p>
  <p>
-<b>Radio Buttons</b> currently exist as an unusable, individual radio button control. They lacked the functionality of selecting a radio button out of a group of radio buttons. Along with the dire need to fix the functionality also comes the opportunity to enhance radio buttons’ usability within a Form.
+<b>Radio Buttons</b> previously existed as an unusable, individual radio button control. They lacked the functionality of selecting a radio button out of a group of radio buttons. Along with the dire need to fix the functionality also came the opportunity to enhance radio buttons’ usability within a Form.
 <br>
 <br>
 <a href="#radiobuttons">&rarr; See how I made radio buttons usable as a group.</a>
