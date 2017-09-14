@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Sep 2017 00:17:58 -0700</pubDate>
-    <lastBuildDate>Wed, 13 Sep 2017 00:17:58 -0700</lastBuildDate>
+    <pubDate>Thu, 14 Sep 2017 00:07:35 -0700</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2017 00:07:35 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -28,7 +28,7 @@
       </item>
     
       <item>
-        <title>BUILD Simplification of Controls</title>
+        <title>SAP BUILD Simplification of Controls</title>
         <description>&lt;section class=&quot;project-body&quot;&gt;
 &lt;p&gt;
 &lt;b&gt;Due to a non-disclosure agreement, some parts of my work cannot be shown yet. I&#39;m happy to talk about my experiences in person.&lt;/b&gt; 
@@ -64,7 +64,7 @@
   &lt;h2&gt;Reformation of Forms&lt;/h2&gt;
   &lt;h3 class=&quot;project-body&quot; id=&quot;formresearch&quot;&gt;Mindset Mismatch&lt;/h3&gt;
   &lt;p&gt;
-  I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
+  I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. I discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
   &lt;/p&gt;
   &lt;blockquote&gt;
     I got frustrated when I was trying to add an extra row, and dragging was not being consistent
@@ -75,33 +75,33 @@
  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. 
  &lt;/p&gt;
  &lt;p&gt;
- We first developed the following concepts that were most valuable and quickest to implement:
+ I first developed the following concepts that were most valuable and quickest to implement:
 &lt;/p&gt;
   &lt;b&gt;One Form&lt;/b&gt;
   &lt;br&gt;
-  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one.
+ I simplified from two Form Controls (Simple Form and Advanced Form) to one Form Control. Users didn’t understand the differences between the two types of Forms, so we consolidated to one.
 &lt;figure&gt;
-    &lt;img src=&quot;/img/portfolio/build/OneForm.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+    &lt;img src=&quot;/img/portfolio/build/OneForm.jpg&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;From two indistinguishable Form types to one Form type&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br&gt;
 &lt;b&gt;Form Row&lt;/b&gt;
 &lt;br&gt;
-We introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
+I introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/FormRow.gif&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Form Row&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;b&gt;Show Form-specific Controls&lt;/b&gt;
   &lt;br&gt;
-  When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
+ After observing users struggling to quickly find the appropriate control to add to a Form Row, I added the capability to surface controls that can be added to Forms whenever a Form or any element within a Form is clicked. This simpler method of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/FormSpecificControls.gif&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Controls Panel only shows Form Controls when a Form or its children are selected&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;b&gt;Contextual Right Click Menu&lt;/b&gt;
 &lt;br&gt;
- A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
+ I incorporated an intuitive alternative to adding, duplicating, and deleting a row.  It has the enhanced usability of adding a row above or below a selected row.
 &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/FormRightClickMenu.gif&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Contextual Right Click Menu for a Row and Form&lt;/figcaption&gt;
@@ -127,15 +127,15 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   &lt;h2&gt;Radio Buttons: Better Together&lt;/h2&gt;
   &lt;p&gt;
     &lt;img src=&quot;/img/portfolio/build/RadioButtons.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-  &lt;h3 class=&quot;project-body&quot;&gt;Grouping Radio Buttons &amp; Checkboxes&lt;/h3&gt;
-  &lt;figure&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;The Challenge&lt;/h3&gt;
+  &lt;p&gt;
+  BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
+    &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/RadioButton.png&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Original Radio Button Control&lt;/figcaption&gt;
   &lt;/figure&gt;
-  &lt;p&gt;
-  BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
   &lt;/p&gt;
-  &lt;h3 class=&quot;project-body&quot;&gt;Validating Multiple Choice vs. Separate Radio Buttons and Checkboxes&lt;/h3&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Testing the Multiple Choice Concept&lt;/h3&gt;
   &lt;figure&gt;
     &lt;img src=&quot;/img/portfolio/build/radiobuttonpaperproto.jpg&quot; class=&quot;img-responsive center-block&quot;&gt;
     &lt;figcaption&gt;Testing the Multiple Choice concept with a paper prototype&lt;/figcaption&gt;

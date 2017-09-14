@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rachel Lin | UX Designer | BUILD Simplification of Controls</title>
+    <title>Rachel Lin | UX Designer | SAP BUILD Simplification of Controls</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Rachel Lin | Designer + Developer
 ">
@@ -53,7 +53,7 @@
                     </div>
                   
                     <div class="project-item">
-                      <a href="/build/"><div class="project-link">BUILD Simplification of Controls</div></a>
+                      <a href="/build/"><div class="project-link">SAP BUILD Simplification of Controls</div></a>
                       <div class="project-menu-label">Web • Prototyping Tool</div>
                     </div>
                   
@@ -136,15 +136,15 @@
         <article class="post post-container" itemscope itemtype="http://schema.org/BlogPosting">
 <section class="project-hero">
   <div class="post-tagline"><h3>Web • Prototyping Tool</h3></div>
-  <div class="post-main-title" itemprop="name headline"><h1>BUILD Simplification of Controls</h1></div>
+  <div class="post-main-title" itemprop="name headline"><h1>SAP BUILD Simplification of Controls</h1></div>
   <!-- <div class="post-tagline"><i>Simplifying Controls</i></div> -->
   <div class="post-summary"><a href="http://build.me" target="_blank">BUILD</a> is a suite of design tools in the SAP Cloud Platform that empowers SAP customers, partners, and business analysts to build enterprise apps and validate them with users, while learning the design-led development process. I enhanced the usability of the most frequently used UI5 controls in BUILD’s Prototyping Tool.</div>
 </section>
   <div class="img-container">
-    <img src="/img/portfolio/build.png" class="img-responsive post-img" />
+    <img src="/img/portfolio/BUILDMainImg.jpg" class="img-responsive post-img" />
   </div>
   <!-- <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">BUILD Simplification of Controls</h1>
+    <h1 class="post-title" itemprop="name headline">SAP BUILD Simplification of Controls</h1>
   </header> -->
 
   <div class="post-content portfolio-content" itemprop="articleBody">
@@ -183,7 +183,7 @@
   <h2>Reformation of Forms</h2>
   <h3 class="project-body" id="formresearch">Mindset Mismatch</h3>
   <p>
-  I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. We discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
+  I first tested the current implementation of Forms to gain a deeper understanding of the usability issues. I discovered from usability testing that users’ mindset of creating a Form did not match what was in place. Their expectations of adding rows and elements to rows were based on their experiences of using software like Microsoft Excel and Powerpoint.
   </p>
   <blockquote>
     I got frustrated when I was trying to add an extra row, and dragging was not being consistent
@@ -194,33 +194,33 @@
  We explored many ideas to improve manipulation and structure of Forms while working within the technical constraints of UI5 Controls and the limitations of dragging and dropping controls on the Canvas. 
  </p>
  <p>
- We first developed the following concepts that were most valuable and quickest to implement:
+ I first developed the following concepts that were most valuable and quickest to implement:
 </p>
   <b>One Form</b>
   <br>
-  The two Form Controls were Simple Form and Advanced Form. Users were confused of the differences between the two types of Forms, so we consolidated to one.
+ I simplified from two Form Controls (Simple Form and Advanced Form) to one Form Control. Users didn’t understand the differences between the two types of Forms, so we consolidated to one.
 <figure>
-    <img src="/img/portfolio/build/OneForm.png" class="img-responsive center-block">
+    <img src="/img/portfolio/build/OneForm.jpg" class="img-responsive center-block">
     <figcaption>From two indistinguishable Form types to one Form type</figcaption>
 </figure>
 <br>
 <b>Form Row</b>
 <br>
-We introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
+I introduced the concept of a Form Row (comprises of a Label and another Form Control element on the right side), so that users could easily select, rearrange, duplicate, and delete rows in a Form. 
 <figure>
     <img src="/img/portfolio/build/FormRow.gif" class="img-responsive center-block">
     <figcaption>Form Row</figcaption>
   </figure>
   <b>Show Form-specific Controls</b>
   <br>
-  When a user clicks on a Form or any element within a Form, the Controls Panel will surface controls that could be added to Forms. The user can quickly find the appropriate control to add to a Form Row. This pattern of viewing controls specific to a selected control will be applied to other controls that contain children elements.
+ After observing users struggling to quickly find the appropriate control to add to a Form Row, I added the capability to surface controls that can be added to Forms whenever a Form or any element within a Form is clicked. This simpler method of viewing controls specific to a selected control will be applied to other controls that contain children elements.
 <figure>
     <img src="/img/portfolio/build/FormSpecificControls.gif" class="img-responsive center-block">
     <figcaption>Controls Panel only shows Form Controls when a Form or its children are selected</figcaption>
   </figure>
 <b>Contextual Right Click Menu</b>
 <br>
- A quick alternative to adding, duplicating, and deleting a row. There is the additional capability to add row above or below a selected row.
+ I incorporated an intuitive alternative to adding, duplicating, and deleting a row.  It has the enhanced usability of adding a row above or below a selected row.
 <figure>
     <img src="/img/portfolio/build/FormRightClickMenu.gif" class="img-responsive center-block">
     <figcaption>Contextual Right Click Menu for a Row and Form</figcaption>
@@ -246,15 +246,15 @@ As we were ready to finalize designs, a new requirement was introduced for us to
   <h2>Radio Buttons: Better Together</h2>
   <p>
     <img src="/img/portfolio/build/RadioButtons.png" class="img-responsive center-block">
-  <h3 class="project-body">Grouping Radio Buttons & Checkboxes</h3>
-  <figure>
+  <h3 class="project-body">The Challenge</h3>
+  <p>
+  BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
+    <figure>
     <img src="/img/portfolio/build/RadioButton.png" class="img-responsive center-block">
     <figcaption>Original Radio Button Control</figcaption>
   </figure>
-  <p>
-  BUILD only had individual radio buttons and checkboxes that could be dragged onto the canvas from the Control Panel. I was tasked with figuring out how to best structure Radio Buttons, and how that could also apply to Checkboxes (when it came time to design the Checkboxes control).
   </p>
-  <h3 class="project-body">Validating Multiple Choice vs. Separate Radio Buttons and Checkboxes</h3>
+  <h3 class="project-body">Testing the Multiple Choice Concept</h3>
   <figure>
     <img src="/img/portfolio/build/radiobuttonpaperproto.jpg" class="img-responsive center-block">
     <figcaption>Testing the Multiple Choice concept with a paper prototype</figcaption>
