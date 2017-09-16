@@ -28,5 +28,4 @@ summary:
 </div>
 <section class="project-body">
 <b>My work is pre-release, so stay tuned for future updates! Due to a non-disclosure agreement, my work cannot be shown yet. I'm happy to talk about my experiences in person.</b>
-</p>
 </section>
