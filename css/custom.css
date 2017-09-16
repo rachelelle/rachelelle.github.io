@@ -811,10 +811,14 @@ h1.about {
 
 h2 {
     font-family: 'Rubik';
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
     font-weight: 500;
     color: #534952;
+}
+
+h2.project-home{
+    font-size: 24px;
 }
 
 h2.project-home#project1{
@@ -888,6 +892,13 @@ h3.subtitle{
     /* line-height: 23px; */
     /* padding-bottom: 10px; */
     display: table;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: "Rubik";
+    color: #8d88bd;
+    font-weight: 500;
 }
 
 .page-content {
@@ -1160,6 +1171,22 @@ h1#homepage{
 
 .post-tagline {
     margin-bottom: 30px;
+}
+
+.post-specs{
+
+}
+
+
+.img-section{
+    text-align: center;
+}
+.img-section a:link {
+    text-decoration: none;
+}
+
+.img-section a:hover {
+    text-decoration: none;
 }
 
 h1 {

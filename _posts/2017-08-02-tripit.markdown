@@ -6,11 +6,27 @@ categories: featured
 label: Mobile • Travel
 tagline: Making Rebooking a Flight a Breeze
 thumbnail: tripitaltflights.png
-main-img: tripitaltflights.png
-summary: <a href="http://tripit.com" target="_blank">TripIt from SAP Concur</a> organizes your flight, hotel, and car rental plans into a master trip itinerary. I redesigned Alternate Flights, a pro feature that enables users to search and rebook alternate flights. We're minimizing travel anxieties by getting business and leisure travelers to their destination on time.
+main-img: AlternateFlightsFeatureImg.png
+specs: User Research, Interaction Design, Product Design
+summary: 
 ---
 <section class="project-body">
 <p>
+<div class="post-summary">
+	<a href="http://tripit.com" target="_blank">TripIt from SAP Concur</a> imports flight, hotel, and restaurant email confirmations to organize a master trip itinerary. It is a trusted travel companion that provides flight alerts and assists users with getting to plans. I redesigned Alternate Flights for iOS and Android, a Pro feature that enables users to search and rebook alternate flights. We're minimizing travel anxieties by getting business and leisure travelers to their destination on time.
+</div>
+</p>
+</section>
+
+<div class="img-section row">
+	<div class="col-md-6 col-xs-12">
+		<a href='https://play.google.com/store/apps/details?id=com.tripit&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img style="width:140px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'></a>
+	</div>
+	<div class="col-md-6 col-xs-12">
+		<a href="https://itunes.apple.com/us/app/tripit-travel-organizer/id311035142?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;" target="_blank"></a>
+	</div>
+</div>
+<section class="project-body">
 <b>My work is pre-release, so stay tuned for future updates! Due to a non-disclosure agreement, my work cannot be shown yet. I'm happy to talk about my experiences in person.</b>
 </p>
 </section>

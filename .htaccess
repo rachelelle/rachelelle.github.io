@@ -1,8 +1,0 @@
----
-layout: null
-permalink: /.htaccess
----
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile /_posts/.htpasswd  
-require valid-user

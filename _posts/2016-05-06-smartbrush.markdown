@@ -7,14 +7,11 @@ label: Mobile + Smartwatch • Health
 tagline: Brightening your dental hygiene routine
 thumbnail: smartbrush-thumb.png
 main-img: smartbrush-main.png
-summary: Our team of four developed SmartBrush, a dental hygiene app for Android mobile and smartwatch that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
+specs: Concept Development, User Research, Product Design, Frontend Development
 ---
 
 <section class="project-body">
-  <h2>Problem</h2>
-  <p>
-      Children who learn poor brushing and flossing techniques from their parents often carry these habits into their adulthood. Neglecting dental hygiene can lead to unwanted cavities and gum diseases down the road, which can hurt self-confidence in one's appearance.
-  </p>
+  Our team of four developed SmartBrush, a dental hygiene app for Android mobile and smartwatch that motivates teens and young adults to develop proper dental hygiene habits through social competition. View the full detailed report <a href="/files/SmartBrushFinalReport.pdf" target="_blank">here</a>.
 </section>
 <hr>
 <section class="project-body">

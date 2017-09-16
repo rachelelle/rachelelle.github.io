@@ -6,9 +6,12 @@ categories: archive
 label:  Mobile • Online Marketplace
 tagline: Reimagining Personalization
 thumbnail: thredup-ps.png
-main-img: thredup-ps-main.png
-summary: Last summer, I had the privilege of interning at <a href="http://thredup.com" target="_blank">ThredUP</a>, the world's largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves product filters, so that it can provide suggestions based on their top brands.
+main-img: thredup-ps-main.png 
+specs: Concept Development, User Research, Product Design
 ---
+<section class="project-body">
+  During Summer 2015, I had the privilege of interning at <a href="http://thredup.com" target="_blank">ThredUP</a>, the world's largest online fashion resale shop for women and children, with the Product team. My role was a mix of Product Management and Product Design, which allowed me to learn  the process of making design decisions with the end goal of increasing onboarding conversion rates. My main project for the summer was redesigning Personal Shops, a personalization feature that saves a style profile of the users' sizes and favorite brands to enhance their shopping experience.
+</section>
 <section class="project-body">
   <h2>Problem</h2>
   <p>
