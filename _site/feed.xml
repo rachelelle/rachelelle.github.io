@@ -6,9 +6,184 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Sep 2017 15:10:04 -0700</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2017 15:10:04 -0700</lastBuildDate>
+    <pubDate>Sun, 01 Oct 2017 00:05:53 -0700</pubDate>
+    <lastBuildDate>Sun, 01 Oct 2017 00:05:53 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>TripIt iMessage App</title>
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+&lt;p&gt;
+&lt;div class=&quot;post-summary&quot;&gt;
+	As the trusted trip itinerary management app, &lt;a href=&quot;http://tripit.com&quot; target=&quot;_blank&quot;&gt;TripIt from SAP Concur&lt;/a&gt; makes sharing travel plans with trusted parties as simple as sending a text through iMessage. The trip itinerary and flight plans sent through the TripIt iMessage app take full advantage of iOS 11’s capabilities to include dynamically updated information.
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;div class=&quot;img-section row&quot;&gt;
+	&lt;div class=&quot;col-md-6 col-xs-12&quot;&gt;
+		&lt;a href=&#39;https://play.google.com/store/apps/details?id=com.tripit&amp;hl=en&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&#39; target=&quot;_blank&quot;&gt;&lt;img style=&quot;width:140px&quot; alt=&#39;Get it on Google Play&#39; src=&#39;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&#39;&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6 col-xs-12&quot;&gt;
+		&lt;a href=&quot;https://itunes.apple.com/us/app/tripit-travel-organizer/id311035142?mt=8&quot; style=&quot;display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;The Challenge&lt;/h2&gt;
+ &lt;p&gt;
+TripIt Pro users previously couldn’t share plans with the most up-to-date information, so they had to resend texts with the new info. Users want to safely and easily share information about their trips and plans with trusted parties who aren’t TripIt users. 
+&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;/img/portfolio/imessage/past_designs.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+&lt;figcaption&gt;Previous iMessage app design for iOS 10&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+&lt;ul&gt;&lt;b&gt;My high level goals were to...&lt;/b&gt;
+	&lt;li&gt;Provide the team with designs within a short timeframe of a few weeks (in time for the iOS 11 release)&lt;/li&gt;
+	&lt;li&gt;Clearly explain the benefits of TripIt Pro to non-TripIt and TripIt Free users&lt;/li&gt;
+	&lt;li&gt;Utilize the full capabilities of iOS 11 to share plans and itineraries with dynamic information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;My Role&lt;/h2&gt;
+ &lt;p&gt;
+I led the design of the TripIt iMessage app for iOS 11 over the span of 3-4 weeks in July and August 2017.&lt;/p&gt;
+&lt;p&gt;
+I worked alongside 2 Product Managers, a User Researcher, a Visual Designer, and iOS developers.  
+&lt;/p&gt;
+&lt;p&gt;
+The TripIt iMessage app launched on September 19, 2017 (the day of the iOS 11 release). 
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Understanding Sharing&lt;/h2&gt;
+  &lt;p&gt;
+  &lt;blockquote&gt;
+    What motivates a user to send a plan or a trip itinerary?
+  &lt;/blockquote&gt;
+ &lt;br&gt;
+   &lt;h3 class=&quot;project-body&quot;&gt;Hypothesis&lt;/h3&gt;
+To answer this question, I worked alongside the product manager intern to make the following assumptions for scenarios that we foresaw would be the most shared message types:
+ &lt;p&gt;
+ &lt;div class=&quot;row&quot;&gt;
+	 &lt;div class=&quot;col-md-6&quot;&gt;
+	 	&lt;ul&gt;&lt;b&gt;For Flight Plans:&lt;/b&gt;
+		&lt;li&gt;Airport Pickup: the recipient would like to be informed about the sender’s latest flight status so they would know when to pick up the sender from the airport&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+	 	&lt;ul&gt;&lt;b&gt;For Trip Itineraries: &lt;/b&gt;
+		&lt;li&gt;Sharing trip plans with coworkers&lt;/li&gt;
+		&lt;li&gt;Sharing with friends and family to inform what they did on the trip&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Understanding these scenarios and the users’ motivations to share their trip plans and itineraries was foundational for preparing for the following ideation phase. 
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Ideation&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;User Flow&lt;/h3&gt;
+ &lt;p&gt;
+ &lt;figure&gt;
+&lt;img src=&quot;/img/portfolio/imessage/userflow.jpeg&quot; class=&quot;img-responsive center-block&quot;&gt;
+&lt;figcaption&gt;Clarifying the user flow of sending plans and itineraries&lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+I bounced ideas with the product manager and developers to understand what data we could pull and what information would be useful to display to senders and recipients (based on the sharing scenarios previously mentioned).
+&lt;p&gt;
+I aimed to clearly differentiate the action flow between sending an itinerary and sending a plan, since sending an itinerary would be a new feature.
+&lt;p&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Design Principles&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Allow senders to clearly preview information before sending. Users can feel cautious or hesitant about sending sensitive trip information (like confirmation numbers and prices).&lt;/li&gt;
+	&lt;li&gt;Given the size constraints and limited screen space, show the most important pieces of information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Initial Prototype&lt;/h2&gt;
+ &lt;p&gt;
+I created a prototype in InVision to test my initial flow for sending a message and receiving a message for both a flight plan and trip itinerary.
+&lt;p&gt;
+&lt;ul&gt;
+&lt;b&gt;Questions to answer:&lt;/b&gt;
+	&lt;li&gt;What information would be useful to display for a recipient? (especially dynamic info)&lt;/li&gt;
+	&lt;li&gt;Previewing trip&lt;/li&gt;
+	&lt;li&gt;How can we communicate the flight plan is receiving live updates?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 class=&quot;project-body&quot;&gt;Validation Testing&lt;/h3&gt;
+&lt;p&gt;
+After crafting the initial design in InVision, I tested three TripIt Pro users as participants for the Sender version and three non-TripIt users for the Recipient version.  Testing two different versions provided insights into the clarity of the flows for the respective roles and the usefulness of information.
+&lt;p&gt;
+&lt;b&gt;Sender Version&lt;/b&gt;
+&lt;p&gt;	
+&lt;iframe width=&quot;438&quot; height=&quot;930&quot; src=&quot;//concur.invisionapp.com/share/AED6V72P8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+&lt;b&gt;Recipient Version&lt;/b&gt;	
+&lt;p&gt;
+&lt;iframe width=&quot;438&quot; height=&quot;930&quot; src=&quot;//concur.invisionapp.com/share/TZD6ZFJEB&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;
+&lt;ul&gt;
+	&lt;b&gt;Key Findings&lt;/b&gt;
+	&lt;li&gt;Users share plans wtih family and significant others who tend to be non-TripIt users&lt;/li&gt;
+	&lt;li&gt;Users take screenshots of flight plan and full itinerary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Iteration&lt;/h2&gt;
+  &lt;img src=&quot;/img/portfolio/imessage/framer_img.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+  &lt;p&gt;
+  	&lt;div class=&quot;cta&quot;&gt;
+    &lt;a href=&quot;https://framer.cloud/WfWQY&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;Final Designs&lt;/h2&gt;
+	&lt;h3 class=&quot;project-body&quot;&gt;Sending and Receiving a Trip Itinerary&lt;/h3&gt;
+	&lt;p&gt;
+		Instead of the former plan cards, we reused the trip itinerary layout from the app. This solution was easier to implement for developers and more easily understandable for the users to send plans or an itinerary based on their familiarity with the itinerary display in the app.
+	&lt;/p&gt;
+	  &lt;img src=&quot;/img/portfolio/imessage/send_receive_trip_itinerary.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+	 &lt;p&gt;
+	&lt;h3 class=&quot;project-body&quot;&gt;Sending a Flight Plan&lt;/h3&gt;
+	  &lt;img src=&quot;/img/portfolio/imessage/sending_flight_plan.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+	 &lt;p&gt;
+	&lt;h3 class=&quot;project-body&quot;&gt;Receiving Flight Plan with Live Updates&lt;/h3&gt;
+	 &lt;img src=&quot;/img/portfolio/imessage/receiving_flight_updates.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+	 &lt;p&gt;
+	&lt;h3 class=&quot;project-body&quot;&gt;Send Other Plans&lt;/h3&gt;
+&lt;p&gt;
+You can download in the iMessage App Store on your iPhone and iPad to send messages for your next trip!
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+  &lt;h2&gt;The Impact&lt;/h2&gt;
+	&lt;h3 class=&quot;project-body&quot;&gt;Featured in App Store&lt;/h3&gt;
+	&lt;img src=&quot;/img/portfolio/imessage/appstorefeature.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+	&lt;h2&gt;Thank You&lt;/h2&gt;
+	&lt;p&gt;
+  &lt;ul&gt;
+  	&lt;li&gt;PMs: Clara Park (intern) and Casey Cheung&lt;/li&gt;
+  	&lt;li&gt;Devs: John Phelps, Peter Hu, Rich Shimano&lt;/li&gt;
+  	&lt;li&gt;Visual Design: Kat Angeles&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;</description>
+        <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
+        <link>/imessage/</link>
+        <guid isPermaLink="true">/imessage/</guid>
+        
+        
+        <category>featured</category>
+        
+      </item>
     
       <item>
         <title>TripIt Alternate Flights</title>
@@ -30,7 +205,6 @@
 &lt;/div&gt;
 &lt;section class=&quot;project-body&quot;&gt;
 &lt;b&gt;My work is pre-release, so stay tuned for future updates! Due to a non-disclosure agreement, my work cannot be shown yet. I&#39;m happy to talk about my experiences in person.&lt;/b&gt;
-
 &lt;/section&gt;
 </description>
         <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>

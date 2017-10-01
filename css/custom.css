@@ -247,6 +247,10 @@ p.project-home{
     color: #FFFFFF;
 }
 
+p.project-home#project3{
+    color: #666666;
+}
+
 
 .project-item {
     margin: 40px 0px;
@@ -345,6 +349,13 @@ button.cta#featured-project2{
     color: #FFFFFF;
     padding: 5px 30px;
     border: 2px solid #FFFFFF;
+}
+
+button.cta#featured-project3{
+    background-color: transparent;
+    color: #666666;
+    padding: 5px 30px;
+    border: 2px solid #666666;
 }
 
 
@@ -665,6 +676,9 @@ section.project-home#project2 {
     background-color: #073053;
 }
 
+section.project-home#project3 {
+    background-color: #F2F4F8;
+}
 
 
 section.project-hero {
@@ -829,6 +843,10 @@ h2.project-home#project2{
     color: #24D9C3;
 }
 
+h2.project-home#project3{
+    color: #0782C5;
+}
+
 h2.small-title {
     margin-bottom: 80px;
 }
@@ -859,6 +877,10 @@ h3 {
 
 h3.project-home{
     color: #FFFFFF;
+}
+
+h3.project-home#project3{
+    color: #666666;
 }
 
 h3.project-menu{
