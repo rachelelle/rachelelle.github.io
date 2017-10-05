@@ -61,7 +61,7 @@ The TripIt iMessage app launched on September 19, 2017 (the day of the iOS 11 re
   </blockquote>
  <br>
    <h3 class="project-body">Hypothesis</h3>
-To answer this question, I worked alongside the product manager intern to make the following assumptions for scenarios that we foresaw would be the most shared message types:
+To answer this question, I worked alongside our product manager intern to make the following assumptions for scenarios that we foresaw would be the most shared message types:
  <p>
  <div class="row">
 	 <div class="col-md-6">
@@ -89,9 +89,9 @@ Understanding these scenarios and the users’ motivations to share their trip p
 <figcaption>Clarifying the user flow of sending plans and itineraries</figcaption>
  </figure>
  <p>
-I bounced ideas with the product manager and developers to understand what data we could pull and what information would be useful to display to senders and recipients (based on the sharing scenarios previously mentioned).
+I discussed ideas with the product manager and developers to understand what data we could pull and what information would be useful to display to senders and recipients (based on the sharing scenarios previously mentioned).
 <p>
-I aimed to clearly differentiate the action flow between sending an itinerary and sending a plan, since sending an itinerary would be a new feature.
+I aimed to clearly differentiate the action flow between sending an itinerary and sending a plan, since sending an itinerary would be a new feature in this version.
 <p>
 <h3 class="project-body">Design Principles</h3>
 <ul>
@@ -114,6 +114,12 @@ I created a prototype in InVision to test my initial flow for sending a message 
 <h3 class="project-body">Validation Testing</h3>
 <p>
 After crafting the initial design in InVision, I tested three TripIt Pro users as participants for the Sender version and three non-TripIt users for the Recipient version.  Testing two different versions provided insights into the clarity of the flows for the respective roles and the usefulness of information.
+<p>
+<b>Questions I sought to answer:</b>
+<ul><li>What information would be useful to display for a recipient? (especially dynamic info)
+</li><li>How would a user like to preview the information they’re about to send for their trip plans or itineraries?
+</li><li>How can we communicate the flight plan is receiving live updates?
+</li></ul>
 <p>
 <b>Sender Version</b>
 <p>	
