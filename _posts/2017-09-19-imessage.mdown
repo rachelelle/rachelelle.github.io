@@ -105,21 +105,15 @@ I aimed to clearly differentiate the action flow between sending an itinerary an
  <p>
 I created a prototype in InVision to test my initial flow for sending a message and receiving a message for both a flight plan and trip itinerary.
 <p>
-<ul>
-<b>Questions to answer:</b>
-	<li>What information would be useful to display for a recipient? (especially dynamic info)</li>
-	<li>Previewing trip</li>
-	<li>How can we communicate the flight plan is receiving live updates?</li>
-</ul>
 <h3 class="project-body">Validation Testing</h3>
 <p>
 After crafting the initial design in InVision, I tested three TripIt Pro users as participants for the Sender version and three non-TripIt users for the Recipient version.  Testing two different versions provided insights into the clarity of the flows for the respective roles and the usefulness of information.
 <p>
-<b>Questions I sought to answer:</b>
-<ul><li>What information would be useful to display for a recipient? (especially dynamic info)
-</li><li>How would a user like to preview the information they’re about to send for their trip plans or itineraries?
-</li><li>How can we communicate the flight plan is receiving live updates?
-</li></ul>
+<ul><b>Questions to answer:</b>
+	<li>What information would be useful to display for a recipient? (especially dynamic info)</li>
+	<li>Previewing trip</li>
+	<li>How can we communicate the flight plan is receiving live updates?</li>
+</ul>
 <p>
 <b>Sender Version</b>
 <p>	
