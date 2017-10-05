@@ -205,13 +205,10 @@ After crafting the initial design in InVision, I tested three TripIt Pro users a
 
 <section class="project-body">
 	<h3 class="project-body">Send Other Plans</h3>
-	<p>
 		Covers all of the essential plan types in TripIt.
-	</p>
-</section>
-<div class="img-section">
+	<p>
 	<img src="{{ site.baseurl }}/img/portfolio/imessage/plantypes.png" class="img-responsive center-block">
-</div>
+</section>
 <section class="project-body">
 You can download in the iMessage App Store on your iPhone and iPad to send messages for your next trip!
 </section>
