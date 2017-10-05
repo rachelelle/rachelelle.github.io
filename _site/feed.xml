@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Oct 2017 00:05:53 -0700</pubDate>
-    <lastBuildDate>Sun, 01 Oct 2017 00:05:53 -0700</lastBuildDate>
+    <pubDate>Wed, 04 Oct 2017 22:28:26 -0700</pubDate>
+    <lastBuildDate>Wed, 04 Oct 2017 22:28:26 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -30,7 +30,7 @@
 &lt;section class=&quot;project-body&quot;&gt;
   &lt;h2&gt;The Challenge&lt;/h2&gt;
  &lt;p&gt;
-TripIt Pro users previously couldn’t share plans with the most up-to-date information, so they had to resend texts with the new info. Users want to safely and easily share information about their trips and plans with trusted parties who aren’t TripIt users. 
+TripIt Pro users previously weren&#39;t able to share plans with the most up-to-date information, so they had to resend texts. They wanted to safely and easily share information about their trips and plans with trusted parties who aren’t TripIt users. 
 &lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&quot;/img/portfolio/imessage/past_designs.png&quot; class=&quot;img-responsive center-block&quot;&gt;
@@ -128,43 +128,106 @@ After crafting the initial design in InVision, I tested three TripIt Pro users a
 &lt;p&gt;
 &lt;ul&gt;
 	&lt;b&gt;Key Findings&lt;/b&gt;
-	&lt;li&gt;Users share plans wtih family and significant others who tend to be non-TripIt users&lt;/li&gt;
+	&lt;li&gt;Users share plans w/ family and significant others who tend to be non-TripIt users&lt;/li&gt;
 	&lt;li&gt;Users take screenshots of flight plan and full itinerary&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
   &lt;h2&gt;Iteration&lt;/h2&gt;
+  &lt;h3 class=&quot;project-body&quot;&gt;Implemented Changes &lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;Composing a Message&lt;/b&gt;: Instead of the former plan cards, we reused the trip itinerary layout from the app. This solution was easier to implement for developers and more easily understandable for the users to send plans or an itinerary based on their familiarity with the itinerary display in the app.
+&lt;/li&gt;&lt;li&gt;&lt;b&gt;Compact Trip Itinerary Display&lt;/b&gt;: Show a preview of the itinerary in the message bubble to avoid confusion what’s content is being sent. What you see in the composition view is what the receiver will read.
+&lt;/li&gt;&lt;li&gt;&lt;b&gt;Updated Flight Status&lt;/b&gt;: Notify the user that the status is updated every time the message is opened   in the Compact or Expanded View by displaying the loading signal and “Updated: [Time]” in the Compact View caption 
+&lt;/li&gt;&lt;/ul&gt;
   &lt;img src=&quot;/img/portfolio/imessage/framer_img.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-  &lt;p&gt;
-  	&lt;div class=&quot;cta&quot;&gt;
-    &lt;a href=&quot;https://framer.cloud/WfWQY&quot; target=&quot;_blank&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
-  &lt;/div&gt;
+  &lt;div class=&quot;cta&quot;&gt;
+  &lt;a href=&quot;https://framer.cloud/WfWQY&quot; target=&quot;_blank&quot;&quot;&gt;&lt;button class=&quot;cta&quot;&gt;View Prototype&lt;/button&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;The resulting prototype I created in Framer was especially useful in communicating to developers how I wanted the user to experience accomplishing a particular task. For composing a message, adding the sticky headers containing the trip name and the “Share Trip” link button improved readability and usability for sharing the correct trip.&lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
   &lt;h2&gt;Final Designs&lt;/h2&gt;
 	&lt;h3 class=&quot;project-body&quot;&gt;Sending and Receiving a Trip Itinerary&lt;/h3&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/236868192&quot; height=&quot;650&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 	&lt;p&gt;
 		Instead of the former plan cards, we reused the trip itinerary layout from the app. This solution was easier to implement for developers and more easily understandable for the users to send plans or an itinerary based on their familiarity with the itinerary display in the app.
 	&lt;/p&gt;
-	  &lt;img src=&quot;/img/portfolio/imessage/send_receive_trip_itinerary.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-	 &lt;p&gt;
-	&lt;h3 class=&quot;project-body&quot;&gt;Sending a Flight Plan&lt;/h3&gt;
-	  &lt;img src=&quot;/img/portfolio/imessage/sending_flight_plan.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-	 &lt;p&gt;
-	&lt;h3 class=&quot;project-body&quot;&gt;Receiving Flight Plan with Live Updates&lt;/h3&gt;
-	 &lt;img src=&quot;/img/portfolio/imessage/receiving_flight_updates.png&quot; class=&quot;img-responsive center-block&quot;&gt;
-	 &lt;p&gt;
+&lt;/section&gt;
+
+&lt;div class=&quot;img-section&quot;&gt;
+
+&lt;/div&gt;
+
+
+&lt;section class=&quot;project-body&quot;&gt;
+	&lt;h3 class=&quot;project-body&quot;&gt;Sending and Receiving a Flight Plan&lt;/h3&gt;
+&lt;/section&gt;
+
+&lt;div class=&quot;img-section&quot;&gt;
+	&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+    &lt;!-- Carousel indicators --&gt;
+    &lt;!-- Wrapper for carousel items --&gt;
+    &lt;div class=&quot;carousel-inner&quot;&gt;
+        &lt;div class=&quot;item active&quot;&gt;
+            &lt;iframe src=&quot;https://player.vimeo.com/video/236868587&quot; height=&quot;640&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/imessage/flightplan/onTimeFlightPlan.png&quot; alt=&quot;Second Slide&quot;&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+            Flight status is &quot;On Time&quot;
+        	&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;img src=&quot;/img/portfolio/imessage/flightplan/inflightplan.png&quot; alt=&quot;Third Slide&quot;&gt;
+            &lt;div class=&quot;carousel-caption active&quot;&gt;
+           		 Flight status updates to &quot;In Flight&quot;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;item&quot;&gt;
+        &lt;iframe src=&quot;https://player.vimeo.com/video/236868556&quot; height=&quot;640&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/video&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;ol class=&quot;carousel-indicators&quot;&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+        &lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;3&quot;&gt;&lt;/li&gt;
+    &lt;/ol&gt;   
+    &lt;!-- Carousel controls --&gt;
+    &lt;a class=&quot;carousel-control left&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;
+        &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class=&quot;carousel-control right&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;
+        &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section class=&quot;project-body&quot;&gt;
 	&lt;h3 class=&quot;project-body&quot;&gt;Send Other Plans&lt;/h3&gt;
-&lt;p&gt;
+	&lt;p&gt;
+		Covers all of the essential plan types in TripIt.
+	&lt;/p&gt;
+&lt;/section&gt;
+&lt;div class=&quot;img-section&quot;&gt;
+	&lt;img src=&quot;/img/portfolio/imessage/plantypes.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+&lt;/div&gt;
+&lt;section class=&quot;project-body&quot;&gt;
 You can download in the iMessage App Store on your iPhone and iPad to send messages for your next trip!
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
   &lt;h2&gt;The Impact&lt;/h2&gt;
 	&lt;h3 class=&quot;project-body&quot;&gt;Featured in App Store&lt;/h3&gt;
-	&lt;img src=&quot;/img/portfolio/imessage/appstorefeature.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+	&lt;p&gt;On the day we released TripIt for iOS v9.6, we were featured on the list of “Apps We Love” within the Travel Category in the iOS 11 App Store.&lt;/p&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-md-6&quot;&gt;
+			&lt;img src=&quot;/img/portfolio/imessage/appstorefeature.png&quot; class=&quot;img-responsive center-block&quot;&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;offset-md-6&quot;&gt;&lt;/div&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section class=&quot;project-body&quot;&gt;
@@ -179,37 +242,6 @@ You can download in the iMessage App Store on your iPhone and iPad to send messa
         <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
         <link>/imessage/</link>
         <guid isPermaLink="true">/imessage/</guid>
-        
-        
-        <category>featured</category>
-        
-      </item>
-    
-      <item>
-        <title>TripIt Alternate Flights</title>
-        <description>&lt;section class=&quot;project-body&quot;&gt;
-&lt;p&gt;
-&lt;div class=&quot;post-summary&quot;&gt;
-	&lt;a href=&quot;http://tripit.com&quot; target=&quot;_blank&quot;&gt;TripIt from SAP Concur&lt;/a&gt; imports flight, hotel, and restaurant email confirmations to organize a master trip itinerary. It is a trusted travel companion that provides flight alerts and assists users with getting to plans. I redesigned Alternate Flights for iOS and Android, a Pro feature that enables users to search and rebook alternate flights. We&#39;re minimizing travel anxieties by getting business and leisure travelers to their destination on time.
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;div class=&quot;img-section row&quot;&gt;
-	&lt;div class=&quot;col-md-6 col-xs-12&quot;&gt;
-		&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.tripit&amp;amp;hl=en&amp;amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;width:140px&quot; alt=&quot;Get it on Google Play&quot; src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; /&gt;&lt;/a&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;col-md-6 col-xs-12&quot;&gt;
-		&lt;a href=&quot;https://itunes.apple.com/us/app/tripit-travel-organizer/id311035142?mt=8&quot; style=&quot;display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;project-body&quot;&gt;
-&lt;b&gt;My work is pre-release, so stay tuned for future updates! Due to a non-disclosure agreement, my work cannot be shown yet. I&#39;m happy to talk about my experiences in person.&lt;/b&gt;
-&lt;/section&gt;
-</description>
-        <pubDate>Sat, 06 May 2017 14:22:04 -0700</pubDate>
-        <link>/tripit/</link>
-        <guid isPermaLink="true">/tripit/</guid>
         
         
         <category>featured</category>
@@ -399,6 +431,37 @@ I’m grateful for the unique challenge of designing UI controls with such a sup
         <pubDate>Thu, 06 Apr 2017 14:22:04 -0700</pubDate>
         <link>/build/</link>
         <guid isPermaLink="true">/build/</guid>
+        
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>TripIt Alternate Flights</title>
+        <description>&lt;section class=&quot;project-body&quot;&gt;
+&lt;p&gt;
+&lt;div class=&quot;post-summary&quot;&gt;
+	&lt;a href=&quot;http://tripit.com&quot; target=&quot;_blank&quot;&gt;TripIt from SAP Concur&lt;/a&gt; imports flight, hotel, and restaurant email confirmations to organize a master trip itinerary. It is a trusted travel companion that provides flight alerts and assists users with getting to plans. I redesigned Alternate Flights for iOS and Android, a Pro feature that enables users to search and rebook alternate flights. We&#39;re minimizing travel anxieties by getting business and leisure travelers to their destination on time.
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;div class=&quot;img-section row&quot;&gt;
+	&lt;div class=&quot;col-md-6 col-xs-12&quot;&gt;
+		&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.tripit&amp;amp;hl=en&amp;amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;width:140px&quot; alt=&quot;Get it on Google Play&quot; src=&quot;https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png&quot; /&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6 col-xs-12&quot;&gt;
+		&lt;a href=&quot;https://itunes.apple.com/us/app/tripit-travel-organizer/id311035142?mt=8&quot; style=&quot;display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;project-body&quot;&gt;
+&lt;b&gt;My work is pre-release, so stay tuned for future updates! Due to a non-disclosure agreement, my work cannot be shown yet. I&#39;m happy to talk about my experiences in person.&lt;/b&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Mon, 06 Mar 2017 13:22:04 -0800</pubDate>
+        <link>/tripit/</link>
+        <guid isPermaLink="true">/tripit/</guid>
         
         
         <category>featured</category>

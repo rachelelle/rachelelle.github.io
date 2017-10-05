@@ -502,7 +502,7 @@ img.logo {
     color: #534952;
     background-color: #FFFFFF;
     line-height: 36px;
-    padding: 0px 15%;
+/*    padding: 0px 15%;*/
 }
 
 /*.post-content a:link {
@@ -689,7 +689,7 @@ section.project-hero {
 }
 
 section.project-body {
-    margin: 100px 0px;
+    margin: 100px 15%;
     padding: 0px;
     text-align: left;
 }
@@ -1202,6 +1202,7 @@ h1#homepage{
 
 .img-section{
     text-align: center;
+    width: 100%;
 }
 .img-section a:link {
     text-decoration: none;
@@ -1341,6 +1342,11 @@ select:focus {
   outline: none;
 }
 
+.carousel-inner>.item>img {
+    display: block;
+    max-width: 100%;
+    max-height: 650px;
+}
 
 
 /*img.rachelicon {

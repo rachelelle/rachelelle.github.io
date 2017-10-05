@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  TripIt Alternate Flights
-date:   2017-05-06 14:22:04 -0700
+date:   2017-03-06 14:22:04 -0700
 categories: featured
 label: Mobile • Flight Search
 tagline: Making Rebooking a Flight a Breeze
 thumbnail: tripitaltflights.png
-main-img: AlternateFlightsFeatureImg.png
+main-img:
 specs: User Research, Interaction Design, Product Design
 ---
 <section class="project-body">
