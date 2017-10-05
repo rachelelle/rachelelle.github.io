@@ -111,7 +111,7 @@ After crafting the initial design in InVision, I tested three TripIt Pro users a
 <p>
 <ul><b>Questions to answer:</b>
 	<li>What information would be useful to display for a recipient? (especially dynamic info)</li>
-	<li>Previewing trip</li>
+	<li>How would a user like to preview the information they’re about to send for their trip plans or itineraries?</li>
 	<li>How can we communicate the flight plan is receiving live updates?</li>
 </ul>
 <p>
