@@ -67,7 +67,7 @@ Interested in working together?
 <hr>
 
 <section class="main">
-<h2 class="small-title">Designing My Education</h2>
+<h2 class="small-title">Always Learning</h2>
 	<div class="row">
 		<div class="col-md-3 col-xs-12">
 		<i class="fa fa-television fa-2x" aria-hidden="true"></i>
