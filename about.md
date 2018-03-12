@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <section class="hero">
 <h1>Hey there, I'm Rachel!</h1>
-<p class="col-xs-12">I am a designer and developer based in the SF Bay Area. I fell in love with design while creating shopping experiences at <a href="http://thredup.com" target="_blank">ThredUP</a> and <a href="http://moderncitizen.com" target="_blank">Modern Citizen</a> (it's been quite an interesting journey). Since then, I've expanded to designing across various industries and products with an ever-growing curiosity for enterprise and consumer users at <a href="http://sap.com" target="_blank">SAP</a>.
+<p class="col-xs-12">I am a designer and developer based in the SF Bay Area. I fell in love with design while creating shopping experiences at <a href="http://thredup.com" target="_blank">ThredUP</a> and <a href="http://moderncitizen.com" target="_blank">Modern Citizen</a>. Previously, I had designed solutions for building enterprise applications and travel experiences at <a href="http://sap.com" target="_blank">SAP</a>. Now I'm building the district and school-wide communication experience at <a href="http://remind.com" target="_blank">Remind</a>.
 </p>
 <br>
 <p>When my nose isn't in a good book, I enjoy playing badminton, experimenting in the kitchen, and dreaming about the next place to explore.</p>

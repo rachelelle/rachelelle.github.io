@@ -6,7 +6,6 @@ categories: featured
 label: Mobile • Flight Search
 tagline: Making Rebooking a Flight a Breeze
 thumbnail: tripitaltflights.png
-main-img:
 specs: User Research, Interaction Design, Product Design
 ---
 <section class="project-body">
