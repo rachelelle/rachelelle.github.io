@@ -1,0 +1,46 @@
+.App {
+  padding: 50px 150px;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link--selected {
+  border-bottom: 1px solid #8C7EE0;
+  padding-bottom: 10px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav div {
+  margin-left: 40px;
+}
+
+.header {
+  display: flex;
+  height: calc(100vh - 120px);
+}
+
+.header-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h1 {
+  font-family: 'Gotu', sans-serif;
+  color: #8C7EE0;
+  padding: 0;
+  margin: 0;
+}
+
+.header h2 {
+  max-width: 500px;
+}
