@@ -1,70 +1,43 @@
-import logo from './logo.svg';
+import rachel from './rachel.png';
 import './App.css';
 
-function About() {
-  return (
-    <div>
-      about
-    </div>
-  )
-}
-
 function App() {
-  const page = (() => {
-    switch (window.location.pathname) {
-      case "/": return <Home />
-      case "/about": return <About />
-      default: return <div>not found</div>
-    }
-  })()
-
   return (
-    <div className="App">
-      <Nav />
-      {page}
-    </div>
-  )
-}
-
-function Home() {
-  return (
-    <div>
-        <Header /> 
-        <div>Work ⬇️</div>    
-    </div>
-  );
-}
-
-function Nav() {
-  return (
-    <div className="nav">
-      <div>
-        <a href="/" className={window.location.pathname === "/" ? "link--selected" : undefined}>
-          Home
-        </a>
-      </div>
-      <div>
-        <a href="/about" className={window.location.pathname === "/about" ? "link--selected" : undefined}>
-          About
-        </a>
-      </div>
-      <div>
-        Design
+    <div className="content">
+      <div className="content-box">
+        <div className="content-box-hero">
+          <HeroImage />
+        </div>
+        <div className="content-box-intro">
+          <h1>
+            Rachel Lin is building tools for back-office financial services at Pilot
+          </h1>
+          <h2>
+            <p>
+              I am a multidisciplinary digital designer passionate about creating tools that empower people to do their best work.
+            </p>
+            <p>
+              I have delivered intuitive tools for a variety of complex domains with high business impact for the education communication platform at Remind, prototyping enterprise applications at SAP, and navigating trips at TripIt.
+            </p>
+            <p>
+              When I’m off-duty, you can find me learning languages or experimenting in the kitchen.
+            </p>
+            <p>
+              My resume and portfolio are available upon request. Get in touch or send punny jokes to linrac@gmail.com  👋
+            </p>
+          </h2>
+        </div>
       </div>
     </div>
   )
 }
 
-function Header() {
+function HeroImage() {
   return (
-    <div className="header">
-      <div className="header-h">
-        <h1>Rachel lin</h1>
-        <h2>
-        is a product designer building tools to empower people to do their best work
-        </h2>
-      </div>
+    <div className="content-hero">
+      <img src={rachel}></img>
     </div>
+
   )
 }
 

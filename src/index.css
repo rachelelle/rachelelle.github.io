@@ -1,6 +1,11 @@
 
 @import "normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html {
+  height: 100%;
+}
 
 body {
   margin: 0;
@@ -10,6 +15,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(130deg, #C8BEFF 65%, #DED9F9 70%, #FFF 75%);
+  background-size: 400% 400%;
+  background-position: 0% 50%;
+
+  animation: gradient 3s ease;   
+  animation-fill-mode: forwards;  
+
+  /* background: radial-gradient(100% 100% at 50% 0%, rgba(205, 197, 254, 0.6) 0%, #FFFFFF 96.88%); */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	
+	100% {
+		background-position: 100% 50%;
+	}
 }
 
 code {
