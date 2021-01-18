@@ -17,20 +17,20 @@ function App() {
       <div className="content-box-intro">
         <div>
         <h1>
-          Rachel Lin is building tools for back-office financial services at <a href="http://pilot.com" target="_blank">Pilot</a>
+          Rachel Lin is building tools for financial services at <a href="http://pilot.com" target="_blank" className="link">Pilot</a>
         </h1>
         <h2>
           <p>
             I am a multidisciplinary digital designer passionate about creating tools that empower people to do their best work.
           </p>
           <p>
-            I have delivered intuitive tools for a variety of complex domains with high business impact for the education communication platform at Remind, prototyping enterprise applications at SAP, and navigating trips at TripIt.
+            I have created enterprise and consumer experiences in a variety of complex domains, from the education communication platform at <a href="http://remind.com" target="_blank">Remind</a> to prototyping enterprise applications at <a href="http://sap.com" target="_blank">SAP</a>.
           </p>
           <p>
             When I’m off-duty, you can find me learning languages or experimenting in the kitchen.
           </p>
           <p>
-            My resume and portfolio are available upon request. Get in touch or send punny jokes to <a href="mailto:linrac@gmail.com">linrac@gmail.com</a>  👋
+            My resume and portfolio are available upon request. Get in touch or send punny jokes my way 👋
           </p>
         </h2>
         </div>
@@ -56,7 +56,7 @@ function SocialLinks() {
     <div className="social-links">
       <a href="mailto:linrac@gmail.com"><img src={email}></img></a>
       <a href="http://linkedin.com/in/linrac" target="_blank"><img src={linkedin}></img></a>
-      <a href="https://www.instagram.com/rchlelle/" target="_blank"><img src={instagram}></img></a>
+      {/* <a href="https://www.instagram.com/rchlelle/" target="_blank"><img src={instagram}></img></a> */}
       <a href="https://dribbble.com/rachelelle" target="_blank"><img src={dribbble}></img></a>
       <a href="https://twitter.com/rchlelle" target="_blank"><img src={twitter}></img></a>
     </div> 

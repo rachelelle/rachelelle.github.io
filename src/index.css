@@ -14,6 +14,11 @@ html {
   justify-content: center;
 }
 
+:root {
+  --mainColor: #584CDE;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -23,7 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: linear-gradient(145deg, #C8BEFF 65%, #DED9F9 70%, #FFF 75%);
+  background: linear-gradient(150deg, #C8BEFF 60%, #DED9F9 65%, #FFF 70%);
   background-size: 400% 400%;
   background-position: 0% 50%;
 
