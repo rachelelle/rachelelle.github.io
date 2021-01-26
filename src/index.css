@@ -15,7 +15,7 @@ html {
 }
 
 :root {
-  --mainColor: #584CDE;
+  --highlightColor: #584CDE;
 }
 
 
@@ -32,7 +32,7 @@ body {
   background-size: 400% 400%;
   background-position: 0% 50%;
 
-  animation: gradient 3s ease;   
+  animation: gradient 2s ease;   
   animation-fill-mode: forwards;  
 
   /* background: radial-gradient(100% 100% at 50% 0%, rgba(205, 197, 254, 0.6) 0%, #FFFFFF 96.88%); */

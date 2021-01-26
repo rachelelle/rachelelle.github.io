@@ -16,6 +16,7 @@
 
 a:hover {
   cursor: ne-resize;
+  transition: all .3s ease-in-out;
 }
 
 
@@ -33,7 +34,7 @@ a:hover {
 
 .link {
   color: #282828;
-  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background: linear-gradient(to bottom, var(--highlightColor) 0%, var(--highlightColor) 100%);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 2px 2px;
@@ -61,35 +62,57 @@ a:hover {
 
 .content-box-intro p a {
   color: #584CDE;
+  position: relative;
+  text-decoration: none;
 }
 
+.content-box-intro p a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.content-box-intro p a::before  {
+  content: "";
+  color: #584CDE;
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: #584CDE;
+  opacity: 0.3;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+
 .content-box-intro h1 {
-  font-family: 'Gotu', sans-serif;
-  font-size: 2.2em;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.5em;
-  color: #282828;
-  padding: 0;
-  margin: 0;
-  max-width: 500px;
+    font-family: 'Gotu', sans-serif;
+    font-size: 2.0em;
+    font-weight: initial;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5em;
+    color: #0B0B0B;
+    padding: 0;
+    margin: 0;
+    max-width: 650px;
 }
 
 .content-box-intro h2 {
-  max-width: 510px;
+  max-width: 530px;
   font-family: 'Work Sans', sans-serif;
-  color: #404040;
+  color: #282828;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
   font-weight: 500;
   font-size: 1.1em;
   margin: 30px 0px;
+  margin-bottom: 60px;
 }
 
 .social-links img {
   margin-right: 20px;
-}
-
-.social-links a:hover {
-  color: #584CDE;
 }
